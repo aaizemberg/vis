@@ -1,1 +1,0 @@
-# Egresados del ITBA
