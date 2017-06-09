@@ -1,3 +1,3 @@
 # datasets
 
-Conjunto de datos que vamos a utilizar en el curso de Visualizacion
+Conjunto de datos que vamos a utilizar en el curso de Visualización
