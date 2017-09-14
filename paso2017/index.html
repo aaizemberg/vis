@@ -2,24 +2,24 @@
 <html>
 <head>
   <title>grafomapa diputados nacionales (Vilca-FIT en Jujuy)</title>
-  <script src="https://visjs.org/dist/vis.js"></script>
-  <link href="https://visjs.org/dist/vis-network.min.css" rel="stylesheet" type="text/css" />
+  <script src="vis.js"></script>
+  <link href="vis-network.min.css" rel="stylesheet" type="text/css" />
 
   <style type="text/css">
     #mynetwork {
-      width: 900px;
+      width: 100%;
       height: 600px;
       border: 1px solid lightgray;
       background:#fff;
     }
-  </style>  
+  </style>
 </head>
 
 <body>
 <div id="mynetwork"></div>
 
 <script>
-var nodes = [{"id":10001,"codigo":001,"label":"General Belgrano","fit":27579,"x":-65.432606,"y":-24.08615,"electores":211385,"votantes":153496,"blanco":4060,"nulos":4064,"positivos":145233,"porcentaje":18.99},
+var nodes = [{"id":10001,"codigo":001,"label":"Gral Belgrano","fit":27579,"x":-65.432606,"y":-24.08615,"electores":211385,"votantes":153496,"blanco":4060,"nulos":4064,"positivos":145233,"porcentaje":18.99},
 {"id":10002,"codigo":002,"label":"Palpalá","fit":4576,"x":-65.124272,"y":-24.192439,"electores":43006,"votantes":31598,"blanco":840,"nulos":911,"positivos":29817,"porcentaje":15.35},
 {"id":10003,"codigo":003,"label":"San Antonio","fit":196,"x":-65.45012,"y":-24.33842,"electores":4088,"votantes":3205,"blanco":42,"nulos":64,"positivos":3096,"porcentaje":6.33},
 {"id":10004,"codigo":004,"label":"El Carmen","fit":4408,"x":-65.102481,"y":-24.447046,"electores":73168,"votantes":54127,"blanco":1055,"nulos":1340,"positivos":51660,"porcentaje":8.53},
@@ -35,6 +35,13 @@ var nodes = [{"id":10001,"codigo":001,"label":"General Belgrano","fit":27579,"x"
 {"id":10014,"codigo":014,"label":"Santa Catalina","fit":29,"x":-66.199543,"y":-22.099612,"electores":2638,"votantes":1141,"blanco":28,"nulos":26,"positivos":1087,"porcentaje":2.67},
 {"id":10015,"codigo":015,"label":"Yavi","fit":776,"x":-65.563221,"y":-22.257673,"electores":16997,"votantes":10310,"blanco":286,"nulos":420,"positivos":9592,"porcentaje":8.09},
 {"id":10016,"codigo":016,"label":"Susques","fit":69,"x":-66.682674,"y":-23.523504,"electores":3050,"votantes":1755,"blanco":39,"nulos":88,"positivos":1628,"porcentaje":4.24}];
+
+nodes.forEach(function(node) {
+  node.title = node.fit.toLocaleString() + " votos<br>" + node.porcentaje + "%";
+  // node.x = node.x * 100000;
+  // node.y = -1 * node.y * 100000;
+  node.value = node.fit;
+});
 
 var edges = [{"from":10012,"to":10013},
 {"from":10012,"to":10016},
@@ -74,17 +81,17 @@ var edges = [{"from":10012,"to":10013},
   };
   var options = {
     nodes : {
-      shape: 'circle',
+      shape: 'dot',
        scaling: {
-            customScalingFunction: function (min,max,total,porcentaje) {
-              return porcentaje/total;
+            customScalingFunction: function (min,max,total,value) {
+              return (value/total);
             },
-            min:0,
-            max:20        
+            min:5,
+            max:100
           }
     }
   };
-  var network = new vis.Network(container, data, options);  
+  var network = new vis.Network(container, data, options);
 </script>
 
 </body>
