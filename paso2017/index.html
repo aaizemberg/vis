@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+<head>
+  <title>grafomapa diputados nacionales (Vilca-FIT en Jujuy)</title>
+  <script src="//visjs.org/dist/vis.js"></script>
+  <link href="//visjs.org/dist/vis-network.min.css" rel="stylesheet" type="text/css" />
+
+  <style type="text/css">
+    #mynetwork {
+      width: 900px;
+      height: 600px;
+      border: 1px solid lightgray;
+      background:#fff;
+    }
+  </style>  
+</head>
+
+<body>
+<div id="mynetwork"></div>
+
+<script>
+var nodes = [{"id":10001,"codigo":001,"label":"General Belgrano","fit":27579,"x":-65.432606,"y":-24.08615,"electores":211385,"votantes":153496,"blanco":4060,"nulos":4064,"positivos":145233,"porcentaje":18.99},
+{"id":10002,"codigo":002,"label":"Palpalá","fit":4576,"x":-65.124272,"y":-24.192439,"electores":43006,"votantes":31598,"blanco":840,"nulos":911,"positivos":29817,"porcentaje":15.35},
+{"id":10003,"codigo":003,"label":"San Antonio","fit":196,"x":-65.45012,"y":-24.33842,"electores":4088,"votantes":3205,"blanco":42,"nulos":64,"positivos":3096,"porcentaje":6.33},
+{"id":10004,"codigo":004,"label":"El Carmen","fit":4408,"x":-65.102481,"y":-24.447046,"electores":73168,"votantes":54127,"blanco":1055,"nulos":1340,"positivos":51660,"porcentaje":8.53},
+{"id":10005,"codigo":005,"label":"San Pedro","fit":3185,"x":-64.812301,"y":-24.294522,"electores":61197,"votantes":45076,"blanco":1019,"nulos":990,"positivos":43018,"porcentaje":7.40},
+{"id":10006,"codigo":006,"label":"Santa Bárbara","fit":204,"x":-64.398516,"y":-24.007447,"electores":14527,"votantes":10622,"blanco":160,"nulos":164,"positivos":10287,"porcentaje":1.98},
+{"id":10007,"codigo":007,"label":"Ledesma","fit":3596,"x":-64.804391,"y":-23.770242,"electores":64494,"votantes":45136,"blanco":1020,"nulos":1061,"positivos":43006,"porcentaje":8.36},
+{"id":10008,"codigo":008,"label":"Valle Grande","fit":9,"x":-65.015301,"y":-23.460981,"electores":2697,"votantes":535,"blanco":3,"nulos":8,"positivos":524,"porcentaje":1.72},
+{"id":10009,"codigo":009,"label":"Tumbaya","fit":222,"x":-65.681458,"y":-23.741117,"electores":4822,"votantes":3667,"blanco":67,"nulos":71,"positivos":3518,"porcentaje":6.31},
+{"id":10010,"codigo":010,"label":"Tilcara","fit":686,"x":-65.296527,"y":-23.565359,"electores":10268,"votantes":7410,"blanco":177,"nulos":217,"positivos":7007,"porcentaje":9.79},
+{"id":10011,"codigo":011,"label":"Humahuaca","fit":966,"x":-65.405323,"y":-23.076391,"electores":13855,"votantes":9595,"blanco":320,"nulos":381,"positivos":8887,"porcentaje":10.87},
+{"id":10012,"codigo":012,"label":"Cochinoca","fit":493,"x":-65.927539,"y":-22.942868,"electores":9982,"votantes":6766,"blanco":148,"nulos":251,"positivos":6359,"porcentaje":7.75},
+{"id":10013,"codigo":013,"label":"Rinconada","fit":13,"x":-66.516847,"y":-22.605009,"electores":1555,"votantes":666,"blanco":16,"nulos":5,"positivos":645,"porcentaje":2.02},
+{"id":10014,"codigo":014,"label":"Santa Catalina","fit":29,"x":-66.199543,"y":-22.099612,"electores":2638,"votantes":1141,"blanco":28,"nulos":26,"positivos":1087,"porcentaje":2.67},
+{"id":10015,"codigo":015,"label":"Yavi","fit":776,"x":-65.563221,"y":-22.257673,"electores":16997,"votantes":10310,"blanco":286,"nulos":420,"positivos":9592,"porcentaje":8.09},
+{"id":10016,"codigo":016,"label":"Susques","fit":69,"x":-66.682674,"y":-23.523504,"electores":3050,"votantes":1755,"blanco":39,"nulos":88,"positivos":1628,"porcentaje":4.24}];
+
+var edges = [{"from":10012,"to":10013},
+{"from":10012,"to":10016},
+{"from":10012,"to":10015},
+{"from":10001,"to":10007},
+{"from":10001,"to":10002},
+{"from":10001,"to":10003},
+{"from":10001,"to":10009},
+{"from":10004,"to":10005},
+{"from":10011,"to":10012},
+{"from":10007,"to":10010},
+{"from":10007,"to":10009},
+{"from":10007,"to":10008},
+{"from":10002,"to":10004},
+{"from":10002,"to":10007},
+{"from":10002,"to":10003},
+{"from":10002,"to":10005},
+{"from":10013,"to":10014},
+{"from":10013,"to":10016},
+{"from":10013,"to":10015},
+{"from":10003,"to":10004},
+{"from":10005,"to":10007},
+{"from":10005,"to":10006},
+{"from":10006,"to":10007},
+{"from":10014,"to":10015},
+{"from":10010,"to":10011},
+{"from":10009,"to":10012},
+{"from":10009,"to":10011},
+{"from":10009,"to":10010},
+{"from":10008,"to":10011},
+{"from":10008,"to":10010}];
+
+  var container = document.getElementById('mynetwork');
+  var data = {
+    nodes: nodes,
+    edges: edges
+  };
+  var options = {
+    nodes : {
+      shape: 'circle',
+       scaling: {
+            customScalingFunction: function (min,max,total,porcentaje) {
+              return porcentaje/total;
+            },
+            min:0,
+            max:20        
+          }
+    }
+  };
+  var network = new vis.Network(container, data, options);  
+</script>
+
+</body>
+</html>
