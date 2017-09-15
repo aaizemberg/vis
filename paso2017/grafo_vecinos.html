@@ -158,17 +158,6 @@ var nodes = [{"id":"001","partido":"Adolfo Alsina","bullrich":5268,"cristina":21
 {"id":"135","partido":"Lezama","bullrich":1588,"cristina":1207}
 ];
 
-nodes.forEach(function(node) {
-  node.votos = node.bullrich + node.cristina;
-  node.value = Math.abs(node.bullrich - node.cristina);
-  node.title = "<b>" + node.partido + "</b>" +
-  			   "<br>Bullrich: " + node.bullrich.toLocaleString() +
-               "<br>Cristina: " + node.cristina.toLocaleString() +
-               "<br>diferencia: <b>" + node.value.toLocaleString() + "</b> votos"
-  node.label = node.partido;
-  node.group  = (node.cristina > node.bullrich ? "cfk" : "pro");
-});
-
 var edges = [
 {"from":"007","to":"124"}, {"from":"007","to":"114"}, {"from":"007","to":"026"}, {"from":"007","to":"027"},
 {"from":"039","to":"050"}, {"from":"039","to":"068"}, {"from":"050","to":"074"}, {"from":"099","to":"121"},
@@ -260,9 +249,21 @@ var edges = [
 {"from":"027","to":"120"}, {"from":"009","to":"103"}, {"from":"009","to":"018"}, {"from":"009","to":"125"},
 {"from":"009","to":"108"}];
 
-edges.forEach(function(edge) {
-  edge.color = {color:'#000000', opacity:0.3};
-});
+	edges.forEach(function(edge) {
+	  edge.color = {color:'#000000', opacity:0.3};
+	});
+
+	nodes.forEach(function(node) {
+	  node.votos = node.bullrich + node.cristina;
+	  node.value = Math.abs(node.bullrich - node.cristina);
+	  node.title = "<b>" + node.partido + "</b>" +
+				   "<br>Bullrich: " + node.bullrich.toLocaleString() +
+				   "<br>Cristina: " + node.cristina.toLocaleString() +
+				   "<br>diferencia: <b>" + node.value.toLocaleString() + "</b> votos"
+	  node.label = node.partido;
+	  node.group  = (node.cristina > node.bullrich ? "cfk" : "pro");
+	});
+
 
   var container = document.getElementById('mynetwork');
   var data = {
@@ -283,12 +284,10 @@ edges.forEach(function(edge) {
     groups: {
 	            cfk: {
 	                color: {background:'SteelBlue',border:'white'},
-	                highlight: {background:'SteelBlue', border:'black'},
 	                shape: 'dot'
 	            },
 	            pro: {
 	                color: {background:'DarkKhaki',border:'white'},
-	                highlight: {background:'DarkKhaki', border:'black'},
 	                shape: 'dot'
 	            }
     }
