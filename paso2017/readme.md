@@ -1,3 +1,5 @@
+Buscando los departamentos vecinos de la provincia de Bs As, para armar las conexiones del #GrafoMapa
+
 ```sql
 SELECT a.cod_dine, b.cod_dine
 FROM ideign_departamentos as a, ideign_departamentos as b
