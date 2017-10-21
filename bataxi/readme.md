@@ -1,3 +1,5 @@
+```
+
 CREATE TABLE bataxi
 (
   id_viaje_r text,
@@ -14,3 +16,4 @@ CREATE TABLE bataxi
 
 COPY bataxi FROM '/tmp/bataxi.csv' WITH CSV HEADER DELIMITER ';'
 
+```
