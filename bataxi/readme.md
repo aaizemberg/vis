@@ -13,7 +13,7 @@ CREATE TABLE bataxi
   cantidad_pasajeros numeric
 );
 
-COPY bataxi FROM '/tmp/bataxi.csv' DELIMITER ';' CSV HEADER
+COPY bataxi FROM '/tmp/bataxi.tsv' DELIMITER E'\t' CSV HEADER
 ```
 
 Algunas graficos que hice con este dataset:
