@@ -2,16 +2,39 @@
 <meta charset="utf-8">
 <script src="//d3plus.org/js/d3.js"></script>
 <script src="//d3plus.org/js/d3plus.js"></script>
+
+<script src="https://code.jquery.com/jquery.min.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<h1>Graduados ITBA - 1965..2018</h1>
+
+<div>nota: al hacer click sobre un rectángulo, se oculta esa carrera.</div><br>
+
 <div id="viz"></div>
+
 <script>
-  var url = "https://raw.githubusercontent.com/aaizemberg/vis/gh-pages/graduados/data.tsv";
-  var visualization = d3plus.viz()
+var url = "https://raw.githubusercontent.com/aaizemberg/vis/gh-pages/graduados/data.tsv";
+
+var visualization = d3plus.viz()
     .container("#viz")  
-    .data( url )  
+    .data(url)  
     .type("tree_map")
-    .id("titulo")    
+    .id("titulo")
     .size("cant")    
     .time("año")  
     .format("es_ES")
-    .draw()          
-</script>
+    .mouse({                
+      "move": false,
+      "click": function(d, viz) {
+        mute(d.titulo)
+      }   
+    })
+    .draw();         
+
+function mute(carrera) {
+  visualization
+    .id({ "mute" : carrera })
+    .draw();
+}
+</script>  
