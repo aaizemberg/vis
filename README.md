@@ -1,3 +1,3 @@
-# datasets
+# vis
 
-Conjunto de datos que vamos a utilizar en el curso
+En este repositorio vas a encontrar algunos datos que suelo usar en mis cursos de InfoVis.
