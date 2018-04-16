@@ -1,0 +1,16 @@
+<!doctype html>
+<meta charset="utf-8">
+<script src="//d3plus.org/js/d3.js"></script>
+<script src="//d3plus.org/js/d3plus.js"></script>
+<div id="viz"></div>
+<script>
+var url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRFJEjNDg95wW46Ottw-ArnQBAG8CTvKC3Nf2YEyloojPkXaG2durNbzTty34QWDN_cuT2SIi-8asaw/pub?gid=1531109041&single=true&output=csv';    
+var visualization = d3plus.viz()
+    .container("#viz")
+    .data( url )  
+    .type("scatter")    
+    .id("show")       
+    .x("cuts")         
+    .y("plays")        
+    .draw()             
+</script>
