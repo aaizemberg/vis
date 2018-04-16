@@ -1,0 +1,15 @@
+<!doctype html>
+<meta charset="utf-8">
+<script src="//d3plus.org/js/d3.js"></script>
+<script src="//d3plus.org/js/d3plus.js"></script>
+<div id="viz"></div>
+<script>
+  var visualization = d3plus.viz()
+    .container("#viz")
+    .data( 'radios.tsv' )  
+    .type("scatter")    
+    .id("radio")       
+    .x("cuts")         
+    .y("plays")        
+    .draw()             
+</script>
