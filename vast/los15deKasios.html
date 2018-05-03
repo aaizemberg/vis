@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>MC1</title>
+
+<style>
+.points {
+  fill: steelblue;
+}
+</style>  
+
+</head>
+<body>
+  <script src="https://d3js.org/d3.v3.min.js"></script>
+
+  <div id="viz"></div>
+  
+<script> 
+var data = [{"ID":1,"X":140,"Y":119},
+{"ID":2,"X":63,"Y":153},
+{"ID":3,"X":70,"Y":136},
+{"ID":4,"X":78,"Y":150},
+{"ID":5,"X":60,"Y":90},
+{"ID":6,"X":126,"Y":103},
+{"ID":7,"X":71,"Y":121},
+{"ID":8,"X":78,"Y":62},
+{"ID":9,"X":61,"Y":145},
+{"ID":10,"X":45,"Y":39},
+{"ID":11,"X":132,"Y":106},
+{"ID":12,"X":61,"Y":20},
+{"ID":13,"X":35,"Y":160},
+{"ID":14,"X":40,"Y":125},
+{"ID":15,"X":110,"Y":121}];
+
+var w = 400, h = 400;
+
+var svg = d3.select("div#viz").append("svg")
+  .attr("width",w)
+  .attr("height",h);
+
+var url = 'https://raw.githubusercontent.com/aaizemberg/vis/gh-pages/vast/Lekagul%20Roadways%202018.bmp';
+
+svg.append("image")
+   .attr("xlink:href",url)
+   .attr("width",w)
+   .attr("height",h);
+
+
+svg.append("rect")
+   .attr("x",0)
+   .attr("y",0)
+   .attr("width",w)
+   .attr("height",h)
+   .attr("fill","none")
+   .attr("stroke-width",1)
+   .attr("stroke","black");
+
+svg.selectAll(".points")
+   .data(data).enter().append("circle")
+   .attr("class","points")
+   .attr("cx", function(d) { return d.X*2;} )
+   .attr("cy", function(d) { return h-(d.Y*2);} )
+   .attr("r",5)
+     .append("title")
+     .text( function(d) {return "El ID " + d.ID + " está en la posición: " + d.X + "," + d.Y; }  );
+
+svg.selectAll(".textos")
+   .data(data).enter().append("text")
+   .attr("x", 0)
+   .attr("y", 0)
+   .attr("fill","white")
+   .text( function(d) { return d.ID; }     )
+   .transition().duration(1000).ease("bounce")
+   .attr("fill","black") 
+   .attr("x", function(d) { return 5+(2*d.X);}  )
+   .attr("y", function(d) { return (h-d.Y*2)+5;} );
+   
+</script>  
+  
+</body>
+</html>
