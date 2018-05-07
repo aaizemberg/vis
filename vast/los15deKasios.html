@@ -4,18 +4,19 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>MC1</title>
-
-<style>
-  svg circle {
-    fill: steelblue;
-    stroke: white;
-  }
-  svg text {
-    font-size: 20px;
-    fill: black;
-    stroke: black;
-  }
-</style>  
+  
+  <style>
+    svg circle {
+      fill: steelblue;
+      stroke: white;
+    }
+    
+    svg text {
+      font-size: 20px;
+      fill: black;
+      stroke: black;
+    }
+  </style>  
 
 </head>
 <body>
@@ -23,42 +24,22 @@
 
   <div id="viz"></div>
   
-<script> 
-var data = [
-  {"ID":1,"X":140,"Y":119},
-  {"ID":2,"X":63,"Y":153},
-  {"ID":3,"X":70,"Y":136},
-  {"ID":4,"X":78,"Y":150},
-  {"ID":5,"X":60,"Y":90},
-  {"ID":6,"X":126,"Y":103},
-  {"ID":7,"X":71,"Y":121},
-  {"ID":8,"X":78,"Y":62},
-  {"ID":9,"X":61,"Y":145},
-  {"ID":10,"X":45,"Y":39},
-  {"ID":11,"X":132,"Y":106},
-  {"ID":12,"X":61,"Y":20},
-  {"ID":13,"X":35,"Y":160},
-  {"ID":14,"X":40,"Y":125},
-  {"ID":15,"X":110,"Y":121}
-];
+<script>
+  
+function viz(data) {
+  var w = 400, h = 400;
+  var url = 'https://raw.githubusercontent.com/aaizemberg/vis/gh-pages/vast/Lekagul%20Roadways%202018.bmp';
 
-var w = 400, h = 400;
-
-var xScale = d3.scaleLinear().domain([0,200]).range([0,w]);
-var yScale = d3.scaleLinear().domain([0,200]).range([h,0]);
-
-var svg = d3.select("div#viz").append("svg")
-  .attr("width",w)
-  .attr("height",h);
-
-var url = 'https://raw.githubusercontent.com/aaizemberg/vis/gh-pages/vast/Lekagul%20Roadways%202018.bmp';
-
-svg.append("image")
+  var xScale = d3.scaleLinear().domain([0,200]).range([0,w]);
+  var yScale = d3.scaleLinear().domain([0,200]).range([h,0]);
+  var svg = d3.select("div#viz").append("svg").attr("width",w).attr("height",h);
+  
+  svg.append("image")
    .attr("xlink:href",url)
    .attr("width",w)
    .attr("height",h);
-
-svg.append("rect")
+  
+  svg.append("rect")
    .attr("x",0)
    .attr("y",0)
    .attr("width",w)
@@ -66,8 +47,8 @@ svg.append("rect")
    .attr("fill","none")
    .attr("stroke-width",1)
    .attr("stroke","black");
-
-svg.selectAll(".points")
+  
+  svg.selectAll(".points")
    .data(data).enter().append("circle")
    .attr("class","points")
    .attr("cx", Math.trunc(d3.randomUniform(0, w)()) )
@@ -76,13 +57,13 @@ svg.selectAll(".points")
    .transition()
      .attr("cx", function(d) { return xScale(d.X);} )
      .attr("cy", function(d) { return yScale(d.Y);} )
-     .attr("r",6)
-
-svg.selectAll(".points")
+     .attr("r",6);
+  
+  svg.selectAll(".points")
    .append("title")
    .text( function(d) {return "El ID " + d.ID + " está en la posición: " + d.X + "," + d.Y; }  );
-
-svg.selectAll(".textos")
+  
+  svg.selectAll(".textos")
    .data(data).enter().append("text")
    .attr("class","textos")
    .attr("x", Math.trunc(d3.randomUniform(0, w)()) )
@@ -91,7 +72,19 @@ svg.selectAll(".textos")
    .transition()
      .attr("x", function(d) { return 5+xScale(d.X);}  )
      .attr("y", function(d) { return yScale(d.Y)+6;} );
-   
+}
+  
+d3.tsv('Test Birds Location.tsv', function(error,data) {
+  if (error) throw error;
+
+  data.forEach(function(d) {
+    d.X = +d.X;
+    d.Y = +d.Y;
+  });
+
+  viz(data);
+});
+
 </script>  
   
 </body>
