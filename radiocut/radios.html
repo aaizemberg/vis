@@ -4,12 +4,11 @@
 <script src="//d3plus.org/js/d3plus.js"></script>
 <div id="viz"></div>
 <script>
-var url = 'programas.tsv';    
-var visualization = d3plus.viz()
+  var visualization = d3plus.viz()
     .container("#viz")
-    .data( url )  
+    .data( 'radios.tsv' )  
     .type("scatter")    
-    .id("show")       
+    .id("radio")       
     .x("cuts")         
     .y("plays")
     .size(5)

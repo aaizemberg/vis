@@ -1,7 +1,11 @@
-- Textpad (editor de texto que pueda manejar expresiones regulares)
+- Textpad (o algun otro editor de texto que pueda manejar expresiones regulares)
 - Excel, Libre Office, Google Sheeets, etc.
-- Tableau (public & desktop)
-- d3.js, d3plus, c3, etc.
+- Tableau [Public](https://public.tableau.com/en-us/s/) & [Desktop](https://www.tableau.com/products/desktop)
+- [d3.js](https://d3js.org/), [d3plus](https://d3plus.org/), [c3](http://c3js.org/), etc.
 - GitHub, markdown syntax (.md), gh-pages 
 - [JS Bin](http://jsbin.com/)
-- [RAW Graphs - density design](http://app.rawgraphs.io/)
+- [RAW Graphs - density design](https://rawgraphs.io/)
+- [apache superset](https://superset.incubator.apache.org/)
+- [metabase](https://www.metabase.com/)
+- R
+- python
