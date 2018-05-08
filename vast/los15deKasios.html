@@ -4,77 +4,30 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>MC1</title>
-  
+
   <style>
     svg circle {
       fill: steelblue;
       stroke: white;
     }
-    
+
     svg text {
       font-size: 20px;
       fill: black;
       stroke: black;
     }
-  </style>  
+  </style>
 
 </head>
 <body>
-<script src="https://d3js.org/d3.v5.min.js"></script>
+<!-- <script src="https://d3js.org/d3.v5.min.js"></script> -->
+<script src="//d3js.org/d3.v4.min.js"></script>
 
-  <div id="viz"></div>
-  
+<div id="viz"></div>
+
 <script>
-  
-function viz(data) {
-  var w = 400, h = 400;
-  var url = 'https://raw.githubusercontent.com/aaizemberg/vis/gh-pages/vast/Lekagul%20Roadways%202018.bmp';
 
-  var xScale = d3.scaleLinear().domain([0,200]).range([0,w]);
-  var yScale = d3.scaleLinear().domain([0,200]).range([h,0]);
-  var svg = d3.select("div#viz").append("svg").attr("width",w).attr("height",h);
-  
-  svg.append("image")
-   .attr("xlink:href",url)
-   .attr("width",w)
-   .attr("height",h);
-  
-  svg.append("rect")
-   .attr("x",0)
-   .attr("y",0)
-   .attr("width",w)
-   .attr("height",h)
-   .attr("fill","none")
-   .attr("stroke-width",1)
-   .attr("stroke","black");
-  
-  svg.selectAll(".points")
-   .data(data).enter().append("circle")
-   .attr("class","points")
-   .attr("cx", Math.trunc(d3.randomUniform(0, w)()) )
-   .attr("cy", Math.trunc(d3.randomUniform(0, h)()) )
-   .attr("r",0)
-   .transition()
-     .attr("cx", function(d) { return xScale(d.X);} )
-     .attr("cy", function(d) { return yScale(d.Y);} )
-     .attr("r",6);
-  
-  svg.selectAll(".points")
-   .append("title")
-   .text( function(d) {return "El ID " + d.ID + " está en la posición: " + d.X + "," + d.Y; }  );
-  
-  svg.selectAll(".textos")
-   .data(data).enter().append("text")
-   .attr("class","textos")
-   .attr("x", Math.trunc(d3.randomUniform(0, w)()) )
-   .attr("y", Math.trunc(d3.randomUniform(0, h)()) )
-   .text( function(d) { return d.ID; }     )
-   .transition()
-     .attr("x", function(d) { return 5+xScale(d.X);}  )
-     .attr("y", function(d) { return yScale(d.Y)+6;} );
-}
-  
-d3.tsv('Test Birds Location.tsv', function(error,data) {
+d3.csv('Test Birds Location.csv', function(error,data) {
   if (error) throw error;
 
   data.forEach(function(d) {
@@ -85,7 +38,56 @@ d3.tsv('Test Birds Location.tsv', function(error,data) {
   viz(data);
 });
 
-</script>  
-  
+function viz(data) {
+  var w = 400, h = 400;
+  var url = 'https://raw.githubusercontent.com/aaizemberg/vis/gh-pages/vast/Lekagul%20Roadways%202018.bmp';
+
+  var xScale = d3.scaleLinear().domain([0,200]).range([0,w]);
+  var yScale = d3.scaleLinear().domain([0,200]).range([h,0]);
+
+  var svg = d3.select("div#viz").append("svg").attr("width",w).attr("height",h);
+
+  svg.append("image")
+   .attr("xlink:href",url)
+   .attr("width",w)
+   .attr("height",h);
+
+  svg.append("rect")
+   .attr("x",0)
+   .attr("y",0)
+   .attr("width",w)
+   .attr("height",h)
+   .attr("fill","none")
+   .attr("stroke-width",1)
+   .attr("stroke","black");
+
+  svg.selectAll(".points")
+   .data(data).enter().append("circle")
+   .attr("class","points")
+   .attr("cx", Math.trunc(d3.randomUniform(0, w)()) )
+   .attr("cy", Math.trunc(d3.randomUniform(0, h)()) )
+   .attr("r",0)
+   .transition()
+     .attr("cx", function(d) { return xScale(d.X);} )
+     .attr("cy", function(d) { return yScale(d.Y);} )
+     .attr("r",6);
+
+  svg.selectAll(".points")
+   .append("title")
+   .text( function(d) {return "El ID " + d.ID + " está en la posición: " + d.X + "," + d.Y; }  );
+
+  svg.selectAll(".textos")
+   .data(data).enter().append("text")
+   .attr("class","textos")
+   .attr("x", Math.trunc(d3.randomUniform(0, w)()) )
+   .attr("y", Math.trunc(d3.randomUniform(0, h)()) )
+   .text( function(d) { return d.ID; }     )
+   .transition()
+     .attr("x", function(d) { return 5+xScale(d.X);}  )
+     .attr("y", function(d) { return yScale(d.Y)+6;} );
+}
+
+</script>
+
 </body>
 </html>
