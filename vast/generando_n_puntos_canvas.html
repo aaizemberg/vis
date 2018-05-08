@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>dibujando n circulos con canvas</title>
+</head>
+<body>
+
+<canvas id="canvas" width="900" height="500"></canvas>
+
+<script>
+var w = 900, h = 500;
+var canvas = document.getElementById('canvas');
+
+if (canvas.getContext) {
+  var ctx = canvas.getContext('2d');
+  var x, y;
+  ctx.fillStyle = "rgba(0, 0, 0, 0.1)";
+  ctx.strokeStyle = "rgba(128, 128, 128, 1)";
+  for (i = 0; i < 600; i++) {
+      x = Math.random()*w;
+      y = Math.random()*h;
+      ctx.beginPath();
+      ctx.arc(x, y, 10, 0, 2 * Math.PI);
+      ctx.stroke();
+      ctx.fill();
+  }
+}
+</script>
+
+</body>
+</html>
