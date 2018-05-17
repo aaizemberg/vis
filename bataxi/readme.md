@@ -20,4 +20,5 @@ Algunas graficos que hice con este dataset:
 
 1. http://bl.ocks.org/aaizemberg/7564a4523660cfa6554a9ee55ae5bbb5
 2. https://twitter.com/aaizemberg/status/923252352072724480
-3. ...
+3. https://bl.ocks.org/aaizemberg/raw/dfd9400061c3c4d03bb451002f0b4a72/
+4. ....
