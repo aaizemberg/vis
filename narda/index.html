@@ -1,0 +1,18 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Narda Lepes (97 consejos)</title>
+<script src="//d3plus.org/js/d3.js"></script>
+<script src="//d3plus.org/js/d3plus.js"></script>
+<div id="viz"></div>
+<script>
+  var url = "https://raw.githubusercontent.com/aaizemberg/vis/gh-pages/narda/df_NardaLepes_1-97.tsv"
+  var visualization = d3plus.viz()
+    .container("#viz")
+    .data( url )
+    .type("scatter")
+    .size(4)
+    .id("text")
+    .x("fav")
+    .y("retweet")
+    .draw()
+</script>
