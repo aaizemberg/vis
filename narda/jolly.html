@@ -4,10 +4,25 @@
   <title>Los Narda tips dibujados por Jolly</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.3/d3.min.js"></script>
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/d3/4.2.3/d3.min.js"></script>
+  
+<style>
+.carousel-indicators li {
+  border: 1px solid #daa;
+}
+
+.carousel-indicators {
+  top: 10px;
+}
+
+ol, ul {
+  margin-bottom: 0px;
+}
+</style>  
+  
 </head>
 <body>
 
@@ -30,12 +45,10 @@
 </div>
 
 <script>
-var url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRSEA0FmQ-qcI_KPFECMz3vNg23h0I9szAzjCbb9EfL2J-dYrrxhPLLZ7tc5E_zOQBGQS8IGLQ_WvUK/pub?gid=0&single=true&output=tsv';
+var url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRSEA0FmQ-qcI_KPFECMz3vNg23h0I9szAzjCbb9EfL2J-dYrrxhPLLZ7tc5E_zOQBGQS8IGLQ_WvUK/pub?gid=0&single=true&output=tsv";
 
 d3.tsv(url, function(error,data) {
-  var ol = d3.select("ol.carousel-indicators");
-  
-  ol.selectAll('li').data(data).enter()
+  d3.select("ol.carousel-indicators").selectAll('li').data(data).enter()
     .append('li')
     .attr("data-target","#myCarousel")
     .attr("data-slide-to", function(d,i){return i;});
@@ -43,16 +56,13 @@ d3.tsv(url, function(error,data) {
   d3.select("#myCarousel > ol > li:nth-child(1)")
     .attr("class", "active");
 
-  
-  var div = d3.select("div.carousel-inner");
-  div.selectAll('div').data(data).enter()
+  d3.select("div.carousel-inner").selectAll('div').data(data).enter()
      .append("div")
      .attr("class",function(d,i){ return ((i > 0) ? 'item' : 'item active');  })
        .append("img")
        .attr("src",function(d){return d.url;})
        .attr("alt",function(d){return d.tip;})
        .style("width:100%;");
-  
 })  
 </script>
   
