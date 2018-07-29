@@ -52,7 +52,7 @@ var svg = d3.select("body").append("svg")
 var xAxis = d3.axisBottom(x);
 var yAxis = d3.axisLeft(y);
 
-d3.tsv("https://raw.githubusercontent.com/aaizemberg/vis/gh-pages/narda/df_NardaLepes_1-97.tsv").then(function(data) {
+d3.tsv("df_NardaLepes.tsv").then(function(data) {
 
   data.forEach(function(d) {
     d.retweet = +d.retweet;
