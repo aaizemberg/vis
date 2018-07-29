@@ -59,7 +59,7 @@ var svg = d3.select("body").append("svg")
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-d3.tsv("https://raw.githubusercontent.com/aaizemberg/vis/gh-pages/narda/df_NardaLepes_1-97.tsv", function(error, data) {
+d3.tsv("df_NardaLepes.tsv", function(error, data) {
   if (error) throw error;
 
   data.forEach(function(d) {
