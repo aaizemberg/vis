@@ -21,12 +21,11 @@
   <div id="vis"></div>
 
   <script>
-  var h = screen.height;
-  var w = screen.width;
-    
+  var w = window.innerWidth;
+  var h = window.innerHeight;    
   var vlSpec = {
-  "width": w,
-  "height": h,
+  "width": w*0.8,
+  "height": h*0.8,
   "$schema": "//vega.github.io/schema/vega-lite/v2.json",
   "data": {"url": "//raw.githubusercontent.com/aaizemberg/vis/gh-pages/narda/df_NardaLepes.tsv"},
   "mark": {
