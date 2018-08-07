@@ -3,9 +3,9 @@
   <title>Narda Lepes (consejos)</title>
   <meta charset="utf-8">
 
-  <script src="https://cdn.jsdelivr.net/npm/vega@4.2.0/build/vega.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vega-lite@3.0.0-rc2/build/vega-lite.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vega-embed@3.18.2/build/vega-embed.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/vega@4.2.0/build/vega.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/vega-lite@3.0.0-rc2/build/vega-lite.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/vega-embed@3.18.2/build/vega-embed.js"></script>
 
   <style media="screen">
     /* Add space between Vega-Embed links  */
@@ -21,12 +21,21 @@
   <div id="vis"></div>
 
   <script>
+  var h = screen.height;
+  var w = screen.width;
+    
   var vlSpec = {
-  "width": 600,
-  "height": 400,
-  "$schema": "https://vega.github.io/schema/vega-lite/v2.json",
-  "data": {"url": "https://raw.githubusercontent.com/aaizemberg/vis/gh-pages/narda/df_NardaLepes.tsv"},
-  "mark": {"type": "point", "tooltip": {"content": "data"}},
+  "width": w,
+  "height": h,
+  "$schema": "//vega.github.io/schema/vega-lite/v2.json",
+  "data": {"url": "//raw.githubusercontent.com/aaizemberg/vis/gh-pages/narda/df_NardaLepes.tsv"},
+  "mark": {
+    "type": "point" 
+    //  si dejo este tooltip, me aparecen todas las columnas
+    //
+    // ,"tooltip": {"content": "data"}
+    //
+  },
   "selection": {
     "grid": {
       "type": "interval", 
@@ -34,13 +43,26 @@
     }
   },
     "encoding": {
-    "text": {"field": "fav","type": "quantitative"},
-    "x": {"field": "fav","type": "quantitative"},
-    "y": {"field": "retweet","type": "quantitative"}
+      "x": {"field": "fav","type": "quantitative"},
+      "y": {"field": "retweet","type": "quantitative"},
+      "tooltip": [
+        {"field": "text", "type": "nominal" },
+        {"field": "fav", "type": "quantitative" },
+        {"field": "retweet", "type": "quantitative" },
+        {"field": "date", "type": "temporal", "title": "fecha" }
+    ]
   }
 };
-
-  vegaEmbed("#vis", vlSpec);
+    
+// VEGA-LITE the supported data types are: 
+//    "quantitative"
+//    "temporal"
+//    "ordinal"
+//    "nominal"
+//    "geojson"    
+    
+    var tooltipOptions = { theme: 'dark' };
+    vegaEmbed("#vis", vlSpec, {tooltip: tooltipOptions});
   </script>
 </body>
 </html>
