@@ -1,6 +1,6 @@
 # Las estadisticas de Manu Ginobili
 
-source: https://en.wikipedia.org/wiki/Manu_Gin%C3%B3bili
+[La tabla que arme a partir de los datos que estaban en Wikipedia](https://github.com/aaizemberg/vis/blob/gh-pages/manu/stats.tsv)
 
 | id | description |
 | -- | ------------ |
@@ -16,4 +16,4 @@ source: https://en.wikipedia.org/wiki/Manu_Gin%C3%B3bili
 | BPG | Blocks per game |
 | PPG | Points per game |
 
-[la tabla que arme a partir de los datos que estaban en wikipedia](https://github.com/aaizemberg/vis/blob/gh-pages/manu/stats.tsv)
+source: https://en.wikipedia.org/wiki/Manu_Gin%C3%B3bili
