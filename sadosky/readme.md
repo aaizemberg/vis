@@ -1,4 +1,4 @@
-# Datasets utilizados en las competencias de DataMining de la Fundacion Sadosky
+# Datasets utilizados en las competencias de Data Mining de la Fundacion Sadosky
 
 ## Predicción de Clicks
 
