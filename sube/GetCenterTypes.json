@@ -1,0 +1,44 @@
+{
+  "Success": true,
+  "Message": "",
+  "Data": [
+    {
+      "Id": 1,
+      "Description": "OBTENCION",
+      "ShortDescription": "OBT",
+      "UseInFilter": true
+    },
+    {
+      "Id": 2,
+      "Description": "CARGA",
+      "ShortDescription": "CAR",
+      "UseInFilter": true
+    },
+    {
+      "Id": 4,
+      "Description": "TAS",
+      "ShortDescription": "TAS",
+      "UseInFilter": true
+    },
+    {
+      "Id": 5,
+      "Description": "AUTOSERVICIO",
+      "ShortDescription": "AUT",
+      "UseInFilter": false
+    },
+    {
+      "Id": 6,
+      "Description": "UGS",
+      "ShortDescription": "UGS",
+      "UseInFilter": true
+    },
+    {
+      "Id": 7,
+      "Description": "CAS",
+      "ShortDescription": "CAS",
+      "UseInFilter": true
+    }
+  ],
+  "Code": "",
+  "HttpStatusCode": 200
+}
