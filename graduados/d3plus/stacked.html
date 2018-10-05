@@ -1,0 +1,22 @@
+<!doctype html>
+<meta charset="utf-8">
+<script src="//d3plus.org/js/d3.js"></script>
+<script src="//d3plus.org/js/d3plus.js"></script>
+
+<div id="viz"></div>
+
+<script>
+var url = 'https://raw.githubusercontent.com/aaizemberg/vis/gh-pages/graduados/data.tsv'
+
+var visualization = d3plus.viz()
+    .format('es_ES')
+    .container("#viz")
+    .data(url)
+    .type("stacked")
+    .id('titulo')
+    .time('año')
+    .x('año')
+    .y('cant')
+    .shape({ "interpolate": "basis" })
+    .draw();
+</script>
