@@ -21,3 +21,5 @@ Con la siguiente especificacion, genero un streamgraph en [vega-lite](https://ve
   }
 }
 ```
+
+![el streamgraph de los graduados](streamgraph.png)
