@@ -1,0 +1,152 @@
+<html>
+<head>
+    <title>timeline</title>
+    <style>
+        /*some basic CSS*/
+        .axis path{fill:none;stroke:none}
+        .axis line{fill:none;stroke:gray;stroke-width:1px;}
+        .axis text{fill:gray;stroke:none;}
+        text {text-anchor:middle}
+    </style>
+</head>
+<body>
+    <h1>Manu Ginobili</h1>
+    <h2>Career history</h2>
+
+    <script src="d3.min.js"></script>
+    <script>
+    
+    var file="manu.csv"
+    var width=600,height=400;
+    var margin={top:50,bottom:30,left:20,right:20}
+    
+    var svg=d3.select("body").append("svg")
+        .attr("width",width)
+        .attr("height",height)
+    
+    d3.csv(file,function(data){
+        
+        var parseDate = d3.time.format("%d/%m/%Y");
+
+        data.forEach(function(d) {
+                d.start=parseDate.parse(d.start)
+                d.end=parseDate.parse(d.end)
+        });
+        
+        data.sort(function(a, b){
+            return a.start-b.start;
+        });
+        
+        var minDate=d3.min(data, function(d){
+            return d.start;
+        })
+        
+        var maxDate=d3.max(data, function(d){
+            return d.end;
+        })
+        
+        var plotWidth = width-(margin.left+margin.right)
+        var plotHeight = height-(margin.top+margin.bottom)
+        
+        var xScale = d3.time.scale()
+            .domain([minDate,maxDate])
+            .range([0,plotWidth])
+        
+        var yScale = d3.scale.ordinal()
+            .domain(data.map(function(d){
+                return d.name;
+            }))
+            .rangeRoundBands([0,plotHeight],0.6);
+        
+        var xAxis = d3.svg.axis()
+            .scale(xScale)
+            .orient("bottom")
+            .ticks(4)
+            .tickSize(-plotHeight)
+    
+        var xAxis2 = d3.svg.axis()
+            .scale(xScale)
+            .orient("bottom")
+            .tickFormat(d3.time.format(""))
+            .ticks(20)
+        
+        svg.append("g")
+            .attr("class","axis")
+            .attr("transform","translate("+margin.left+","+(margin.top+plotHeight)+")")
+            .call(xAxis)
+        svg.append("g")
+            .attr("class","axis")
+            .attr("transform","translate("+margin.left+","+(margin.top+plotHeight)+")")
+            .call(xAxis2)
+        
+        svg.selectAll(".axis text")
+            .attr("dy",20)
+        
+        var chart = svg.append("g")
+            .attr("id","chart")
+            .attr("transform","translate("+margin.left+","+margin.top+")")
+        
+        var rowGroups = chart.append("g")
+            .attr("id","chart_rows")
+            .selectAll("g")
+            .data(data)
+            .enter()
+            .append("g")
+            .attr("transform",function(d,i){
+                return "translate(0,"+yScale(d.name)+")"
+            })
+        
+        rowGroups.each(function(d,i){
+                d3.select(this).append("rect")
+                .attr("x",function(d){
+                    return xScale(d.start)
+                })
+                .attr("width",function(d){
+                    return xScale(d.end)-xScale(d.start)
+                })
+                .attr("height",yScale.rangeBand)
+                .attr("fill","black")
+                .attr("fill-opacity",0.8)
+                
+                d3.select(this).append("text")
+                    .attr("x",function(d){
+                        var midPoint = new Date((d.start.getTime() + d.end.getTime()) / 2);
+			if (i > 1) 
+                          return xScale(midPoint)
+			else
+			  return xScale(midPoint)+45;
+                     })
+                    .attr("y",function(d){
+                        return -1;
+                    })
+                    .text(function(d){
+                        return d.name
+                    })
+                
+                if (i==4){
+                    var key = d3.select(this).append("g")
+                        .attr("class","axis")
+                    key.append("text")
+                        .attr("x",function(d){
+                            return xScale(d.start);
+                        })
+                        .attr("y",function(d){
+                            return -5;
+                        })
+                        .text("start")
+                    key.append("text")
+                        .attr("x",function(d){
+                            return xScale(d.end);
+                        })
+                        .attr("y",function(d){
+                            return -5;
+                        })
+                        .text("end")
+                }
+        }) 
+        
+    })
+    
+    </script>
+</body>
+</html>
