@@ -17,3 +17,5 @@
 | PPG | Points per game |
 
 source: https://en.wikipedia.org/wiki/Manu_Gin%C3%B3bili
+
+https://aaizemberg.github.io/vis/manu/boxplot.html      
