@@ -36,7 +36,7 @@ d3.json(url).then(function(data) {
 
 function toCSV(data) {
   d3.select("div#header").append('span')
-    .text("id'\t'lat'\t'lon'\t'BranchType'\t'calification'\t'Denunciable'\t'EmpresaId'\t'localidad'\t'Location'\t'provincia'\t'time'\t'Type'\t'Types");
+    .text("id	lat	lon	BranchType	calification	Denunciable	EmpresaId	localidad	Location	provincia	time	Type	Types");
 
   d3.select("div#data").selectAll('span').data(data).enter().append('span')
     .text(
