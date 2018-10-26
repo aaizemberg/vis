@@ -21,14 +21,14 @@ Rank	DBMS	DB model	7db7w	Score
 20	Amazon DynamoDB Detailed vendor-provided information available	Multi-model Document store,Key-value store	1	54.47
 21	SAP HANA Detailed vendor-provided information available	Relational DBMS	0	54.37
 22	Neo4j Detailed vendor-provided information available	Graph DBMS	1	42.65
-23	Couchbase Detailed vendor-provided information available	Document store	1	35.92
+23	Couchbase Detailed vendor-provided information available	Document store	0	35.92
 24	Memcached	Key-value store	0	30.56
 25	Microsoft Azure SQL Database Detailed vendor-provided information available	Relational DBMS	0	26.27
 26	Informix	Relational DBMS	0	26.24
 27	Vertica Detailed vendor-provided information available	Relational DBMS	0	21.37
 28	Microsoft Azure Cosmos DB Detailed vendor-provided information available	Multi-model Document store,Graph DBMS,Key-value store,Wide column store	0	20.26
 29	Firebird	Relational DBMS	0	19.98
-30	CouchDB	Document store	0	19.38
+30	CouchDB	Document store	1	19.38
 31	Netezza	Relational DBMS	0	17.86
 32	Amazon Redshift Detailed vendor-provided information available	Relational DBMS	0	17.41
 33	Google BigQuery Detailed vendor-provided information available	Relational DBMS	0	16.67
