@@ -1,47 +1,47 @@
 Rank	DBMS	DB model	7db7w	Score
-1	Oracle Detailed vendor-provided information available	Relational DBMS	0	1319.27
-2	MySQL Detailed vendor-provided information available	Relational DBMS	0	1178.12
-3	Microsoft SQL Server Detailed vendor-provided information available	Relational DBMS	0	1058.33
-4	PostgreSQL Detailed vendor-provided information available	Relational DBMS	1	419.39
-5	MongoDB Detailed vendor-provided information available	Document store	1	363.19
-6	DB2 Detailed vendor-provided information available	Relational DBMS	0	179.69
-7	Redis Detailed vendor-provided information available	Key-value store	1	145.29
-8	Elasticsearch Detailed vendor-provided information available	Search engine	0	142.33
+1	Oracle	Relational DBMS	0	1319.27
+2	MySQL	Relational DBMS	0	1178.12
+3	Microsoft SQL Server	Relational DBMS	0	1058.33
+4	PostgreSQL	Relational DBMS	1	419.39
+5	MongoDB	Document store	1	363.19
+6	DB2	Relational DBMS	0	179.69
+7	Redis	Key-value store	1	145.29
+8	Elasticsearch	Search engine	0	142.33
 9	Microsoft Access	Relational DBMS	0	136.8
-10	Cassandra Detailed vendor-provided information available	Wide column store	0	123.39
-11	SQLite Detailed vendor-provided information available	Relational DBMS	0	116.74
-12	Teradata Detailed vendor-provided information available	Relational DBMS	0	78.63
+10	Cassandra	Wide column store	0	123.39
+11	SQLite	Relational DBMS	0	116.74
+12	Teradata	Relational DBMS	0	78.63
 13	Splunk	Search engine	0	76.9
-14	MariaDB Detailed vendor-provided information available	Relational DBMS	0	73.13
+14	MariaDB	Relational DBMS	0	73.13
 15	Solr	Search engine	0	61.31
-16	Hive Detailed vendor-provided information available	Relational DBMS	0	61.1
-17	HBase Detailed vendor-provided information available	Wide column store	1	60.67
-18	SAP Adaptive Server Detailed vendor-provided information available	Relational DBMS	0	58.57
+16	Hive	Relational DBMS	0	61.1
+17	HBase	Wide column store	1	60.67
+18	SAP Adaptive Server	Relational DBMS	0	58.57
 19	FileMaker	Relational DBMS	0	56.04
-20	Amazon DynamoDB Detailed vendor-provided information available	Multi-model Document store,Key-value store	1	54.47
-21	SAP HANA Detailed vendor-provided information available	Relational DBMS	0	54.37
-22	Neo4j Detailed vendor-provided information available	Graph DBMS	1	42.65
-23	Couchbase Detailed vendor-provided information available	Document store	0	35.92
+20	Amazon DynamoDB	Multi-model Document store,Key-value store	1	54.47
+21	SAP HANA	Relational DBMS	0	54.37
+22	Neo4j	Graph DBMS	1	42.65
+23	Couchbase	Document store	0	35.92
 24	Memcached	Key-value store	0	30.56
-25	Microsoft Azure SQL Database Detailed vendor-provided information available	Relational DBMS	0	26.27
+25	Microsoft Azure SQL Database	Relational DBMS	0	26.27
 26	Informix	Relational DBMS	0	26.24
-27	Vertica Detailed vendor-provided information available	Relational DBMS	0	21.37
-28	Microsoft Azure Cosmos DB Detailed vendor-provided information available	Multi-model Document store,Graph DBMS,Key-value store,Wide column store	0	20.26
+27	Vertica	Relational DBMS	0	21.37
+28	Microsoft Azure Cosmos DB	Multi-model Document store,Graph DBMS,Key-value store,Wide column store	0	20.26
 29	Firebird	Relational DBMS	0	19.98
 30	CouchDB	Document store	1	19.38
 31	Netezza	Relational DBMS	0	17.86
-32	Amazon Redshift Detailed vendor-provided information available	Relational DBMS	0	17.41
-33	Google BigQuery Detailed vendor-provided information available	Relational DBMS	0	16.67
-34	Spark SQL Detailed vendor-provided information available	Relational DBMS	0	14.67
+32	Amazon Redshift	Relational DBMS	0	17.41
+33	Google BigQuery	Relational DBMS	0	16.67
+34	Spark SQL	Relational DBMS	0	14.67
 35	Impala	Relational DBMS	0	14.64
-36	InfluxDB Detailed vendor-provided information available	Time Series DBMS	0	12.98
+36	InfluxDB	Time Series DBMS	0	12.98
 37	MarkLogic	Multi-model Document store,Native XML DBMS,RDF store,Search engine	0	12.63
 38	Greenplum	Relational DBMS	0	11.54
 39	dBASE	Relational DBMS	0	10.67
 40	Oracle Essbase	Relational DBMS	0	10.5
 41	Hazelcast	Key-value store	0	9.24
 42	Firebase Realtime Database	Document store	0	8.72
-43	Datastax Enterprise Detailed vendor-provided information available	Multi-model Graph DBMS,Wide column store	0	8.16
+43	Datastax Enterprise	Multi-model Graph DBMS,Wide column store	0	8.16
 44	Microsoft Azure SQL Data Warehouse	Relational DBMS	0	8.1
 45	Sphinx	Search engine	0	7.55
 46	Ehcache	Key-value store	0	6.79
@@ -58,7 +58,7 @@ Rank	DBMS	DB model	7db7w	Score
 57	Derby	Relational DBMS	0	4.89
 58	SAP SQL Anywhere	Relational DBMS	0	4.73
 59	RethinkDB	Document store	0	4.49
-60	Kdb+ Detailed vendor-provided information available	Multi-model Relational DBMS,Time Series DBMS	0	4.37
+60	Kdb+	Multi-model Relational DBMS,Time Series DBMS	0	4.37
 61	ArangoDB	Multi-model Document store,Graph DBMS,Key-value store	0	4.25
 62	Jackrabbit	Content store	0	4.09
 63	Google Cloud Datastore	Document store	0	4.05
@@ -68,15 +68,15 @@ Rank	DBMS	DB model	7db7w	Score
 67	Accumulo	Wide column store	0	3.8
 68	Cloudant	Document store	0	3.72
 69	Algolia	Search engine	0	3.69
-70	RavenDB Detailed vendor-provided information available	Document store	0	3.56
+70	RavenDB	Document store	0	3.56
 71	OpenEdge	Relational DBMS	0	3.53
 72	Adabas	Multivalue DBMS	0	3.38
-73	MemSQL Detailed vendor-provided information available	Relational DBMS	0	3.22
+73	MemSQL	Relational DBMS	0	3.22
 74	Amazon CloudSearch	Search engine	0	3.08
 75	UniData,UniVerse	Multivalue DBMS	0	3.05
 76	Google Cloud Firestore	Document store	0	2.97
 77	MaxDB	Relational DBMS	0	2.94
-78	Oracle NoSQL Detailed vendor-provided information available	Key-value store	0	2.92
+78	Oracle NoSQL	Key-value store	0	2.92
 79	Apache Drill	Multi-model Document store,Relational DBMS	0	2.92
 80	InterSystems Caché	Multi-model Key-value store,Object oriented DBMS,Relational DBMS	0	2.85
 81	Google Search Appliance	Search engine	0	2.84
@@ -87,13 +87,13 @@ Rank	DBMS	DB model	7db7w	Score
 86	LevelDB	Key-value store	0	2.58
 87	Infinispan	Key-value store	0	2.55
 88	Jena	RDF store	0	2.51
-89	OmniSci Detailed vendor-provided information available	Relational DBMS	0	2.43
+89	OmniSci	Relational DBMS	0	2.43
 90	Amazon SimpleDB	Key-value store	0	2.42
 91	Oracle Coherence	Key-value store	0	2.4
 92	SAP Advantage Database Server	Relational DBMS	0	2.33
 93	Percona Server for MySQL	Relational DBMS	0	2.29
 94	4D	Relational DBMS	0	2.29
-95	TimesTen Detailed vendor-provided information available	Relational DBMS	0	2.26
+95	TimesTen	Relational DBMS	0	2.26
 96	CloudKit	Document store	0	2.26
 97	Virtuoso	Multi-model Graph DBMS,Native XML DBMS,Relational DBMS,RDF store	0	2.2
 98	RocksDB	Key-value store	0	1.98
@@ -105,17 +105,17 @@ Rank	DBMS	DB model	7db7w	Score
 104	Prometheus	Time Series DBMS	0	1.71
 105	GridGain	Multi-model Key-value store,Relational DBMS	0	1.68
 106	Teradata Aster	Relational DBMS	0	1.67
-107	EnterpriseDB Detailed vendor-provided information available	Relational DBMS	0	1.66
-108	MonetDB Detailed vendor-provided information available	Relational DBMS	0	1.62
+107	EnterpriseDB	Relational DBMS	0	1.66
+108	MonetDB	Relational DBMS	0	1.62
 109	IBM dashDB	Relational DBMS	0	1.61
 110	CockroachDB	Relational DBMS	0	1.6
 111	VoltDB	Relational DBMS	0	1.59
-112	jBASE Detailed vendor-provided information available	Multivalue DBMS	0	1.52
+112	jBASE	Multivalue DBMS	0	1.52
 113	mSQL	Relational DBMS	0	1.52
 114	PrestoDB	Relational DBMS	0	1.5
 115	Geode	Key-value store	0	1.45
-116	Google Cloud Bigtable Detailed vendor-provided information available	Wide column store	0	1.44
-117	Google Cloud Spanner Detailed vendor-provided information available	Relational DBMS	0	1.43
+116	Google Cloud Bigtable	Wide column store	0	1.44
+117	Google Cloud Spanner	Relational DBMS	0	1.43
 118	Versant Object Database	Object oriented DBMS	0	1.39
 119	Snowflake	Relational DBMS	0	1.38
 120	Datameer	Document store	0	1.38
@@ -134,7 +134,7 @@ Rank	DBMS	DB model	7db7w	Score
 133	SQLBase	Relational DBMS	0	1.08
 134	Cubrid	Relational DBMS	0	1.04
 135	JanusGraph	Graph DBMS	0	1.01
-136	TiDB Detailed vendor-provided information available	Relational DBMS	0	1
+136	TiDB	Relational DBMS	0	1
 137	Matisse	Object oriented DBMS	0	0.99
 138	BigchainDB	Document store	0	0.98
 139	Oracle Rdb	Relational DBMS	0	0.98
@@ -147,9 +147,9 @@ Rank	DBMS	DB model	7db7w	Score
 146	DataEase	Relational DBMS	0	0.83
 147	XAP	Key-value store	0	0.83
 148	R:BASE	Relational DBMS	0	0.81
-149	NuoDB Detailed vendor-provided information available	Relational DBMS	0	0.81
+149	NuoDB	Relational DBMS	0	0.81
 150	NonStop SQL	Relational DBMS	0	0.8
-151	NCache Detailed vendor-provided information available	Key-value store	0	0.8
+151	NCache	Key-value store	0	0.8
 152	GT.M	Key-value store	0	0.79
 153	Tarantool	Key-value store	0	0.77
 154	Model 204	Multivalue DBMS	0	0.74
@@ -157,9 +157,9 @@ Rank	DBMS	DB model	7db7w	Score
 156	ScaleArc	Relational DBMS	0	0.72
 157	MapR-DB	Multi-model Document store,Wide column store	0	0.71
 158	eXist-db	Native XML DBMS	0	0.68
-159	AllegroGraph Detailed vendor-provided information available	Multi-model Graph DBMS,RDF store	0	0.66
+159	AllegroGraph	Multi-model Graph DBMS,RDF store	0	0.66
 160	Datacom/DB	Relational DBMS	0	0.65
-161	GraphDB Detailed vendor-provided information available	Multi-model Graph DBMS,RDF store	0	0.65
+161	GraphDB	Multi-model Graph DBMS,RDF store	0	0.65
 162	Kognitio	Relational DBMS	0	0.64
 163	Actian Vector	Relational DBMS	0	0.64
 164	DBISAM	Relational DBMS	0	0.63
@@ -175,7 +175,7 @@ Rank	DBMS	DB model	7db7w	Score
 174	Xapian	Search engine	0	0.55
 175	InfiniDB	Relational DBMS	0	0.55
 176	Sedna	Native XML DBMS	0	0.55
-177	CrateDB Detailed vendor-provided information available	Multi-model Relational DBMS,Search engine	0	0.55
+177	CrateDB	Multi-model Relational DBMS,Search engine	0	0.55
 178	OpenBase	Relational DBMS	0	0.54
 179	KairosDB	Time Series DBMS	0	0.53
 180	SciDB	Multivalue DBMS	0	0.53
@@ -200,18 +200,18 @@ Rank	DBMS	DB model	7db7w	Score
 199	Blazegraph	Multi-model Graph DBMS,RDF store	0	0.39
 200	Sqrrl	Multi-model Document store,Graph DBMS,Key-value store,Wide column store	0	0.38
 201	Algebraix	RDF store	0	0.38
-202	GBase Detailed vendor-provided information available	Relational DBMS	0	0.37
+202	GBase	Relational DBMS	0	0.37
 203	SQL.JS	Relational DBMS	0	0.36
 204	Percona Server for MongoDB	Document store	0	0.35
 205	Starcounter	Object oriented DBMS	0	0.35
 206	Citus	Relational DBMS	0	0.34
-207	TigerGraph Detailed vendor-provided information available	Graph DBMS	0	0.34
+207	TigerGraph	Graph DBMS	0	0.34
 208	Rasdaman	Multivalue DBMS	0	0.33
 209	BoltDB	Key-value store	0	0.32
 210	Trafodion	Relational DBMS	0	0.31
 211	Tokyo Tyrant	Key-value store	0	0.31
 212	Project Voldemort	Key-value store	0	0.3
-213	eXtremeDB Detailed vendor-provided information available	Multi-model Relational DBMS,Time Series DBMS	0	0.3
+213	eXtremeDB	Multi-model Relational DBMS,Time Series DBMS	0	0.3
 214	RDF4J	RDF store	0	0.3
 215	Riak TS	Time Series DBMS	0	0.29
 216	Jade	Object oriented DBMS	0	0.29
@@ -222,10 +222,10 @@ Rank	DBMS	DB model	7db7w	Score
 221	Raima Database Manager	Relational DBMS	0	0.27
 222	SQream DB	Relational DBMS	0	0.27
 223	ModeShape	Content store	0	0.27
-224	c-treeEDGE Detailed vendor-provided information available	Multi-model Key-value store,Relational DBMS	0	0.26
-225	c-treeACE Detailed vendor-provided information available	Multi-model Key-value store,Relational DBMS	0	0.25
+224	c-treeEDGE	Multi-model Key-value store,Relational DBMS	0	0.26
+225	c-treeACE	Multi-model Key-value store,Relational DBMS	0	0.25
 226	SearchBlox	Search engine	0	0.25
-227	InterSystems IRIS Detailed vendor-provided information available	Multi-model Document store,Key-value store,Object oriented DBMS,Relational DBMS	0	0.24
+227	InterSystems IRIS	Multi-model Document store,Key-value store,Object oriented DBMS,Relational DBMS	0	0.24
 228	Comdb2	Relational DBMS	0	0.24
 229	Lovefield	Relational DBMS	0	0.24
 230	Redland	RDF store	0	0.24
@@ -238,7 +238,7 @@ Rank	DBMS	DB model	7db7w	Score
 237	Mimer SQL	Relational DBMS	0	0.21
 238	YugaByte DB	Multi-model Document store,Key-value store,Wide column store	0	0.21
 239	Kyoto Cabinet	Key-value store	0	0.21
-240	FaunaDB Detailed vendor-provided information available	Multi-model Document store,Graph DBMS,Relational DBMS,Time Series DBMS	0	0.19
+240	FaunaDB	Multi-model Document store,Graph DBMS,Relational DBMS,Time Series DBMS	0	0.19
 241	STSdb	Key-value store	0	0.18
 242	Dataupia	Relational DBMS	0	0.18
 243	Axibase	Time Series DBMS	0	0.18
@@ -252,7 +252,7 @@ Rank	DBMS	DB model	7db7w	Score
 251	HyperGraphDB	Graph DBMS	0	0.13
 252	FlockDB	Graph DBMS	0	0.13
 253	Warp 10	Time Series DBMS	0	0.12
-254	EsgynDB Detailed vendor-provided information available	Relational DBMS	0	0.12
+254	EsgynDB	Relational DBMS	0	0.12
 255	VelocityDB	Multi-model Graph DBMS,Object oriented DBMS	0	0.12
 256	RaptorDB	Document store	0	0.12
 257	Hawkular Metrics	Time Series DBMS	0	0.12
@@ -260,7 +260,7 @@ Rank	DBMS	DB model	7db7w	Score
 259	ActorDB	Relational DBMS	0	0.11
 260	InfoGrid	Graph DBMS	0	0.11
 261	Transbase	Relational DBMS	0	0.11
-262	GridDB Detailed vendor-provided information available	Multi-model Key-value store,Time Series DBMS	0	0.11
+262	GridDB	Multi-model Key-value store,Time Series DBMS	0	0.11
 263	EJDB	Document store	0	0.11
 264	Mulgara	RDF store	0	0.1
 265	BrightstarDB	RDF store	0	0.1
@@ -278,21 +278,21 @@ Rank	DBMS	DB model	7db7w	Score
 277	SenseiDB	Document store	0	0.06
 278	Alibaba Cloud Table Store	Wide column store	0	0.06
 279	FleetDB	Document store	0	0.06
-280	AgensGraph Detailed vendor-provided information available	Multi-model Graph DBMS,Relational DBMS	0	0.06
+280	AgensGraph	Multi-model Graph DBMS,Relational DBMS	0	0.06
 281	TinkerGraph	Graph DBMS	0	0.05
 282	Dydra	RDF store	0	0.05
 283	WakandaDB	Object oriented DBMS	0	0.05
 284	Versant FastObjects	Object oriented DBMS	0	0.05
 285	GraphBase	Graph DBMS	0	0.04
 286	ScaleOut StateServer	Key-value store	0	0.04
-287	GRAKN.AI Detailed vendor-provided information available	Multi-model Graph DBMS,Relational DBMS	0	0.04
+287	GRAKN.AI	Multi-model Graph DBMS,Relational DBMS	0	0.04
 288	Blueflood	Time Series DBMS	0	0.04
 289	TempoIQ	Time Series DBMS	0	0.04
 290	Kyoto Tycoon	Key-value store	0	0.04
 291	BigObject	Relational DBMS	0	0.03
 292	LeanXcale	Multi-model Key-value store,Relational DBMS	0	0.03
 293	Bangdb	Key-value store	0	0.03
-294	Quasardb Detailed vendor-provided information available	Time Series DBMS	0	0.03
+294	Quasardb	Time Series DBMS	0	0.03
 295	TayzGrid	Key-value store	0	0.03
 296	JethroData	Relational DBMS	0	0.02
 297	Brytlyt	Relational DBMS	0	0.02
@@ -330,12 +330,12 @@ Rank	DBMS	DB model	7db7w	Score
 329	JustOneDB	Relational DBMS	0	0
 330	K-DB	Relational DBMS	0	0
 331	Linter	Relational DBMS	0	0
-332	Machbase Detailed vendor-provided information available	Time Series DBMS	0	0
+332	Machbase	Time Series DBMS	0	0
 333	Nanolat	Key-value store	0	0
 334	Newts	Time Series DBMS	0	0
 335	OrigoDB	Multi-model Document store,Object oriented DBMS	0	0
 336	Resin Cache	Key-value store	0	0
-337	Sadas Engine Detailed vendor-provided information available	Relational DBMS	0	0
+337	Sadas Engine	Relational DBMS	0	0
 338	SiriDB	Time Series DBMS	0	0
 339	SiteWhere	Time Series DBMS	0	0
 340	SparkleDB	RDF store	0	0
