@@ -36,26 +36,26 @@ d3.json(url).then(function(data) {
 
 function toCSV(data) {
   d3.select("div#header").append('span')
-    .text("id	lat	lon	BranchType	calification	Denunciable	EmpresaId	localidad	Location	provincia	time	Type	Types")
+    .text("id	lat	lon	BranchType	calification	Denunciable	Description EmpresaId	localidad	Location	provincia	time	Type	Types")
     .append('br');
 
   d3.select("div#data").selectAll('span').data(data).enter().append('span')
     .text(
       function(d,i) {
-        return (i + '\t' + 
-                d.lat + '\t' + 
-                d.lgn  + '\t' +
-                d.BranchType + '\t' + 
-                d.calification + '\t' + 
-                d.Denunciable + '\t' + 
-                d.Description + '\t' + 
-                d.EmpresaId + '\t' + 
-                d.localidad + '\t' + 
-                d.Location + '\t' + 
-                d.provincia + '\t' + 
-                d.time + '\t' + 
-                d.Type + '\t' + 
-                d.Types
+        return (i + ',' + 
+                d.lat + ',' + 
+                d.lgn  + ',' +
+                '"' + d.BranchType + '",' + 
+                '"' + d.calification + '",' + 
+                '"' + d.Denunciable + '",' + 
+                '"' + d.Description + '",' + 
+                '"' + d.EmpresaId + '",' + 
+                '"' + d.localidad + '",' + 
+                '"' + d.Location + '",' + 
+                '"' + d.provincia + '",' + 
+                '"' + d.time + '",' + 
+                '"' + d.Type + '",' + 
+                '"' + d.Types + '"'
                )
       }
     ).append('br');  
