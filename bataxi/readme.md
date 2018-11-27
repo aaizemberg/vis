@@ -1,3 +1,5 @@
+# subiendo el archivo bataxi.tsv a Postgresql
+
 ```SQL
 CREATE TABLE bataxi
 (
@@ -13,7 +15,26 @@ CREATE TABLE bataxi
   cantidad_pasajeros numeric
 );
 
-COPY bataxi FROM '/tmp/bataxi.tsv' DELIMITER E'\t' CSV HEADER
+COPY bataxi FROM '/tmp/bataxi.tsv' DELIMITER ',' CSV HEADER
+```
+
+# Generando un solo archivo de coordenadas (origen o destino)
+
+```python
+import pandas as pd
+df = pd.read_csv("https://raw.githubusercontent.com/aaizemberg/vis/gh-pages/bataxi/bataxi.csv")
+
+df1 = df[['origen_viaje_x','origen_viaje_y']]
+df1.columns = ['x', 'y']
+
+df2 = df[['destino_viaje_x','destino_viaje_y']]
+df2.columns = ['x', 'y']
+
+df3 = pd.concat([df1, df2])
+
+from google.colab import files
+df3.to_csv('origen_y_destino.csv', index=False)
+files.download('origen_y_destino.csv')
 ```
 
 Algunas graficos que hice con este dataset:
