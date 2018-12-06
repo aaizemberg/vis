@@ -7,14 +7,15 @@ View(Hotel)
 
 plot.bertin(Hotel)
 
-plot.bertin(Hotel,aspz=0.5)
+plot.bertin(Hotel, aspz=0.5)
 
 plot.bertin(Hotel, palette=c("white","black"))
 
-plot.bertin(Hotel, 
-  roworder = bertin.order(bertinrank(Hotel, ties.method = "max"), 
-  pivot="Occupation"), 
-  palette=c("white","black")
+plot.bertin(
+    Hotel, 
+    roworder = bertin.order(bertinrank(Hotel, ties.method = "max"), 
+    pivot="Occupation"), 
+    palette=c("white","black")
   )
 ```
 
