@@ -11,8 +11,11 @@ plot.bertin(Hotel,aspz=0.5)
 
 plot.bertin(Hotel, palette=c("white","black"))
 
-plot.bertin(Hotel, roworder = bertin.order(bertinrank(Hotel, ties.method = "max"), pivot="Occupation"), palette=c("white","black"))
+plot.bertin(Hotel, 
+  roworder = bertin.order(bertinrank(Hotel, ties.method = "max"), 
+  pivot="Occupation"), 
+  palette=c("white","black")
+  )
 ```
 
 ![Bertin Hotel Analysis](r_bertin_hotel.png)
-
