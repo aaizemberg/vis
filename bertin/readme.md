@@ -19,4 +19,6 @@ plot.bertin(
   )
 ```
 
-![Bertin Hotel Analysis](r_bertin_hotel.png)
+|  sin ordenar  | ordenado      |
+| ------------- | ------------- |
+| ![Bertin Hotel Analysis (sin ordenar)](bertin_sin_ordenar.png) | ![Bertin Hotel Analysis](r_bertin_hotel.png) |
