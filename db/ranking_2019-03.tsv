@@ -1,0 +1,346 @@
+rank	dbms	database model	score
+1	Oracle	Relational, Multi-model Relational DBMS,Document store,Graph DBMS,RDF store	1279.14
+2	MySQL	Relational, Multi-model Relational DBMS,Document store	1198.25
+3	Microsoft SQL Server	Relational, Multi-model Relational DBMS,Document store,Graph DBMS	1047.85
+4	PostgreSQL	Relational, Multi-model Relational DBMS,Document store	469.81
+5	MongoDB	Document	401.34
+6	IBM Db2	Relational, Multi-model Relational DBMS,Document store,RDF store	177.2
+7	Microsoft Access	Relational	146.2
+8	Redis	Key-value, Multi-model Key-value store,Document store,Graph DBMS,Search engine,Time Series DBMS	146.12
+9	Elasticsearch	Search engine, Multi-model Search engine,Document store	142.79
+10	SQLite	Relational	124.87
+11	Cassandra	Wide column	122.8
+12	MariaDB	Relational, Multi-model Relational DBMS,Document store,Graph DBMS	84.31
+13	Splunk	Search engine	83.1
+14	Teradata	Relational	75.22
+15	Hive	Relational	73
+16	Solr	Search engine	60.01
+17	HBase	Wide column	58.8
+18	FileMaker	Relational	58.13
+19	SAP Adaptive Server	Relational	56.03
+20	SAP HANA	Relational, Multi-model Relational DBMS,Document store,Graph DBMS	55.51
+21	Amazon DynamoDB	Multi-model Document store,Key-value store	54.49
+22	Neo4j	Graph	48.58
+23	Couchbase	Document	33.8
+24	Memcached	Key-value	28.73
+25	Microsoft Azure SQL Database	Relational, Multi-model Relational DBMS,Document store,Graph DBMS	27.93
+26	Informix	Relational, Multi-model Relational DBMS,Document store	26.9
+27	Microsoft Azure Cosmos DB	Multi-model Document store,Graph DBMS,Key-value store,Wide column store	24.83
+28	Vertica	Relational, Multi-model Relational DBMS,Document store	22.07
+29	Amazon Redshift	Relational	20.89
+30	Firebird	Relational	20.17
+31	Netezza	Relational	19.63
+32	Google BigQuery	Relational	19.57
+33	CouchDB	Document	18.63
+34	Spark SQL	Relational	16.31
+35	InfluxDB	Time Series	16.17
+36	Impala	Relational, Multi-model Relational DBMS,Document store	14.82
+37	MarkLogic	Multi-model Document store,Native XML DBMS,RDF store,Search engine	13.74
+38	Greenplum	Relational, Multi-model Relational DBMS,Document store	12.35
+39	dBASE	Relational	11.5
+40	Oracle Essbase	Relational	10.8
+41	Firebase Realtime Database	Document	10.3
+42	Datastax Enterprise	Wide column, Multi-model Wide column store,Document store,Graph DBMS	9.33
+43	Microsoft Azure SQL Data Warehouse	Relational	8.47
+44	Hazelcast	Key-value	8.02
+45	Sphinx	Search engine	7.23
+46	Realm	Relational	6.97
+47	Aerospike	Key-value	6.73
+48	H2	Relational	6.56
+49	Ehcache	Key-value	6.46
+50	Interbase	Relational	6.45
+51	OrientDB	Multi-model Document store,Graph DBMS,Key-value store	6.13
+52	Riak KV	Key-value	5.81
+53	Amazon Aurora	Relational, Multi-model Relational DBMS,Document store	5.81
+54	Kdb+	Time Series, Multi-model Time Series DBMS,Relational DBMS	5.6
+55	Microsoft Azure Search	Search engine	5.54
+56	Ingres	Relational	5.38
+57	Ignite	Multi-model Key-value store,Relational DBMS	5.18
+58	Derby	Relational	5.14
+59	HyperSQL	Relational	4.96
+60	SAP SQL Anywhere	Relational	4.84
+61	SAP IQ	Relational	4.62
+62	Microsoft Azure Table Storage	Wide column	4.52
+63	Google Cloud Datastore	Document	4.32
+64	ArangoDB	Multi-model Document store,Graph DBMS,Key-value store	4.26
+65	RethinkDB	Document	4.18
+66	Google Cloud Firestore	Document	4.17
+67	Accumulo	Wide column	4.13
+68	Jackrabbit	Content	3.97
+69	MaxDB	Relational	3.96
+70	Algolia	Search engine	3.82
+71	Presto	Relational	3.78
+72	Adabas	Multivalue	3.78
+73	MemSQL	Relational, Multi-model Relational DBMS,Document store	3.74
+74	RavenDB	Document	3.72
+75	OpenEdge	Relational	3.69
+76	Cloudant	Document	3.53
+77	UniData,UniVerse	Multivalue	3.22
+78	Virtuoso	Multi-model Graph DBMS,Native XML DBMS,Relational DBMS,RDF store,Document store	3.2
+79	InterSystems Caché	Multi-model Key-value store,Object oriented DBMS,Relational DBMS,Document store	3.16
+80	Oracle NoSQL	Key-value, Multi-model Key-value store,Relational DBMS	3.14
+81	Graphite	Time Series	3.07
+82	Google Search Appliance	Search engine	3.07
+83	SAP Advantage Database Server	Relational	2.92
+84	PouchDB	Document	2.9
+85	LevelDB	Key-value	2.82
+86	Oracle Berkeley DB	Multi-model Key-value store,Native XML DBMS	2.82
+87	RRDtool	Time Series	2.75
+88	Prometheus	Time Series	2.72
+89	Apache Drill	Multi-model Document store,Relational DBMS	2.64
+90	Percona Server for MySQL	Relational	2.55
+91	OmniSci	Relational	2.53
+92	4D	Relational	2.51
+93	RocksDB	Key-value	2.48
+94	Amazon CloudSearch	Search engine	2.46
+95	TimesTen	Relational	2.43
+96	ClickHouse	Relational	2.4
+97	Snowflake	Relational	2.37
+98	CloudKit	Document	2.35
+99	Oracle Coherence	Key-value	2.32
+100	Amazon SimpleDB	Key-value	2.31
+101	Infinispan	Key-value	2.29
+102	OpenTSDB	Time Series	2.28
+103	Datomic	Relational	2.26
+104	IMS	Navigational	2.22
+105	EnterpriseDB	Relational, Multi-model Relational DBMS,Document store	2.2
+106	CockroachDB	Relational	2.2
+107	EXASOL	Relational	2.13
+108	GridGain	Multi-model Key-value store,Relational DBMS	1.96
+109	Apache Jena - TDB	RDF	1.94
+110	Google Cloud Spanner	Relational	1.85
+111	VoltDB	Relational	1.81
+112	Versant Object Database	Object oriented	1.72
+113	Red Brick	Relational	1.65
+114	Google Cloud Bigtable	Wide column	1.65
+115	IBM Db2 warehouse	Relational	1.64
+116	jBASE	Multivalue	1.6
+117	MonetDB	Relational, Multi-model Relational DBMS,Document store	1.59
+118	Druid	Multi-model Relational DBMS,Time Series DBMS	1.57
+119	mSQL	Relational	1.53
+120	Db4o	Object oriented	1.45
+121	Geode	Key-value	1.37
+122	Tibero	Relational	1.36
+123	JanusGraph	Graph	1.33
+124	BaseX	Native XML	1.32
+125	Empress	Relational	1.27
+126	TiDB	Relational, Multi-model Relational DBMS,Document store	1.24
+127	ObjectStore	Object oriented	1.23
+128	ScyllaDB	Wide column	1.22
+129	Datameer	Document	1.21
+130	Mnesia	Document	1.18
+131	SQLBase	Relational	1.17
+132	Cubrid	Relational	1.12
+133	Matisse	Object oriented	1.11
+134	Giraph	Graph	1.05
+135	Oracle Rdb	Relational	1.04
+136	Amazon Neptune	Multi-model Graph DBMS,RDF store	1.03
+137	IDMS	Navigational	1.02
+138	1010data	Relational	1.01
+139	Infobright	Relational	1
+140	Model 204	Multivalue	1
+141	DataEase	Relational	0.99
+142	NonStop SQL	Relational	0.97
+143	GT.M	Key-value	0.95
+144	HFSQL	Relational	0.93
+145	GraphDB	Multi-model Graph DBMS,RDF store	0.93
+146	HAWQ	Relational	0.92
+147	TimescaleDB	Time Series	0.91
+148	GBase	Relational	0.9
+149	FoundationDB	Multi-model Document store,Key-value store,Relational DBMS	0.9
+150	Sedna	Native XML	0.89
+151	Altibase	Relational	0.89
+152	WiredTiger	Key-value	0.88
+153	NuoDB	Relational	0.88
+154	XAP	Key-value	0.88
+155	AllegroGraph	Multi-model Graph DBMS,RDF store	0.88
+156	NCache	Key-value	0.84
+157	solidDB	Relational	0.83
+158	Kognitio	Relational	0.83
+159	ZODB	Key-value	0.82
+160	TigerGraph	Graph	0.81
+161	BigchainDB	Document	0.79
+162	Tarantool	Key-value	0.79
+163	Objectivity/DB	Object oriented	0.78
+164	D3	Multivalue	0.77
+165	Stardog	Multi-model Graph DBMS,RDF store	0.77
+166	Citus	Relational, Multi-model Relational DBMS,Document store	0.76
+167	R:BASE	Relational	0.76
+168	MapR-DB	Multi-model Document store,Wide column store	0.75
+169	ScaleArc	Relational	0.74
+170	Datacom/DB	Relational	0.74
+171	Clustrix	Relational	0.72
+172	Actian Vector	Relational	0.71
+173	DBISAM	Relational	0.71
+174	WebSphere eXtreme Scale	Key-value	0.7
+175	Dgraph	Graph	0.69
+176	Splice Machine	Relational	0.69
+177	Xapian	Search engine	0.68
+178	eXist-db	Native XML	0.68
+179	LiteDB	Document	0.66
+180	FrontBase	Relational	0.66
+181	KairosDB	Time Series	0.66
+182	SciDB	Multivalue	0.64
+183	Event Store	Event	0.63
+184	GemStone/S	Object oriented	0.62
+185	Tokyo Cabinet	Key-value	0.6
+186	OpenBase	Relational	0.58
+187	CrateDB	Multi-model Relational DBMS,Search engine,Document store	0.57
+188	Kinetica	Relational	0.57
+189	NexusDB	Relational	0.56
+190	Graph Engine	Multi-model Graph DBMS,Key-value store	0.56
+191	Percona Server for MongoDB	Document	0.56
+192	VistaDB	Relational	0.55
+193	InterSystems IRIS	Multi-model Document store,Key-value store,Object oriented DBMS,Relational DBMS	0.55
+194	ObjectDB	Object oriented	0.55
+195	Blazegraph	Multi-model Graph DBMS,RDF store	0.55
+196	FaunaDB	Multi-model Document store,Graph DBMS,Relational DBMS,Time Series DBMS	0.52
+197	SQL.JS	Relational	0.51
+198	YugaByte DB	Multi-model Document store,Key-value store,Wide column store	0.51
+199	OpenInsight	Multivalue	0.51
+200	Postgres-XL	Relational, Multi-model Relational DBMS,Document store	0.5
+201	MapDB	Key-value	0.5
+202	Sqrrl	Multi-model Document store,Graph DBMS,Key-value store,Wide column store	0.5
+203	Northgate Reality	Multivalue	0.46
+204	Perst	Object oriented	0.45
+205	AlaSQL	Multi-model Document store,Relational DBMS	0.45
+206	Tokyo Tyrant	Key-value	0.44
+207	SQream DB	Relational	0.43
+208	Rasdaman	Multivalue	0.42
+209	eXtremeDB	Multi-model Relational DBMS,Time Series DBMS	0.4
+210	Trafodion	Relational	0.4
+211	InfiniteGraph	Graph	0.39
+212	ObjectBox	Object oriented	0.38
+213	BoltDB	Key-value	0.38
+214	Redland	RDF	0.38
+215	GridDB	Multi-model Key-value store,Time Series DBMS,Relational DBMS	0.37
+216	Starcounter	Object oriented	0.37
+217	Actian PSQL	Relational	0.36
+218	c-treeACE	Multi-model Key-value store,Relational DBMS	0.36
+219	Project Voldemort	Key-value	0.35
+220	Jade	Object oriented	0.35
+221	Hibari	Key-value	0.35
+222	4store	RDF	0.35
+223	ModeShape	Content	0.35
+224	Scalaris	Key-value	0.35
+225	RDF4J	RDF	0.35
+226	Raima Database Manager	Relational	0.33
+227	Mimer SQL	Relational	0.32
+228	Alibaba Cloud MaxCompute	Relational	0.31
+229	Sequoiadb	Multi-model Document store,Relational DBMS	0.3
+230	Tajo	Relational	0.3
+231	Alibaba Cloud HybridDB	Relational	0.3
+232	LokiJS	Document	0.3
+233	InfoGrid	Graph	0.28
+234	OpenQM	Multivalue	0.27
+235	SearchBlox	Search engine	0.27
+236	Algebraix	RDF	0.27
+237	Amazon Timestream	Time Series	0.27
+238	FlockDB	Graph	0.26
+239	IBM Db2 Event Store	Multi-model Event Store,Time Series DBMS	0.26
+240	Comdb2	Relational	0.25
+241	Kyoto Cabinet	Key-value	0.24
+242	c-treeEDGE	Multi-model Key-value store,Relational DBMS	0.24
+243	Lovefield	Relational	0.23
+244	Riak TS	Time Series	0.22
+245	PipelineDB	Relational	0.22
+246	Alibaba Cloud Table Store	Wide column	0.21
+247	Axibase	Time Series	0.2
+248	SnappyData	Relational	0.2
+249	ElevateDB	Relational	0.19
+250	EsgynDB	Relational	0.18
+251	HyperGraphDB	Graph	0.18
+252	AnzoGraph	Graph, Multi-model Graph DBMS,RDF store	0.18
+253	CubicWeb	RDF	0.18
+254	TransLattice	Relational	0.18
+255	Heroic	Time Series	0.18
+256	Warp 10	Time Series	0.18
+257	AgensGraph	Multi-model Graph DBMS,Relational DBMS	0.17
+258	STSdb	Key-value	0.17
+259	RedStore	RDF	0.17
+260	Hawkular Metrics	Time Series	0.15
+261	ITTIA	Relational	0.15
+262	ActorDB	Relational	0.15
+263	NEventStore	Event	0.15
+264	Eloquera	Object oriented	0.13
+265	Valentina Server	Relational	0.12
+266	Versant FastObjects	Object oriented	0.12
+267	Sparksee	Graph	0.12
+268	Quasardb	Time Series	0.12
+269	XtremeData	Relational	0.11
+270	WakandaDB	Object oriented	0.11
+271	TinkerGraph	Graph	0.1
+272	VelocityDB	Multi-model Graph DBMS,Object oriented DBMS	0.1
+273	RaptorDB	Document	0.1
+274	EJDB	Document	0.1
+275	GRAKN.AI	Multi-model Graph DBMS,Relational DBMS	0.09
+276	Badger	Key-value	0.09
+277	Strabon	RDF	0.09
+278	MammothDB	Relational	0.09
+279	Bangdb	Key-value	0.09
+280	BrightstarDB	RDF	0.09
+281	Transbase	Relational	0.09
+282	Dydra	RDF	0.08
+283	SenseiDB	Document	0.08
+284	Blueflood	Time Series	0.08
+285	WhiteDB	Document	0.08
+286	DensoDB	Document	0.08
+287	Brytlyt	Relational	0.08
+288	CodernityDB	Key-value	0.08
+289	Mulgara	RDF	0.08
+290	NosDB	Document	0.07
+291	GraphBase	Graph	0.07
+292	Elliptics	Key-value	0.07
+293	Siaqodb	Object oriented	0.07
+294	SwayDB	Key-value	0.06
+295	LeanXcale	Multi-model Key-value store,Relational DBMS	0.06
+296	TayzGrid	Key-value	0.06
+297	TempoIQ	Time Series	0.06
+298	SmallSQL	Relational	0.06
+299	IRONdb	Time Series	0.05
+300	Memgraph	Graph	0.05
+301	InfinityDB	Key-value	0.05
+302	JaguarDB	Key-value	0.05
+303	DBSight	Search engine	0.05
+304	BigObject	Relational	0.05
+305	HyperLevelDB	Key-value	0.04
+306	JethroData	Relational	0.04
+307	Kyoto Tycoon	Key-value	0.04
+308	ToroDB	Document	0.04
+309	SiriDB	Time Series	0.04
+310	LedisDB	Key-value	0.03
+311	Upscaledb	Key-value	0.03
+312	ScaleOut StateServer	Key-value	0.03
+313	Machbase	Time Series	0.03
+314	iBoxDB	Document	0.03
+315	FinchDB	Multi-model Document store,Search engine	0.03
+316	Exorbyte	Search engine	0.02
+317	Edge Intelligence	Relational	0.02
+318	CortexDB	Multi-model Document store,Key-value store	0.02
+318	Manticore Search	Search engine	0.02
+320	OrigoDB	Multi-model Document store,Object oriented DBMS	0.02
+321	HGraphDB	Graph	0.01
+322	TerarkDB	Key-value	0.01
+323	TomP2P	Key-value	0.01
+324	Linter	Relational	0.01
+325	Resin Cache	Key-value	0.01
+326	Newts	Time Series	0.01
+327	SparkleDB	RDF	0
+328	searchxml	Multi-model Native XML DBMS,Search engine	0
+329	Atos Standard Common Repository	Multi-model Document store,Key-value store	0
+329	BergDB	Key-value	0
+329	Cachelot.io	Key-value	0
+329	DaggerDB	Relational	0
+329	DataChemist	Graph, Multi-model Graph DBMS,RDF store	0
+329	Djondb	Document	0
+329	DolphinDB	Time Series	0
+329	Helium	Key-value	0
+329	Indica	Search engine	0
+329	JasDB	Document	0
+329	JSqlDb	Multi-model Document store,Object oriented DBMS	0
+329	K-DB	Relational	0
+329	Sadas Engine	Relational	0
+329	SiteWhere	Time Series	0
+329	VictoriaMetrics	Time Series	0
+329	Yaacomo	Relational	0
+329	Yanza	Time Series	0
