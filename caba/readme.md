@@ -21,4 +21,4 @@ https://blog.okfn.org/2011/06/29/new-visualisations-for-openspending/
 
 # tembici
 
-* tembici.json
+* tembici.json ( https://www.baecobici.com.ar/es/inicio )
