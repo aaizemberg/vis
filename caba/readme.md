@@ -18,3 +18,7 @@ Raw Data (csv)
 
 _radial bubble tree_ o _bubble tree_ 
 https://blog.okfn.org/2011/06/29/new-visualisations-for-openspending/
+
+# tembici
+
+* tembici.json
