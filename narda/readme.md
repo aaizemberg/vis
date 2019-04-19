@@ -6,6 +6,7 @@ Diferentes implementaciones del Scatterplot:
 * [vegalite](https://aaizemberg.github.io/vis/narda/vegalite.html)
 * [Datawrapper](https://aaizemberg.github.io/vis/narda/index.html)
 * [tableau](https://aaizemberg.github.io/vis/narda/tableau.html)
+* [colab pandas Altair](https://colab.research.google.com/drive/1Rk7fGBJyI--ISBrOyE-u35cJkqYVwBfJ)
 
 Libreria utilizada para recuperar los tweets: https://github.com/ckoepp/TwitterSearch > Access User Timelines
 
