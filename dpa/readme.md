@@ -37,8 +37,6 @@ librerias utilizadas: pandas y sklearn (scikit-learn)
 
 ## Predicting Employee Churn in Python
 
-by Avinash Navlani
-
 [article](https://www.datacamp.com/community/tutorials/predicting-employee-churn-python)
 
 [HR_comma_sep.csv](HR_comma_sep.csv)
@@ -51,10 +49,9 @@ keywords: \#datacamp \#course \#python
 
 [course](https://www.datacamp.com/courses/hr-analytics-in-python-predicting-employee-churn)
 
-by Hrant Davtyan, Assistant Professor of Data Science at the American University of Armenia
-
 [Employee turnover data (csv)](https://assets.datacamp.com/production/repositories/1765/datasets/ae888d00f9b36dd7d50a4afbc112761e2db766d2/turnover.csv)
 
+slides
 1. [Introduction to HR Analytics](https://s3.amazonaws.com/assets.datacamp.com/production/course_6221/slides/chapter1.pdf)
 2. [Predicting employee turnover](https://s3.amazonaws.com/assets.datacamp.com/production/course_6221/slides/chapter2.pdf)
 3. [Evaluating the turnover prediction model](https://s3.amazonaws.com/assets.datacamp.com/production/course_6221/slides/chapter3.pdf)
@@ -67,20 +64,17 @@ keywords: \#datacamp \#course \#R
 [course](https://www.datacamp.com/courses/human-resources-analytics-in-r-exploring-employee-data)
 
 pre-requisitos
-
 1. Introduction to the Tidyverse
 2. Correlation and Regression
 
 slides
+1. [Identifying the best recruiting source](https://s3.amazonaws.com/assets.datacamp.com/production/course_5977/slides/chapter1.pdf)
+2. [What is driving low employee engagement?](https://s3.amazonaws.com/assets.datacamp.com/production/course_5977/slides/chapter2.pdf)
+3. [Are new hires getting paid too much?](https://s3.amazonaws.com/assets.datacamp.com/production/course_5977/slides/chapter3.pdf)
+4. [Are performance ratings being given consistently?](https://s3.amazonaws.com/assets.datacamp.com/production/course_5977/slides/chapter4.pdf)
+5. [Improving employee safety with data](https://s3.amazonaws.com/assets.datacamp.com/production/course_5977/slides/chapter5.pdf)
 
-1. Identifying the best recruiting source
-2. What is driving low employee engagement?
-3. Are new hires getting paid too much?
-4. Are performance ratings being given consistently?
-5. Improving employee safety with data
-
-data
-
+data (csv)
 * [Recruitment data](https://assets.datacamp.com/production/course_5977/datasets/recruitment_data.csv)
 * [Survey data](https://assets.datacamp.com/production/course_5977/datasets/survey_data.csv)
 * [Fair pay data](https://assets.datacamp.com/production/course_5977/datasets/fair_pay_data.csv)
