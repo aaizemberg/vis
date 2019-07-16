@@ -35,19 +35,25 @@ librerias utilizadas: pandas y sklearn (scikit-learn)
 
 \#kaggle \#IBM
 
-## [Predicting Employee Churn in Python](https://www.datacamp.com/community/tutorials/predicting-employee-churn-python)
+## Predicting Employee Churn in Python
+
+by Avinash Navlani
+
+[article](https://www.datacamp.com/community/tutorials/predicting-employee-churn-python)
 
 [HR_comma_sep.csv](HR_comma_sep.csv)
 
-keywords: \#datacamp, \#article, \#python
+keywords: \#datacamp \#article \#tutorial \#python
 
 ## HR Analytics in Python: Predicting Employee Churn
 
 keywords: \#datacamp \#course \#python
 
-Hrant Davtyan, Assistant Professor of Data Science at the American University of Armenia
+[course](https://www.datacamp.com/courses/hr-analytics-in-python-predicting-employee-churn)
 
-[Employee turnover data](https://assets.datacamp.com/production/repositories/1765/datasets/ae888d00f9b36dd7d50a4afbc112761e2db766d2/turnover.csv)
+by Hrant Davtyan, Assistant Professor of Data Science at the American University of Armenia
+
+[Employee turnover data (csv)](https://assets.datacamp.com/production/repositories/1765/datasets/ae888d00f9b36dd7d50a4afbc112761e2db766d2/turnover.csv)
 
 * [Introduction to HR Analytics](https://s3.amazonaws.com/assets.datacamp.com/production/course_6221/slides/chapter1.pdf)
 * [Predicting employee turnover](https://s3.amazonaws.com/assets.datacamp.com/production/course_6221/slides/chapter2.pdf)
