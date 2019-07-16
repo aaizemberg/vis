@@ -33,6 +33,7 @@ https://towardsdatascience.com/people-analytics-with-attrition-predictions-12adc
 python
 librerias utilizadas: pandas y sklearn (scikit-learn)
 
-2. HR_comma_sep.csv
+2. [HR_comma_sep.csv](HR_comma_sep.csv)
 
 3. [turnover.csv](https://assets.datacamp.com/production/repositories/1765/datasets/ae888d00f9b36dd7d50a4afbc112761e2db766d2/turnover.csv)
+
