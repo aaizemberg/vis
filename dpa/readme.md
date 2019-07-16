@@ -37,6 +37,8 @@ librerias utilizadas: pandas y sklearn (scikit-learn)
 
 [HR_comma_sep.csv](HR_comma_sep.csv)
 
+keywords: \#datacamp, \#article, \#python
+
 ## [turnover.csv](https://assets.datacamp.com/production/repositories/1765/datasets/ae888d00f9b36dd7d50a4afbc112761e2db766d2/turnover.csv)
 
 ## [Human Resources Analytics in R: Exploring Employee Data](https://www.datacamp.com/courses/human-resources-analytics-in-r-exploring-employee-data)
@@ -56,3 +58,5 @@ librerias utilizadas: pandas y sklearn (scikit-learn)
 [HR data (2)](https://assets.datacamp.com/production/course_5977/datasets/hr_data_2.csv)
 
 [Survey data (2)](https://assets.datacamp.com/production/course_5977/datasets/survey_data_2.csv)
+
+keywords: \#datacamp, \#course, \#R
