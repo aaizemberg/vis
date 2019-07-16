@@ -1,6 +1,6 @@
 # Conjunto de datos para HR Analytics
 
-1. [WA_Fn-UseC_-HR-Employee-Attrition.csv](WA_Fn-UseC_-HR-Employee-Attrition.csv)
+## [WA_Fn-UseC_-HR-Employee-Attrition.csv](WA_Fn-UseC_-HR-Employee-Attrition.csv)
 
 El archivo [WA_Fn-UseC_-HR-Employee-Attrition.csv](WA_Fn-UseC_-HR-Employee-Attrition.csv) lo tome de una competencia de kaggle -->  https://www.kaggle.com/pavansubhasht/ibm-hr-analytics-attrition-dataset
 
@@ -25,7 +25,7 @@ Uncover the factors that lead to employee attrition and explore important questi
 
 **WorkLifeBalance** 1 'Bad' 2 'Good' 3 'Better' 4 'Best'
 
-## Articulos que se han escrito con este dataset:
+Articulos que se han escrito con este dataset:
 
 Natasha Sharma May 18, 2018
 People Analytics with Attrition Predictions
@@ -33,13 +33,13 @@ https://towardsdatascience.com/people-analytics-with-attrition-predictions-12adc
 python
 librerias utilizadas: pandas y sklearn (scikit-learn)
 
-2. [Predicting Employee Churn in Python](https://www.datacamp.com/community/tutorials/predicting-employee-churn-python)
+## [Predicting Employee Churn in Python](https://www.datacamp.com/community/tutorials/predicting-employee-churn-python)
 
 [HR_comma_sep.csv](HR_comma_sep.csv)
 
-3. [turnover.csv](https://assets.datacamp.com/production/repositories/1765/datasets/ae888d00f9b36dd7d50a4afbc112761e2db766d2/turnover.csv)
+## [turnover.csv](https://assets.datacamp.com/production/repositories/1765/datasets/ae888d00f9b36dd7d50a4afbc112761e2db766d2/turnover.csv)
 
-4. [Human Resources Analytics in R: Exploring Employee Data](https://www.datacamp.com/courses/human-resources-analytics-in-r-exploring-employee-data)
+## [Human Resources Analytics in R: Exploring Employee Data](https://www.datacamp.com/courses/human-resources-analytics-in-r-exploring-employee-data)
 
 [Recruitment data](https://assets.datacamp.com/production/course_5977/datasets/recruitment_data.csv)
 
