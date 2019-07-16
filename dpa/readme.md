@@ -55,27 +55,37 @@ by Hrant Davtyan, Assistant Professor of Data Science at the American University
 
 [Employee turnover data (csv)](https://assets.datacamp.com/production/repositories/1765/datasets/ae888d00f9b36dd7d50a4afbc112761e2db766d2/turnover.csv)
 
-* [Introduction to HR Analytics](https://s3.amazonaws.com/assets.datacamp.com/production/course_6221/slides/chapter1.pdf)
-* [Predicting employee turnover](https://s3.amazonaws.com/assets.datacamp.com/production/course_6221/slides/chapter2.pdf)
-* [Evaluating the turnover prediction model](https://s3.amazonaws.com/assets.datacamp.com/production/course_6221/slides/chapter3.pdf)
-* [Choosing the best turnover prediction model](https://s3.amazonaws.com/assets.datacamp.com/production/course_6221/slides/chapter4.pdf)
+1. [Introduction to HR Analytics](https://s3.amazonaws.com/assets.datacamp.com/production/course_6221/slides/chapter1.pdf)
+2. [Predicting employee turnover](https://s3.amazonaws.com/assets.datacamp.com/production/course_6221/slides/chapter2.pdf)
+3. [Evaluating the turnover prediction model](https://s3.amazonaws.com/assets.datacamp.com/production/course_6221/slides/chapter3.pdf)
+4. [Choosing the best turnover prediction model](https://s3.amazonaws.com/assets.datacamp.com/production/course_6221/solides/chapter4.pdf)
 
-## [Human Resources Analytics in R: Exploring Employee Data](https://www.datacamp.com/courses/human-resources-analytics-in-r-exploring-employee-data)
+## Human Resources Analytics in R: Exploring Employee Data
 
 keywords: \#datacamp \#course \#R
 
-[Recruitment data](https://assets.datacamp.com/production/course_5977/datasets/recruitment_data.csv)
+[course](https://www.datacamp.com/courses/human-resources-analytics-in-r-exploring-employee-data)
 
-[Survey data](https://assets.datacamp.com/production/course_5977/datasets/survey_data.csv)
+pre-requisitos
 
-[Fair pay data](https://assets.datacamp.com/production/course_5977/datasets/fair_pay_data.csv)
+1. Introduction to the Tidyverse
+2. Correlation and Regression
 
-[Performance data](https://assets.datacamp.com/production/course_5977/datasets/performance_data.csv)
+slides
 
-[HR data](https://assets.datacamp.com/production/course_5977/datasets/hr_data.csv)
+1. Identifying the best recruiting source
+2. What is driving low employee engagement?
+3. Are new hires getting paid too much?
+4. Are performance ratings being given consistently?
+5. Improving employee safety with data
 
-[Accident data](https://assets.datacamp.com/production/course_5977/datasets/accident_data.csv)
+data
 
-[HR data (2)](https://assets.datacamp.com/production/course_5977/datasets/hr_data_2.csv)
-
-[Survey data (2)](https://assets.datacamp.com/production/course_5977/datasets/survey_data_2.csv)
+* [Recruitment data](https://assets.datacamp.com/production/course_5977/datasets/recruitment_data.csv)
+* [Survey data](https://assets.datacamp.com/production/course_5977/datasets/survey_data.csv)
+* [Fair pay data](https://assets.datacamp.com/production/course_5977/datasets/fair_pay_data.csv)
+* [Performance data](https://assets.datacamp.com/production/course_5977/datasets/performance_data.csv)
+* [HR data](https://assets.datacamp.com/production/course_5977/datasets/hr_data.csv)
+* [Accident data](https://assets.datacamp.com/production/course_5977/datasets/accident_data.csv)
+* [HR data (2)](https://assets.datacamp.com/production/course_5977/datasets/hr_data_2.csv)
+* [Survey data (2)](https://assets.datacamp.com/production/course_5977/datasets/survey_data_2.csv)
