@@ -1,12 +1,19 @@
 # Conjunto de datos para HR Analytics
 
-## [WA_Fn-UseC_-HR-Employee-Attrition.csv](WA_Fn-UseC_-HR-Employee-Attrition.csv)
+## IBM HR Employee Attrition
 
-El archivo [WA_Fn-UseC_-HR-Employee-Attrition.csv](WA_Fn-UseC_-HR-Employee-Attrition.csv) lo tome de una competencia de kaggle -->  https://www.kaggle.com/pavansubhasht/ibm-hr-analytics-attrition-dataset
+\#kaggle \#competencia \#dataset \#IBM
 
-Metadata
+dataset (csv)
+1, [WA_Fn-UseC_-HR-Employee-Attrition.csv](WA_Fn-UseC_-HR-Employee-Attrition.csv)
 
-Uncover the factors that lead to employee attrition and explore important questions such as 'show me a breakdown of distance from home by job role and attrition' or 'compare average monthly income by education and attrition'. This is a fictional data set created by IBM data scientists.
+El archivo lo tome de una competencia de kaggle -->  https://www.kaggle.com/pavansubhasht/ibm-hr-analytics-attrition-dataset
+
+Cosas que se pueden hacer con este dataset: *Uncover the factors that lead to employee attrition and explore important questions such as 'show me a breakdown of distance from home by job role and attrition' or 'compare average monthly income by education and attrition'.*
+
+This is a fictional data set created by IBM data scientists.
+
+metadata
 
 **Education** 1 'Below College' 2 'College' 3 'Bachelor' 4 'Master' 5 'Doctor'
 
@@ -25,23 +32,21 @@ Uncover the factors that lead to employee attrition and explore important questi
 
 **WorkLifeBalance** 1 'Bad' 2 'Good' 3 'Better' 4 'Best'
 
-Articulos que se han escrito con este dataset:
+articulos que se han escrito con este dataset:
 
 Natasha Sharma May 18, 2018
 People Analytics with Attrition Predictions
 https://towardsdatascience.com/people-analytics-with-attrition-predictions-12adcce9573f
-python
-librerias utilizadas: pandas y sklearn (scikit-learn)
-
-\#kaggle \#IBM
+\#python librerias utilizadas: **pandas** y **sklearn** (scikit-learn)
 
 ## Predicting Employee Churn in Python
 
+keywords: \#datacamp \#article \#tutorial \#python
+
 [article](https://www.datacamp.com/community/tutorials/predicting-employee-churn-python)
 
-[HR_comma_sep.csv](HR_comma_sep.csv)
-
-keywords: \#datacamp \#article \#tutorial \#python
+data (csv)
+1. [HR_comma_sep.csv](HR_comma_sep.csv)
 
 ## HR Analytics in Python: Predicting Employee Churn
 
