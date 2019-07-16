@@ -33,17 +33,26 @@ https://towardsdatascience.com/people-analytics-with-attrition-predictions-12adc
 python
 librerias utilizadas: pandas y sklearn (scikit-learn)
 
-2. [HR_comma_sep.csv](HR_comma_sep.csv)
+2. [Predicting Employee Churn in Python](https://www.datacamp.com/community/tutorials/predicting-employee-churn-python)
+
+[HR_comma_sep.csv](HR_comma_sep.csv)
 
 3. [turnover.csv](https://assets.datacamp.com/production/repositories/1765/datasets/ae888d00f9b36dd7d50a4afbc112761e2db766d2/turnover.csv)
 
 4. [Human Resources Analytics in R: Exploring Employee Data](https://www.datacamp.com/courses/human-resources-analytics-in-r-exploring-employee-data)
 
-4.2 Recruitment data
-4.3 Survey data
-4.4 Fair pay data
-4.5 Performance data
-4.6 HR data
-4.7 Accident data
-4.8 HR data (2)
-4.9 Survey data (2)
+[Recruitment data](https://assets.datacamp.com/production/course_5977/datasets/recruitment_data.csv)
+
+[Survey data](https://assets.datacamp.com/production/course_5977/datasets/survey_data.csv)
+
+[Fair pay data](https://assets.datacamp.com/production/course_5977/datasets/fair_pay_data.csv)
+
+[Performance data](https://assets.datacamp.com/production/course_5977/datasets/performance_data.csv)
+
+[HR data](https://assets.datacamp.com/production/course_5977/datasets/hr_data.csv)
+
+[Accident data](https://assets.datacamp.com/production/course_5977/datasets/accident_data.csv)
+
+[HR data (2)](https://assets.datacamp.com/production/course_5977/datasets/hr_data_2.csv)
+
+[Survey data (2)](https://assets.datacamp.com/production/course_5977/datasets/survey_data_2.csv)
