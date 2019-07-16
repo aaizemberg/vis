@@ -33,15 +33,30 @@ https://towardsdatascience.com/people-analytics-with-attrition-predictions-12adc
 python
 librerias utilizadas: pandas y sklearn (scikit-learn)
 
+\#kaggle \#IBM
+
 ## [Predicting Employee Churn in Python](https://www.datacamp.com/community/tutorials/predicting-employee-churn-python)
 
 [HR_comma_sep.csv](HR_comma_sep.csv)
 
 keywords: \#datacamp, \#article, \#python
 
-## [turnover.csv](https://assets.datacamp.com/production/repositories/1765/datasets/ae888d00f9b36dd7d50a4afbc112761e2db766d2/turnover.csv)
+## HR Analytics in Python: Predicting Employee Churn
+
+keywords: \#datacamp \#course \#python
+
+Hrant Davtyan, Assistant Professor of Data Science at the American University of Armenia
+
+[Employee turnover data](https://assets.datacamp.com/production/repositories/1765/datasets/ae888d00f9b36dd7d50a4afbc112761e2db766d2/turnover.csv)
+
+* [Introduction to HR Analytics](https://s3.amazonaws.com/assets.datacamp.com/production/course_6221/slides/chapter1.pdf)
+* [Predicting employee turnover](https://s3.amazonaws.com/assets.datacamp.com/production/course_6221/slides/chapter2.pdf)
+* [Evaluating the turnover prediction model](https://s3.amazonaws.com/assets.datacamp.com/production/course_6221/slides/chapter3.pdf)
+* [Choosing the best turnover prediction model](https://s3.amazonaws.com/assets.datacamp.com/production/course_6221/slides/chapter4.pdf)
 
 ## [Human Resources Analytics in R: Exploring Employee Data](https://www.datacamp.com/courses/human-resources-analytics-in-r-exploring-employee-data)
+
+keywords: \#datacamp \#course \#R
 
 [Recruitment data](https://assets.datacamp.com/production/course_5977/datasets/recruitment_data.csv)
 
@@ -58,5 +73,3 @@ keywords: \#datacamp, \#article, \#python
 [HR data (2)](https://assets.datacamp.com/production/course_5977/datasets/hr_data_2.csv)
 
 [Survey data (2)](https://assets.datacamp.com/production/course_5977/datasets/survey_data_2.csv)
-
-keywords: \#datacamp, \#course, \#R
