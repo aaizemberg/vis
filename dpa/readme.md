@@ -33,11 +33,12 @@ metadata
 **WorkLifeBalance** 1 'Bad' 2 'Good' 3 'Better' 4 'Best'
 
 articulos que se han escrito con este dataset:
-
-Natasha Sharma May 18, 2018
-People Analytics with Attrition Predictions
-https://towardsdatascience.com/people-analytics-with-attrition-predictions-12adcce9573f
-\#python librerias utilizadas: **pandas** y **sklearn** (scikit-learn)
+```
+ Natasha Sharma May 18, 2018
+ People Analytics with Attrition Predictions
+ https://towardsdatascience.com/people-analytics-with-attrition-predictions-12adcce9573f
+ #python librerias utilizadas: pandas y sklearn (scikit-learn)
+```
 
 ## Predicting Employee Churn in Python
 
