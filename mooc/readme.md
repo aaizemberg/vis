@@ -1,3 +1,11 @@
-Alberto Cairo dio un MOOC entre el 2012 y el 2013.
+Alberto Cairo dio un MOOC a traves de la _Knight Center for Journalism in the Americas_ **Data Visualization for Storytelling and Discovery** en el año 2012 y 2013.
 
-Aqui les dejo los links a los videos y la cantidad de reproducciones (al 07/2019)
+Armé un pequeño dataset, con los links a los videos y la cantidad de reproducciones (al 07/2019)
+
+Despues, volvió a dar otro curso en el 2018, esta vez con el apoyo de Google **Learn data visualization from Alberto Cairo** 
+
+https://knightcenter.utexas.edu/blog/00-19671-learn-data-visualization-alberto-cairo-sign-knight-centers-free-online-course-offered-
+
+Todo el material de este curso, lo podemos encontrar en este lugar https://journalismcourses.org/data-viz-course-material.html
+
+¡¡¡Gracias Alberto Cairo!!!
