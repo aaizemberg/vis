@@ -1,0 +1,18 @@
+<!doctype html>
+<meta charset="utf-8">
+
+<script src="//d3plus.org/js/d3.min.js"></script>
+<script src="//d3plus.org/js/d3plus.min.js"></script>
+
+<div id="viz"></div>
+
+<script>
+  d3plus.viz()
+    .container("#viz")
+    .data("https://raw.githubusercontent.com/aaizemberg/vis/gh-pages/mooc/videos.tsv")  
+    .type("bar")       
+    .x("id")         
+    .y("views")
+    .text("title")
+    .draw();
+</script>
