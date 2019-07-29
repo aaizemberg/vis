@@ -1,0 +1,376 @@
+pos	nombre	categoria	club	puntos	variacion	n_categoria
+1	Bayona, Lucas	División de Honor	La Reja	3284	4	0
+2	Bentancor, Martín	División de Honor	Ferrocarril Oeste	3197	4	0
+3	Fuentes, Leandro	División de Honor	Alvear Club	3097	4	0
+4	Lorenzo, Santiago	División de Honor	Atlanta	3000	26	0
+5	Orencel Melnick, Alexis	División de Honor	San Lorenzo	2909	7	0
+6	Joffre, Tomás	División de Honor	Ntra. Señora Lourdes	2826	0	0
+7	Sato Coria, Lautaro	División de Honor	Alvear Club	2825	4	0
+8	Remon, Juan Pablo	División de Honor	River Plate	2796	21	0
+9	Guadalupe, Matías	División de Honor	Ferrocarril Oeste	2793	3	0
+10	Bayona, Rodrigo	División de Honor	La Reja	2757	-19	0
+11	Costantino, Daniel	División de Honor	River Plate	2739	-20	0
+12	Gibo, Nicolás	División de Honor	Alvear Club	2690	9	0
+13	Velarde, Matias	División de Honor	La Reja	2660	6	0
+14	Acciaresi, Mariano	División de Honor	UGAB	2645	9	0
+15	Jang, Luciano	División de Honor	Ferrocarril Oeste	2619	6	0
+16	Pighini, Matías	División de Honor	Ntra. Señora Lourdes	2577	-34	0
+17	Costantino, Gabriel	División de Honor	CEDIMA	2549	4	0
+18	Yamamoto, Leandro	División de Honor	Alvear Club	2518	0	0
+19	De Francesco, Nicolás	División de Honor	Fenix	2515	-7	0
+20	Criado, Federico	División de Honor	Fenix	2497	7	0
+21	Mendez, Mariano	División de Honor	UGAB	2488	-16	0
+22	Sotto, Tomás	División de Honor	Ntra. Señora Lourdes	2459	22	0
+23	Gabaldon, Christopher	División de Honor	Fenix	2427	32	0
+24	Cieza, Ivan	División de Honor	UGAB	2413	0	0
+25	Mariño, Ignacio Javier	Primera División	CEDIMA	2380	0	1
+26	Iwasa, Agustina	Primera División	River Plate	2270	0	1
+27	Conde Meira, Matías	Primera División	Peretz	2269	3	1
+28	Lopez Marquez, Ezequiel	Primera División	Fenix	2253	0	1
+29	Casal, Octavio	Primera División	Peretz	2252	-2	1
+30	Beloqui, Ramón	Primera División	River Plate	2238	0	1
+31	Delgadillo, Rodrigo	Primera División	San Lorenzo	2216	0	1
+32	Blasco, Francisco Thomas	Primera División	La Legión TDM	2210	-3	1
+33	Ciancio, Nicolás	Primera División	Top Minc	2198	-5	1
+34	Marini, Santiago	Primera División	Ferrocarril Oeste	2196	0	1
+35	Spinelli, Franco	Primera División	Ferrocarril Oeste	2191	9	1
+36	Ramos, Mauro	Primera División	Fenix	2131	4	1
+37	Gonzalez Dos Santos, Patricio	Primera División	Ntra. Señora Lourdes	2122	9	1
+38	Bronstein, Leandro	Primera División	River Plate	2117	0	1
+39	Merkin, Alan Gabriel	Primera División	River Plate	2102	0	1
+40	Valdes, Tobias D.	Primera División	CEDIMA	2054	7	1
+41	Neira, Darío	Primera División	Top Minc	2053	2	1
+42	Novizki, Pablo	Primera División	UBA Exactas	2049	-38	1
+43	Tchintchinian, Mariano	Primera División	UGAB	2039	-25	1
+44	Melluso, Salvador	Primera División	Gimnasty	2037	0	1
+45	Kamimura, Emilio	Primera División	Soc. Fomento CAVA	2004	7	1
+46	Lovera Arteaga, Mainor	Primera División	La Legión TDM	1967	-9	1
+47	Carvalho, Lucas	Primera División	Top Minc	1962	0	1
+48	Satriani, Genaro	Primera División	Ferrocarril Oeste	1948	0	1
+49	Marginet Campos, Alejandro	Primera División	La Reja	1948	-3	1
+50	Viotti, Lucas	Primera División	Nikkei TDM	1935	-31	1
+51	Fernandez, Axel	Primera División	UGAB	1934	0	1
+52	Morrazo, Agustín	Primera División	Atlanta	1918	7	1
+53	Gurevich, Ariel	Primera División	Macabi	1916	0	1
+54	Felscher, Jonathan	Primera División	Ateneo de Versailles	1899	0	1
+55	Lamazon, Gustavo Gabriel	Primera División	Soc. Fomento CAVA	1891	-30	1
+56	Valdez, Eduardo	Primera División	Alvear Club	1880	0	1
+57	Avian, Ignacio	Primera División	Fenix	1847	17	1
+58	Tresca, Gastón	Primera División	Fenix	1840	-8	1
+59	Buzzi, Maximiliano	Primera División	Top Minc	1821	0	1
+60	Callaba, Nicolás	Primera División	Gimnasty	1819	0	1
+61	Bellusci, Nicolás	Segunda División	Fenix	1817	0	2
+62	Achaval, Joaquin	Segunda División	Nikkei TDM	1813	0	2
+63	Cisilin, Estanislao	Segunda División	Inst. Compañía María	1806	-6	2
+64	Olmos, Agustin	Segunda División	Zenit	1798	49	2
+65	Blasco, Lisandro	Segunda División	Top Minc	1789	82	2
+66	Strah, Juan Pablo	Segunda División	Ntra. Señora Lourdes	1785	-6	2
+67	Bellusci, Pablo	Segunda División	Fenix	1777	-24	2
+68	Basso, Valentin	Segunda División	Gimnasty	1776	0	2
+69	Peña, Franco	Segunda División	Atlanta	1767	12	2
+70	Marini, Joaquín	Segunda División	Ferrocarril Oeste	1764	15	2
+71	Romero, Santiago	Segunda División	Ateneo de Versailles	1763	-5	2
+72	Ortega, Maximiliano	Segunda División	Soc. Fomento CAVA	1758	-4	2
+73	Quintana, Lucas	Segunda División	Ntra. Señora Lourdes	1749	26	2
+74	Olmedo, Pablo	Segunda División	Ntra. Señora Lourdes	1701	14	2
+75	Lovera Arteaga, Crismi Paola	Segunda División	La Legión TDM	1685	0	2
+76	Waitzel, Ariel	Segunda División	Inst. Compañía María	1681	-65	2
+77	Aguirre, Daniel	Segunda División	TMR	1676	14	2
+78	Mallo, Federico Oscar	Segunda División	Alvear Club	1675	0	2
+79	Pierini, Ariel	Segunda División	Ateneo de Versailles	1665	29	2
+80	Sato, Maximiliano	Segunda División	Rioja	1665	-8	2
+81	Weiss, Alan	Segunda División	La Legión TDM	1662	19	2
+82	Kaniuka, Aleksy	Segunda División	CEDIMA	1657	22	2
+83	Bertran, Ezequiel	Segunda División	Inst. Compañía María	1650	2	2
+84	Marchese, Ignacio	Segunda División	Zenit	1646	11	2
+85	Sculco, Nahuel	Segunda División	Alvear Club	1646	-16	2
+86	Garcia, Román	Segunda División	Gimnasty	1644	0	2
+87	Uesugui, Rafael	Segunda División	Soc. Fomento CAVA	1639	0	2
+88	Tula, Ricardo	Segunda División	Nikkei TDM	1637	26	2
+89	Pighini, Pablo	Segunda División	Ntra. Señora Lourdes	1637	0	2
+90	Aguirre, Sebastián	Segunda División	Inst. Compañía María	1636	0	2
+91	Hurevich, Tobias	Segunda División	Ferrocarril Oeste	1634	21	2
+92	Palazzo, Didier	Segunda División	Ateneo de Versailles	1630	37	2
+93	Samaja, Facundo	Segunda División	CTDM Pato Nizetich	1629	1	2
+94	Buscema, Milton	Segunda División	Alvear Club	1627	2	2
+95	Sanabria, Oscar	Segunda División	La Reja	1626	-16	2
+96	Candela, Juan	Segunda División	Fenix	1623	-2	2
+97	Moscato, Alejandro	Segunda División	Alvear Club	1621	13	2
+98	Sarso, Luciano	Segunda División	Soc. Fomento CAVA	1602	-38	2
+99	Peralta Bello, Tiago	Segunda División	Gimnasty	1601	0	2
+100	Rossi, Mauro	Segunda División	CPCN Villa Gesell	1599	0	2
+101	Burotto, Pablo	Segunda División	San Fernando TDM	1598	0	2
+102	Gutierrez, Marcelo	Segunda División	Libertad	1585	0	2
+103	Grimoldi, Maximiliano	Segunda División	UGAB	1583	-16	2
+104	Fermanelli, Pedro	Segunda División	Ntra. Señora Lourdes	1582	12	2
+105	Medina, Nicolas	Segunda División	CTDM Pato Nizetich	1580	63	2
+106	Correas Espeche, Ezequiel	Segunda División	Peretz	1573	0	2
+107	Deym, Federico	Segunda División	Tigre Juniors	1572	14	2
+108	Camagna, Diego Andrés	Segunda División	Fenix	1562	0	2
+109	Fazio, Agustín	Segunda División	UGAB	1554	-3	2
+110	Nakagama, Alex R.	Segunda División	CTDM Pato Nizetich	1552	2	2
+111	Marchese, Joaquín	Tercera División	Zenit	1552	-14	3
+112	Almiron, Esteban	Tercera División	Ferrocarril Oeste	1548	-34	3
+113	Kravetz, Daniel	Tercera División	Ferrocarril Oeste	1546	0	3
+114	Bordenave, Galo	Tercera División	Nikkei TDM	1539	57	3
+115	Huici, Julián	Tercera División	Alvear Club	1538	0	3
+116	Rojo, Santiago	Tercera División	La Legión TDM	1536	-4	3
+117	Vera, Joaquín	Tercera División	La Reja	1534	45	3
+118	Acuña, Luis	Tercera División	Inst. Compañía María	1534	31	3
+119	Pastore, Daniel	Tercera División	Rioja	1533	0	3
+120	Milgram, Uriel	Tercera División	Macabi	1532	21	3
+121	Jang, Agustín	Tercera División	Ferrocarril Oeste	1528	-10	3
+122	Jaimovich, Ignacio	Tercera División	Top Minc	1522	59	3
+123	Perez, Alejandro	Tercera División	CEDIMA	1510	-16	3
+124	Sanucci, Matías	Tercera División	La Reja	1508	47	3
+125	Cassara, Omar	Tercera División	River Plate	1502	-6	3
+126	Carusso, Roberto	Tercera División	San Lorenzo	1484	0	3
+127	Rotryng Alvarez, Facundo	Tercera División	Macabi	1481	-4	3
+128	Chapuis, Kevin N.	Tercera División	TMR	1478	7	3
+129	Cespedes, Osvaldo	Tercera División	TMR	1470	0	3
+130	Selvaggi, Pablo	Tercera División	La Legión TDM	1470	0	3
+131	Baltaian, Leandro Alfredo	Tercera División	CTDM Pato Nizetich	1470	0	3
+132	Armoa, Santiago	Tercera División	Alvear Club	1457	-8	3
+133	Camposaragna, Gian Franco	Tercera División	La Legión TDM	1451	27	3
+134	Otero Saumell, Juan	Tercera División	CTDM Pato Nizetich	1444	0	3
+135	Regner, Martín	Tercera División	U.V.V.A.	1425	0	3
+136	Fusaro, Pablo	Tercera División	Fenix	1419	0	3
+137	Vigolo, Alejandro	Tercera División	Padilla	1417	-17	3
+138	Albanese, Juan Manuel	Tercera División	Padilla	1412	24	3
+139	Acosta Rios, Juan Ignacio	Tercera División	Top Minc	1412	7	3
+140	Faranca, Matias	Tercera División	CTDM Pato Nizetich	1411	13	3
+141	Maza, Diego Hernán	Tercera División	San Fernando TDM	1410	0	3
+142	Martinez, Federico	Tercera División	UGAB	1406	28	3
+143	Salvatierra, Marcelo	Tercera División	TMR	1406	0	3
+144	Gonzalez Castañon, Hernán	Tercera División	Inst. Compañía María	1405	0	3
+145	Ortiz, Carlos N.	Tercera División	Libertad	1404	0	3
+146	Miyagi, Dario	Tercera División	Nikkei TDM	1402	0	3
+147	Navarro, Sergio Fernando	Tercera División	Inst. Compañía María	1402	0	3
+148	Delgado, Gastón	Tercera División	Fenix	1401	0	3
+149	Casanova, Eduardo	Tercera División	UGAB	1397	0	3
+150	Bernasconi, Felipe	Tercera División	Libre	1394	12	3
+151	Elnen, Mariano	Tercera División	La Legión TDM	1378	-2	3
+152	Opazo, David	Tercera División	Padilla	1370	-7	3
+153	Assennato, Sebastián	Tercera División	River Plate	1359	-10	3
+154	Maeshiro, Kevin	Tercera División	Alvear Club	1354	0	3
+155	Frasson, Gabriel	Tercera División	TMR	1351	26	3
+156	Completa, Martín	Tercera División	UBA Exactas	1350	-7	3
+157	Slinin, Julio	Tercera División	UGAB	1349	0	3
+158	Grondona, Sebastián	Tercera División	Gimnasty	1347	0	3
+159	Cardoso, Andres N	Tercera División	Soc. Fomento CAVA	1341	0	3
+160	Bonanata, Ignacio	Tercera División	Ntra. Señora Lourdes	1340	15	3
+161	Amendola, Julio	Cuarta División	Soc. Fomento CAVA	1333	0	4
+162	Mortula, Luciano	Cuarta División	La Legión TDM	1333	-6	4
+163	Lomovasky, Andrés	Cuarta División	CTDM Pato Nizetich	1326	0	4
+164	Gonzalez Fernandez, Agustín	Cuarta División	Ntra. Señora Lourdes	1317	-9	4
+165	Liebana, Juan Cruz	Cuarta División	La Legión TDM	1312	0	4
+166	Mirabelli, Ariel	Cuarta División	Alvear Club	1311	11	4
+167	Suarez, Agustin	Cuarta División	Nikkei TDM	1304	25	4
+168	Bancora, Máximo	Cuarta División	Inst. Compañía María	1296	0	4
+169	Barg, Matias Javier	Cuarta División	Atlanta	1295	0	4
+170	Gans, Ignacio	Cuarta División	Macabi	1294	17	4
+171	Szeinfain, Thomas	Cuarta División	Ateneo de Versailles	1294	-16	4
+172	Gomez, Tomas	Cuarta División	Tigre Juniors	1288	11	4
+173	Tula, Fabio	Cuarta División	Nikkei TDM	1287	12	4
+174	Pollini, Santiago	Cuarta División	Ntra. Señora Lourdes	1283	-9	4
+175	Rizzo, Juan	Cuarta División	Garin Tenis de Mesa	1279	0	4
+176	Falles, Miguel Angel	Cuarta División	Gimnasty	1275	0	4
+177	Greco, Juan Carlos	Cuarta División	Ferrocarril Oeste	1274	-4	4
+178	Porciello, Angel David	Cuarta División	Oeste TDM Catán	1266	0	4
+179	Tamashiro, Daniel	Cuarta División	Inst. Compañía María	1264	0	4
+180	Yonamine, Ricardo	Cuarta División	UGAB	1263	11	4
+181	Dorigoni, Enzo	Cuarta División	Libertad	1262	0	4
+182	Vera, Agustín	Cuarta División	La Reja	1249	-4	4
+183	Rajmil, Bernardo	Cuarta División	Peretz	1244	0	4
+184	Valenzuela, Jonathan	Cuarta División	Adrogue Sith Spin	1241	0	4
+185	Cohen, Claudio	Cuarta División	Cedem no 2	1239	0	4
+186	Atamian, Martín	Cuarta División	Alvear Club	1234	0	4
+187	Krotsch, Pablo	Cuarta División	CPCN Villa Gesell	1231	0	4
+188	Martinez, Diego O.	Cuarta División	C.A.S.A. de Padua	1225	0	4
+189	Olmos, Alan	Cuarta División	Zenit	1221	1	4
+190	Saul, Felipe	Cuarta División	Alvear Club	1217	6	4
+191	Ortiz, Cristian	Cuarta División	TMR	1217	0	4
+192	Cabrera, Tomas	Cuarta División	Ingeniero Acosta	1214	0	4
+193	Viñas, Nicolás	Cuarta División	Atlanta	1208	-7	4
+194	Gonzalez, Lucas Horacio	Cuarta División	Top Minc	1207	0	4
+195	Berutti, Miguel	Cuarta División	Alvear Club	1206	12	4
+196	Cuska, Daniel Eduardo	Cuarta División	Ntra. Señora Lourdes	1190	-30	4
+197	Autorino, José	Cuarta División	Nikkei TDM	1188	0	4
+198	Gonzalez, José	Cuarta División	Ntra. Señora Lourdes	1182	3	4
+199	Guglielmone, Gustavo	Cuarta División	Fenix	1181	0	4
+200	Rodriguez Salem, Ignacio	Cuarta División	Gimnasty	1170	0	4
+201	Fernandez Pizzella, Valentin	Cuarta División	Ferrocarril Oeste	1167	27	4
+202	Petrasso, Leonardo	Cuarta División	Soc. Fomento CAVA	1160	0	4
+203	Aizemberg, Ariel	Cuarta División	Fenix	1145	-17	4
+204	Erlich, Damian Ariel	Cuarta División	Top Minc	1144	0	4
+205	Müller, Daniel	Cuarta División	La Legión TDM	1140	0	4
+206	Stefanini, Sebastián	Cuarta División	C.A.S.A. de Padua	1134	19	4
+207	Aquino, Manuel	Cuarta División	River Plate	1127	-11	4
+208	Dorrego, Javier	Cuarta División	Ferrocarril Oeste	1123	14	4
+209	Ferro, Pablo	Cuarta División	TMR	1122	0	4
+210	Bisforo, Lucas	Cuarta División	Padilla	1121	24	4
+211	Fernandez Lombardo, Ramiro	Quinta División	UGAB	1117	7	5
+212	Yamaguchi, Luis Alberto	Quinta División	Peñarol	1090	-14	5
+213	Luciani, Daniel H.	Quinta División	C.A.S.A. de Padua	1088	9	5
+214	Anguillesi, Miguel	Quinta División	Fenix	1088	-34	5
+215	Bustamante, Matías	Quinta División	Ntra. Señora Lourdes	1086	13	5
+216	Santellan, Wilfredo Germán	Quinta División	Fenix	1072	0	5
+217	De Bonis, Ignacio	Quinta División	U.V.V.A.	1069	0	5
+218	Ghini, Bruno	Quinta División	Ateneo de Versailles	1060	6	5
+219	Kozachuk, Damián	Quinta División	Peñarol	1059	18	5
+220	Leon, Tomas	Quinta División	Top Minc	1059	11	5
+221	Sosa, Mateo	Quinta División	River Plate	1055	9	5
+222	Demoor, Rodrigo A.	Quinta División	Ingeniero Acosta	1049	0	5
+223	Convertini, Pablo	Quinta División	Top Minc	1047	0	5
+224	Geronimo, Ismael Alejandro	Quinta División	Top Minc	1042	0	5
+225	Joszpe, Santiago	Quinta División	Top Minc	1034	7	5
+226	Szekasy, Valentín	Quinta División	Inst. Compañía María	1034	0	5
+227	Gavelan, Juan	Quinta División	CPCN Villa Gesell	1032	0	5
+228	Mira, Pablo	Quinta División	Top Minc	1032	0	5
+229	Galindez, Oscar	Quinta División	Ntra. Señora Lourdes	1030	0	5
+230	Faranca, Dario	Quinta División	La Reja	1028	-24	5
+231	Gualtieri, Héctor	Quinta División	Ntra. Señora Lourdes	1026	0	5
+232	Mariño, Naomí	Quinta División	CEDIMA	1022	0	5
+233	Mauas, Adrián	Quinta División	CTDM Pato Nizetich	1020	-15	5
+234	Vazquez, Alejandro	Quinta División	River Plate	1019	41	5
+235	Lombardi, Lucas	Quinta División	Gimnasty	1016	0	5
+236	De Stefano, Pablo	Quinta División	Alvear Club	1012	2	5
+237	Bercellini, Andrés	Quinta División	Nikkei TDM	1011	0	5
+238	Caligaris, Juan	Quinta División	UGAB	1004	15	5
+239	Perez Molet, Luis	Quinta División	Fenix	998	0	5
+240	Hurevich, Javier	Quinta División	Macabi	998	-38	5
+241	Lomban, Bautista	Quinta División	Inst. Compañía María	996	-3	5
+242	Campodonico, Diego M	Quinta División	Padilla	995	24	5
+243	Okuyama, Abril	Quinta División	Peretz	994	3	5
+244	Castillo, Daniel F.	Quinta División	Gimnasty	993	0	5
+245	Medina, Sebastian	Quinta División	CTDM Pato Nizetich	993	-29	5
+246	Parodi, Oscar	Quinta División	Alvear Club	993	-30	5
+247	Baumlis, Debora	Quinta División	River Plate	987	8	5
+248	Fernandez Mugica, Mariano	Quinta División	Inst. Compañía María	986	-10	5
+249	Leiva, Pablo	Quinta División	Alvear Club	982	0	5
+250	Poloni Napoli, Valentin	Quinta División	Libertad	965	0	5
+251	Wickmann, Lautaro	Quinta División	Nichia Gakuin	963	0	5
+252	Matsumoto, Karen	Quinta División	Peretz	961	17	5
+253	Paz, Santiago	Quinta División	Fenix	955	-13	5
+254	Liebana, Benjamin	Quinta División	La Legión TDM	940	0	5
+255	Bobba, Juan	Quinta División	MTMs	939	-4	5
+256	Romero, Nicolás	Quinta División	La Legión TDM	934	0	5
+257	Fernandez Mugica, Santiago	Quinta División	Inst. Compañía María	933	-7	5
+258	Vignolo, Matias Daniel	Quinta División	Fenix	931	-13	5
+259	Isola, Andres	Quinta División	MTMs	927	35	5
+260	Aguiar, Gonzalo	Quinta División	Tigre Juniors	923	0	5
+261	Bejarano, Agustin	Sexta División	Alvear Club	912	3	6
+262	Fantozzi, Alejandro	Sexta División	Top Minc	911	-9	6
+263	Martin, Nicolás	Sexta División	C.A.S.A. de Padua	905	-13	6
+264	Canteros, Cristian	Sexta División	Ferrocarril Oeste	904	-4	6
+265	Pepe, Matias	Sexta División	La Legión TDM	901	0	6
+266	Dappiano, Martin	Sexta División	Fenix	899	-5	6
+267	Moscato, Néstor	Sexta División	Alvear Club	896	0	6
+268	Pollini, Mariano	Sexta División	Ntra. Señora Lourdes	893	0	6
+269	Vera, Gabriel	Sexta División	Peretz	893	0	6
+270	Villegas, Pablo	Sexta División	MTMs	886	0	6
+271	Martinez, Mario Raúl	Sexta División	TMR	879	0	6
+272	Maldonado, Francisco M.	Sexta División	La Legión TDM	872	-14	6
+273	Albis, Daniela	Sexta División	TMR	870	6	6
+274	Bozzuto, Luciano	Sexta División	Social Club TDM	870	-4	6
+275	Laiño, Alejandro Daniel	Sexta División	Soc. Fomento CAVA	858	0	6
+276	Cortez, Claudio	Sexta División	Top Minc	850	-30	6
+277	Soldi, Juan Andres	Sexta División	Gimnasty	843	0	6
+278	Duek, Joaquin	Sexta División	Macabi	842	11	6
+279	Cordova, Héctor	Sexta División	Peñarol	839	0	6
+280	Bradi, Juan Manuel	Sexta División	Top Minc	838	0	6
+281	Villanueva, Gonzalo	Sexta División	Top Minc	833	24	6
+282	Robinsohn, Gustavo	Sexta División	Inst. Compañía María	833	0	6
+283	Arnalda, Alejandro	Sexta División	Def. Santos Lugares	831	0	6
+284	Perez, Mauro	Sexta División	Libertad	829	0	6
+285	Smoldlaka, Guido I.	Sexta División	Alvear Club	824	-16	6
+286	De Lucca, Pablo	Sexta División	Gimnasty	823	0	6
+287	Lopez, Ariel Orlando	Sexta División	Alvear Club	820	0	6
+288	Valverde, Javier	Sexta División	Ferrocarril Oeste	817	-3	6
+289	Rejnharc, Joan	Sexta División	San Lorenzo	811	0	6
+290	Diaz, Fernando	Sexta División	Top Minc	794	0	6
+291	Saini, Martin G	Sexta División	Ntra. Señora Lourdes	786	21	6
+292	Mondino, Nicolas	Sexta División	Fenix	778	6	6
+293	Munafó, Pablo	Sexta División	Inst. Compañía María	773	0	6
+294	Ercolano, Marcelo	Sexta División	Peñarol	767	-8	6
+295	Serra Schoppe, Ariel I.	Sexta División	Inst. Compañía María	762	5	6
+296	Schvartz, Ivan	Sexta División	Macabi	761	11	6
+297	Espinosa, Juan Ignacio	Sexta División	La Legión TDM	753	-10	6
+298	Thisted, Marcos	Sexta División	La Legión TDM	751	-22	6
+299	Ciancio, Matias	Sexta División	Top Minc	750	24	6
+300	Mayo, Mateo	Sexta División	Inst. Compañía María	742	0	6
+301	Tirri, Javier	Sexta División	River Plate	737	0	6
+302	Peñate, Tomas N.	Sexta División	CTDM Pato Nizetich	736	7	6
+303	Convertini, Juliana	Sexta División	Top Minc	734	0	6
+304	Loiacono, Joaquin	Sexta División	Alvear Club	733	5	6
+305	Vera, Pablo	Sexta División	La Reja	732	-26	6
+306	Milgram, Roni	Sexta División	Macabi	730	-6	6
+307	Cabrera, Marcos	Sexta División	TMR	728	0	6
+308	Santostefano, Marcelo	Sexta División	Tigre Juniors	727	0	6
+309	Carabajal, Adrian	Sexta División	Social Club TDM	726	10	6
+310	Sasson, Maximiliano D	Sexta División	Macabi	725	0	6
+311	Da Fonseca, Walter	Séptima División	Padilla	708	15	7
+312	Torres, Sebastian	Séptima División	Fenix	703	10	7
+313	Fossatti, Jose	Séptima División	San Lorenzo	702	16	7
+314	Chang, David	Séptima División	Inst. Compañía María	695	0	7
+315	Jmelnizky, Rafi	Séptima División	Macabi	693	5	7
+316	Brudny, Diego E.	Séptima División	Macabi	674	-1	7
+317	Mantovano, Micaela	Séptima División	Alvear Club	669	20	7
+318	Hurevich, Mariano	Séptima División	River Plate	667	0	7
+319	Balcaza, Néstor	Séptima División	San Lorenzo	665	-8	7
+320	Beker, Dylan	Séptima División	Atlanta	663	-14	7
+321	Hummel, Lucas M.	Séptima División	Inst. Compañía María	661	-14	7
+322	Belsito, Martin	Séptima División	La Reja	659	0	7
+323	Monge, Paloma	Séptima División	Nikkei TDM	657	-7	7
+324	Lassaque, Andrés	Séptima División	Soc. Fomento CAVA	654	0	7
+325	Nupieri, Sofía	Séptima División	UGAB	650	6	7
+326	Takahashi, Brisa C.	Séptima División	Gimnasty	647	0	7
+327	Rodriguez, Martin A	Séptima División	Soc. Fomento CAVA	647	0	7
+328	Pereira, Martin	Séptima División	Social Club TDM	640	39	7
+329	Fuentes,Guido	Séptima División	River Plate	639	-9	7
+330	Chapuis, Maria Jacqueline	Séptima División	TMR	622	23	7
+331	Lopez, Ignacio	Séptima División	Ferrocarril Oeste	621	0	7
+332	Passera, Norberto	Séptima División	Top Minc	618	0	7
+333	Ikemiya, Emilio	Séptima División	Social Club TDM	615	-3	7
+334	Monali, Sofia	Séptima División	Fenix	613	-23	7
+335	Girardi Beauge, Agustin	Séptima División	CTDM Pato Nizetich	609	33	7
+336	Garcia Agüero, Rodrigo	Séptima División	Inst. Compañía María	605	-16	7
+337	Azzurro, Ignacio	Séptima División	Gimnasty	604	0	7
+338	Kohan, Mauricio	Séptima División	Fenix	604	0	7
+339	Trujillo Palacio, Samantah	Séptima División	River Plate	602	24	7
+340	Paganini, Dario	Séptima División	Peñarol	601	-5	7
+341	Escalante, Maximiliano	Séptima División	Fenix	600	27	7
+342	Aguilar, Francisco	Séptima División	Atlanta	600	0	7
+343	Bronstein, Facundo	Séptima División	River Plate	598	20	7
+344	Kaladjian, Leonardo	Séptima División	Alvear Club	586	0	7
+345	Badui, Marcelo	Séptima División	Alvear Club	582	0	7
+346	Saldaño Rodriguez, Demian	Séptima División	Peñarol	581	-20	7
+347	Marini, Eduardo	Séptima División	Ferrocarril Oeste	578	0	7
+348	Espinosa, Julian	Séptima División	Inst. Compañía María	556	-29	7
+349	Torres, Tomas	Séptima División	Atlanta	550	0	7
+350	Garcia, Leo	Séptima División	Peretz	546	0	7
+351	Ruiz, Mateo Jose	Séptima División	Ateneo de Versailles	544	-11	7
+352	Monteforte, Nicolas A.	Séptima División	Ntra. Señora Lourdes	531	0	7
+353	Rugel, Jose Antonio	Séptima División	River Plate	530	0	7
+354	Rodriguez, Gaspar	Séptima División	Alvear Club	518	0	7
+355	Saporiti, Augusto J.	Séptima División	Urquiza	517	0	7
+356	Grunwaldt, Pablo	Séptima División	San Lorenzo	508	-4	7
+357	Zuriaga, Alejo	Séptima División	Peñarol	506	-5	7
+358	Gutierrez, Lucas	Séptima División	Alvear Club	503	8	7
+359	Sassoon, Maximiliano	Séptima División	River Plate	500	0	7
+360	Arroyo, Agustina	Séptima División	TMR	500	-5	7
+361	Soldi, Daniel M.	Séptima División	Gimnasty	497	0	7
+362	Marcial, Alma G.	Séptima División	TMR	494	-2	7
+363	Garcia, Brian F.	Séptima División	Atlanta	490	0	7
+364	Senderowitsch, Leonardo	Séptima División	Atlanta	485	0	7
+365	Castrovinci, Carina	Séptima División	River Plate	481	0	7
+366	Bottiglieri Ariel Hernan	Séptima División	Tigre Juniors	479	0	7
+367	Serantes, Anibal	Séptima División	Adrogue Sith Spin	473	0	7
+368	Grimaldi, Alejandra	Séptima División	Inst. Compañía María	472	0	7
+369	Kibisz, Pablo	Séptima División	Peretz	459	0	7
+370	Andrade, Facundo	Séptima División	San Lorenzo	445	-9	7
+371	Rode, Lucas	Séptima División	Garin Tenis de Mesa	437	0	7
+372	Alvarez, Marcos	Séptima División	Inst. Compañía María	430	0	7
+373	Coronio, Sergio S.	Séptima División	Adrogue Sith Spin	429	0	7
+374	Garrido, Ernesto	Séptima División	Rioja	396	0	7
+375	Vulcano, Julio Cesar	Séptima División	Alvear Club	345	-6	7
