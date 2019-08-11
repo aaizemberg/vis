@@ -93,5 +93,13 @@ w.add(dw.Fill(column=["categoria"],
               method="copy",
               row=None))
 
-w.apply_to_file(sys.argv[1]).print_csv(sys.argv[2])
+# Fill n_categoria  with values from above
+w.add(dw.Fill(column=["n_categoria"],
+              table=0,
+              status="active",
+              drop=False,
+              direction="down",
+              method="copy",
+              row=None))
 
+w.apply_to_file(sys.argv[1]).print_csv(sys.argv[2])
