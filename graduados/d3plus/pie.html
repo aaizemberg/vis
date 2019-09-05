@@ -8,21 +8,18 @@
 
 <script>
   var url = "https://raw.githubusercontent.com/aaizemberg/vis/gh-pages/graduados/data.tsv";
-
   d3plus.viz()
     .container("#viz")
     .data(url)
-//  .type("pie")
-    .type("stacked")
-    .x("año")
+    .type("pie")  // "stacked", ...
     .format("es_ES")
     .id("titulo")
-//  .size("cant")
-    .y("cant")
+    .size("cant")
+//  .x("año")
+//  .y("cant")
     .time("año")
-    .shape({"interpolate": "monotone"})
+//  .shape({"interpolate": "monotone"})
 /* "basis\", \"basis-open\", \"cardinal\",  "cardinal-open\", \"linear\", \"monotone\", \"step\", \"step-before\", o \"step-after\"."
-
 */
     .draw()
 </script>
