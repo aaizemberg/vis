@@ -12,4 +12,4 @@ https://knightcenter.utexas.edu/blog/00-19671-learn-data-visualization-alberto-c
 
 Todo el material de este curso, lo podemos encontrar en este lugar https://journalismcourses.org/data-viz-course-material.html
 
-¡¡¡Gracias Alberto Cairo!!!
+En octure del 2019, esta dictando este curso **Data Journalism and Visualization with Free Tools** y tengo pensado hacer una visualizacion con el pais de origen de todos los asistentes. 
