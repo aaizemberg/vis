@@ -1,21 +1,4 @@
-# VEGA-spec
+# gartner BI leaders
 
-```json
-{
-  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "data": {"url": "https://raw.githubusercontent.com/aaizemberg/vis/gh-pages/2020/gartner.tsv"},
-  "mark": {"type": "line", "point": true},
-  "encoding": {
-    "x": {
-      "field": "x", "type": "quantitative", "axis": null,
-        "scale": {"domain": [250,500]}
-    },
-    "y": {
-      "field": "y1", "type": "quantitative", "axis":null,
-        "scale": {"domain": [250,450]}
-    },
-    "order": {"field": "year", "type": "temporal"},
-    "color": {"field": "product", "type": "nominal"}
-  }
-}
-```
+1. [datawrapper](https://aaizemberg.github.io/vis/2020/gartner_datawrapper.html)
+2. [vega-lite](https://aaizemberg.github.io/vis/2020/vegalite.html)
