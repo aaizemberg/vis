@@ -1,59 +1,519 @@
-Jugador	Rating	Edad
-Criado, Federico	1410	31
-López Márquez, Ezequiel	1406	27
-Posadas, Mariano	1375	44
-Ramos, Mauro	1315	23
-Tresca, Gaston	1311	14
-Gabaldon, Christopher	1308	19
-Avian, Ignacio	1232	21
-Etayo, Alejandro	1212	28
-Cabrera, Braian	1205	30
-Bellusci, Pablo	1199	25
-Candela, Juan Bautista	1114	15
-Camagna, Diego	1053	43
-Bellusci, Nicolás	1053	28
-Delgado, Gastón	958	40
-Aizemberg, Ariel	780	53
-Santellán, Wilfredo Germán	737	47
-Dappiano, Martin	721	29
-Guglielmone, Gustavo	718	62
-Wolff, Miguel	717	69
-Paz, Santiago	716	34
-Hertzulis, Nicolás	714	26
-Torres, Sebastian	683	17
-Anguillesi, Miguel	669	57
-Vignolo, Matias Daniel	644	30
-Kohan, Mauricio	622	16
-Tortella, Gabriel	614	26
-Monali, Sofia	583	20
-Mondino, Nicolás	569	20
-Sabater, Sebastián	514	49
-Weber, Omar Eduardo	493	63
-Dunayevich, Santiago	488	20
-Veliz, Juan Ignacio	487	15
-Greco, Luis Fernando	476	25
-Marcovich, Andres	443	43
-Lerman, Fernando	436	48
-Gil Baez, Rodrigo	423	29
-Juri, Leandro	415	32
-Blejman, Mariano Cesar	411	44
-Pastor, Martín	364	26
-Briones, Federico	342	29
-Prediletto, Guido	317	35
-Prediletto, Humberto	256	66
-Castells, Fernando	241	46
-Molina, Tomás	204	15
-Palcas, Eric	189	19
-Giraldo, Nicolás	148	12
-Massare, Bruno	137	46
-García, Diego	137	19
-Sanz de Urquiza, Federico	135	30
-Heuchert, Ivan	131	44
-Abramovich, Damian	125	35
-Aizemberg, Bruno	121	21
-Molina, Juan Martín	116	10
-Mera, Augusto	86	10
-Billordo, Gonzalo	85	20
-Herrero, Leonardo	84	47
-Kostoff, Tadeo	82	12
-Capurro, Vicente	75	10
+Jugador	Rating	Edad	Club
+Nederneves, Neder Alves Das Neves	1342	50	La Legión
+Coelho Teixeira, Marcio	1266	56	La Legión
+Aburachid Auad, Luiz Gustavo	1258	43	La Legión
+Weiss, Alan	1240	14	La Legión
+Muller, Daniel	1200	32	La Legión
+Lovera, Mainor	1196	29	La Legión
+San Millán, Federico	1192	26	La Legión
+Aguirre, Daniel Gustavo	1158	27	La Legión
+Camposaragna, Gian Franco	1068	23	La Legión
+Lovera, Crismi	1064	24	La Legión
+Teixeira De Sousa, Sidney	1007	30	La Legión
+Rojo, Santiago	1001	19	La Legión
+Rosen, Franco	963	16	La Legión
+Mórtula, Luciano	948	44	La Legión
+Lapalma, Fernando	925	45	La Legión
+Erlich, Axel	786	27	La Legión
+Romero, Nicolás	785	42	La Legión
+Shahmuradyan, Rafayel	714	38	La Legión
+Arnaudo, Facundo	697	15	La Legión
+Mautone, Mariano	696	33	La Legión
+Costa Barbosa Teixeira, Rafael	691	13	La Legión
+Lira, Reinaldo	655	30	La Legión
+Campbell, Roger	653	29	La Legión
+Muralidharan, Ambarish	644	31	La Legión
+Buschini, José	623	41	La Legión
+Padin, Julieta Aldana	623	31	La Legión
+Pepe, Matias	597	40	La Legión
+Grinspon, Román	570	31	La Legión
+Toranzo, David	565	56	La Legión
+Maldonado, Francisco Martín	559	36	La Legión
+Cerraburu, Tomas	556	34	La Legión
+Blasco, Claudio Alberto	547	56	La Legión
+Thisted, Marcos	544	50	La Legión
+Di Pietrantonio, Cristian	538	39	La Legión
+Fior, Santiago	538	22	La Legión
+Flores Canto, Erik	536	24	La Legión
+Perinot, Joaquin Ignacio	532	32	La Legión
+Hao, Hailong	519	31	La Legión
+Fiorda Ponce, Jonathan Joel	487	29	La Legión
+Schumich, Sergio	482	58	La Legión
+Melman, Marcelo	478	53	La Legión
+Espinosa, Juan Ignacio	466	38	La Legión
+Rubio, Ezequiel	440	22	La Legión
+Brunskole, Francisco	439	33	La Legión
+Fernandez, Daniel Alfredo	434	53	La Legión
+Cerqueira De Morais, Nelson	434	62	La Legión
+Aponte, Chenee	431	40	La Legión
+Helmer, Marcelo Alejandro	431	42	La Legión
+Rando, Julian	427	29	La Legión
+Hernández, Carlos	425	58	La Legión
+Ciaffone, Leandro	421	38	La Legión
+Panelli, Juan	416	19	La Legión
+Muñoz, Nelson	403	39	La Legión
+Aravena, Milton Eduardo	403	59	La Legión
+Borgstrand, Ivo	394	16	La Legión
+Hormeche, Adriana Isabel	380	39	La Legión
+Rosen, Gustavo	378	53	La Legión
+Shahmuradyan, Mariam	372	12	La Legión
+Rodriguez, Fernando	365	29	La Legión
+Cardozo, Nestor Cristian	363	25	La Legión
+Lopez Mato, Ariel	362	62	La Legión
+Diaz, Segundo Armando	357	79	La Legión
+Da Rocha, Jose	357	55	La Legión
+Montanari, Gonzalo	340	21	La Legión
+Dominguez, Luis	337	61	La Legión
+Sztrum, José	337	60	La Legión
+Provenza, César Julian	331	37	La Legión
+Diaz, Gabriel	325	36	La Legión
+Rando, Hernán Antonio	319	26	La Legión
+Pécora, Paulo	309	49	La Legión
+Hoyos, Juan	298	42	La Legión
+Soto, Gerardo	274	24	La Legión
+Nicosia, Pablo	272	49	La Legión
+Yi, Cheng	270	30	La Legión
+Fernández, Héctor Javier	267	39	La Legión
+Lapalma Riffel, Mauro	256	16	La Legión
+Campos, Florencia Solange	241	28	La Legión
+Kot, Miguel	209	46	La Legión
+Ajzensztok, Fernando	205	61	La Legión
+Campanario, Guido	200	28	La Legión
+Acosta, Andres	193	26	La Legión
+Ghiglioni, Andrés	189	34	La Legión
+Ricciardi, Enzo Marcos	177	22	La Legión
+Lopez, Rodrigo	137	46	La Legión
+Venturucci, Gustavo Omar	136	45	La Legión
+Greco, Alfredo Ricardo	127	65	La Legión
+Corengia, Santino	125	13	La Legión
+Kitay, Graciela	124	65	La Legión
+Suarez Sosa, Diego	121	29	La Legión
+Rois, Matias	117	23	La Legión
+Smokvina, Diego	113	45	La Legión
+Petryk, Nicolás Javier	104	27	La Legión
+Zorio, Francisco	101	25	La Legión
+Opromolla, Janet	96	42	La Legión
+Hsu, Sebastián	94	16	La Legión
+Casini, Abril Ailen	94	15	La Legión
+Saravia, Leonardo	91	54	La Legión
+Villanueva, Facundo	87	11	La Legión
+Vicente Cruz, Facundo	82	13	La Legión
+García Roman, Marcos	81	8	La Legión
+Beccar Varela, Luisa	68	19	La Legión
+Diaz, Pablo	63	20	La Legión
+Molina Chavez, Florencia	62	35	La Legión
+Villanueva, Alejandro	54	11	La Legión
+Gonzalez, Ines	50	33	La Legión
+Huarancca, Irene	50	21	La Legión
+Valanci, Leticia	50	27	La Legión
+Criado, Federico	1410	31	Fenix
+López Márquez, Ezequiel	1406	27	Fenix
+Posadas, Mariano	1375	44	Fenix
+Ramos, Mauro	1315	23	Fenix
+Tresca, Gaston	1311	14	Fenix
+Gabaldon, Christopher	1308	19	Fenix
+Avian, Ignacio	1232	21	Fenix
+Etayo, Alejandro	1212	28	Fenix
+Cabrera, Braian	1205	30	Fenix
+Bellusci, Pablo	1199	25	Fenix
+Candela, Juan Bautista	1114	15	Fenix
+Camagna, Diego	1053	43	Fenix
+Bellusci, Nicolás	1053	28	Fenix
+Delgado, Gastón	958	40	Fenix
+Aizemberg, Ariel	780	53	Fenix
+Santellán, Wilfredo Germán	737	47	Fenix
+Dappiano, Martin	721	29	Fenix
+Guglielmone, Gustavo	718	62	Fenix
+Wolff, Miguel	717	69	Fenix
+Paz, Santiago	716	34	Fenix
+Hertzulis, Nicolás	714	26	Fenix
+Torres, Sebastian	683	17	Fenix
+Anguillesi, Miguel	669	57	Fenix
+Vignolo, Matias Daniel	644	30	Fenix
+Kohan, Mauricio	622	16	Fenix
+Tortella, Gabriel	614	26	Fenix
+Monali, Sofia	583	20	Fenix
+Mondino, Nicolás	569	20	Fenix
+Sabater, Sebastián	514	49	Fenix
+Weber, Omar Eduardo	493	63	Fenix
+Dunayevich, Santiago	488	20	Fenix
+Veliz, Juan Ignacio	487	15	Fenix
+Greco, Luis Fernando	476	25	Fenix
+Marcovich, Andres	443	43	Fenix
+Lerman, Fernando	436	48	Fenix
+Gil Baez, Rodrigo	423	29	Fenix
+Juri, Leandro	415	32	Fenix
+Blejman, Mariano Cesar	411	44	Fenix
+Pastor, Martín	364	26	Fenix
+Briones, Federico	342	29	Fenix
+Prediletto, Guido	317	35	Fenix
+Prediletto, Humberto	256	66	Fenix
+Castells, Fernando	241	46	Fenix
+Molina, Tomás	204	15	Fenix
+Palcas, Eric	189	19	Fenix
+Giraldo, Nicolás	148	12	Fenix
+Massare, Bruno	137	46	Fenix
+García, Diego	137	19	Fenix
+Sanz de Urquiza, Federico	135	30	Fenix
+Heuchert, Ivan	131	44	Fenix
+Abramovich, Damian	125	35	Fenix
+Aizemberg, Bruno	121	21	Fenix
+Molina, Juan Martín	116	10	Fenix
+Mera, Augusto	86	10	Fenix
+Billordo, Gonzalo	85	20	Fenix
+Herrero, Leonardo	84	47	Fenix
+Kostoff, Tadeo	82	12	Fenix
+Capurro, Vicente	75	10	Fenix
+Sanchez, Ariel Hernán	1264	44	TopMinc
+Buzzi, Maximiliano	1257	47	TopMinc
+Ciancio, Nicolas	1229	26	TopMinc
+Roman Chinchilla, Steven	1119	17	TopMinc
+Blasco, Lisandro	1094	14	TopMinc
+Jaimovich, Ignacio	1093	14	TopMinc
+Joszpe, Santiago	1070	19	TopMinc
+Digestani, Lautaro	1047	31	TopMinc
+Milessi, Tomás	961	20	TopMinc
+Passera, Santiago Nicolás	944	17	TopMinc
+Acosta Rios, Juan Ignacio	900	26	TopMinc
+Santos, Kaio	873	17	TopMinc
+Erlich, Damian	817	41	TopMinc
+Convertini, Pablo Javier	814	45	TopMinc
+González, Lucas Horacio	810	55	TopMinc
+Gerónimo, Alejandro	806	43	TopMinc
+Dorrego, Javier	725	53	TopMinc
+Fantozzi, Alejandro	698	48	TopMinc
+Toledo, Javier Martin	687	49	TopMinc
+Gonzalez, Dario Roberto	685	55	TopMinc
+Mira, Pablo	674	54	TopMinc
+Acosta Diaz, Jorge Eliecer	673	22	TopMinc
+Cortez, Claudio	669	50	TopMinc
+Díaz, Fernando	667	43	TopMinc
+Nakayama, Daisuke	658	40	TopMinc
+Brun, Lucas	617	14	TopMinc
+Milgram, Roni Ariel	612	15	TopMinc
+Convertini, Juliana	592	15	TopMinc
+Rozehnal, Ignacio	586	12	TopMinc
+Passera, Norberto Carlos	574	56	TopMinc
+Villanueva, Gonzalo	539	13	TopMinc
+Vaisenstein, Claudio	519	60	TopMinc
+Rolon, Fernando	502	21	TopMinc
+Baigun, Sebastian	497	51	TopMinc
+Siderio, Julian	492	17	TopMinc
+Acosta Diaz, Jesus David	485	18	TopMinc
+Peral, Leandro	446	41	TopMinc
+Pomito, Adrian Carlos	350	60	TopMinc
+Brude, Lautaro	344	23	TopMinc
+Fernandez, Angel Yoel	342	21	TopMinc
+Mandel, Mario	332	67	TopMinc
+Angelillo, Santiago	331	15	TopMinc
+De La Orden, Fernando	314	44	TopMinc
+Larretape, Jonathan	313	26	TopMinc
+Gesualdo, Daniel Ricardo	294	73	TopMinc
+Buquete, Lautaro	292	15	TopMinc
+Lerner, Gustavo	280	70	TopMinc
+Mattia, Ruben Dario	279	52	TopMinc
+Siderio, Alejandro	275	48	TopMinc
+Fernández, Gervasio	209	56	TopMinc
+Retana, Mauro	180	16	TopMinc
+Bachmann, Nicolas	174	13	TopMinc
+Cobe, Matias David	168	15	TopMinc
+Esses, Iara	147	15	TopMinc
+Cifuentes, Santiago	128	21	TopMinc
+Molina, Lucas Ezequiel	97	20	TopMinc
+Coscio Saravi, Juan Ignacio	97	18	TopMinc
+Leiva, Christian	92	29	TopMinc
+Da Silva Cruzeiro, Pedro Henrique	92	22	TopMinc
+Andrada, Juan Bautista	90	19	TopMinc
+Castellanos, Maite	88	13	TopMinc
+Herrera, Lucio	81	14	TopMinc
+Elena, Guillermo Federico	81	57	TopMinc
+Baranello, Nicolas	80	21	TopMinc
+Retana, Luciano	58	44	TopMinc
+Yamamoto, Leandro	1516	23	Alvear
+Gibo, Nicolas	1494	21	Alvear
+Sato Coria, Lautaro Ezequiel	1457	16	Alvear
+Hernandez, Juan	1306	20	Alvear
+Politi, Giuliano	1257	20	Alvear
+Huici, Julián María	1154	20	Alvear
+Sculco, Nahuel Christian	1147	19	Alvear
+Armoa, Santiago	1142	18	Alvear
+Moscato, Alejandro	1138	21	Alvear
+Buscema, Milton	1131	16	Alvear
+Mallo, Federico Oscar	1056	26	Alvear
+Smodlaka, Guido Ivan	1030	14	Alvear
+Berutti, Miguel	951	44	Alvear
+Mirabelli, Ariel	946	36	Alvear
+Saul, Felipe	893	19	Alvear
+Atamian, Martín	842	43	Alvear
+Samczuk, Ciro	805	13	Alvear
+De Stefano, Pablo	774	45	Alvear
+Rodriguez Novillo, Diego	712	45	Alvear
+Ramos, Gustavo	666	31	Alvear
+Battaglini, Alejandro	663	54	Alvear
+Loiacono, Joaquin	645	14	Alvear
+Bejarano, Agustín	640	21	Alvear
+Rotryng, Cielo	627	17	Alvear
+Moscato, Nestor	609	55	Alvear
+Murua, Santiago	568	18	Alvear
+Gutiérrez, Lucas Ezequiel	566	19	Alvear
+Lopez, Ariel	528	56	Alvear
+Diana, Fernando	508	44	Alvear
+Mangone, Leandro Andrés	480	45	Alvear
+Fernandez, Leandro	470	13	Alvear
+Banegas, Ivan	468	17	Alvear
+Mantovano, Micaela	433	19	Alvear
+Simon Hurtado, Carlos Diego	414	21	Alvear
+Litvak, Raúl	390	67	Alvear
+Badui, Miguel, Marcelo	373	55	Alvear
+Rodriguez, Gaspar	348	42	Alvear
+Kaladjian, Leonardo	312	42	Alvear
+Jang, Denis	283	24	Alvear
+Takata, Boris Hiroya	246	11	Alvear
+Quintanilla, Leon	227	22	Alvear
+Morales, Fabian	188	55	Alvear
+Keizman, Graciela	144	63	Alvear
+Vulcano, Julio César	121	56	Alvear
+Costantino, Gabriel	1390	28	Cedima
+Riera, Simon	1357	21	Cedima
+Mariño, Ignacio	1331	17	Cedima
+Valdes, Tobias	1248	25	Cedima
+Romero, Elias	1187	20	Cedima
+Kaniuka, Aleksy	1118	22	Cedima
+Perez, Alejandro	1047	26	Cedima
+Paz, Facundo Nahuel	995	22	Cedima
+Zinna, Kevin	957	19	Cedima
+Bustillos, Eli	869	35	Cedima
+Fabrizio, Fernando	856	47	Cedima
+Martinez Alcalde, Emanuel Emiliano	721	19	Cedima
+Muñoz, Giselle	699	35	Cedima
+Corbalan, Alejandro	685	32	Cedima
+Villaverde, Alejandro	674	49	Cedima
+Bienati, Carlos Alfredo	659	28	Cedima
+Romani, Joel	630	27	Cedima
+Mariño, Cintia Natalia	603	40	Cedima
+Martinez, Walter	554	50	Cedima
+Loustric, Rolando	541	48	Cedima
+Alcaide, Carlos	532	56	Cedima
+Fernandez, Nahuel Dario	509	22	Cedima
+Olvech, Leandro Matias	498	43	Cedima
+Martinez, Abril Soledad	489	20	Cedima
+Guarino Muñoz, Alejo	462	12	Cedima
+Wilmans, Lautaro	456	15	Cedima
+Ledezma Torrealba, Juan Carlos	424	46	Cedima
+Romero, Rogelio Daniel	413	55	Cedima
+Bellomi, Joaquín	408	16	Cedima
+Aliotta, Matias Nicolas	398	23	Cedima
+Otamendi, Nahuel	393	20	Cedima
+Moyano, Jonathan	386	18	Cedima
+Ortega, Matías Elian	361	31	Cedima
+Ortega, Milton	354	10	Cedima
+Carpio, Sergio Federico	316	28	Cedima
+Deibe Medina, Martin	309	16	Cedima
+Quintana, Reinaldo Oscar	297	63	Cedima
+Quintas, Lautaro Nicolas	284	15	Cedima
+Mastroberardino, Eduardo Nicolas	273	41	Cedima
+Constantino, Priscila	261	32	Cedima
+Luna, Leonardo	238	32	Cedima
+Makishi, Marta Ana	223	75	Cedima
+Rosas, Tobias	216	15	Cedima
+Arrúe, Matías	192	19	Cedima
+Villaverde, Ramiro Gael	191	8	Cedima
+Mastroberardino, Adrian Daniel	182	37	Cedima
+Elizondo, Valentin	171	15	Cedima
+Sequeira, Nahuel Agustin	171	16	Cedima
+Basma, Candela	158	15	Cedima
+Arrúe, Marcos	143	46	Cedima
+Sotelo, Jonatan	131	32	Cedima
+Murdoch, Angel	130	24	Cedima
+Fernandez, Brian	114	19	Cedima
+Muñoz, Lucas	95	15	Cedima
+Chiquito, Ismael	80	47	Cedima
+Sacharczuk, Bruno Gabriel	68	15	Cedima
+Sanguinetti, Federico	68	26	Cedima
+Arrue, Sebastian	53	19	Cedima
+Peñaloza, Alan Matias	53	25	Cedima
+Torres, Santino	50	13	Cedima
+Baez Larrea, Gonzalo Nicolas	50	18	Cedima
+Ortega, Julián Leonel	50	29	Cedima
+Pichot, Daniel	1625	54	Ferro
+Bentancor, Martin	1552	19	Ferro
+Spinelli, Franco	1403	16	Ferro
+Jang, Luciano	1392	17	Ferro
+Marini, Santiago	1300	17	Ferro
+Fernandez, Leoncio	1266	18	Ferro
+Wainsztok, Darío Javier	1210	50	Ferro
+Satriani, Genaro	1087	17	Ferro
+Almiron, Esteban	1086	48	Ferro
+Ulloa, Juan Emanuel	1073	20	Ferro
+Carlevarino, Pablo	1011	48	Ferro
+Hurevich, Tobias	987	15	Ferro
+Greco, Juan Carlos	978	56	Ferro
+Sierpe, Lino Emilio	942	22	Ferro
+Jang, Agustin	894	13	Ferro
+Marini, Joaquin	848	15	Ferro
+Fernandez Pizzella, Valentín	842	18	Ferro
+Canteros, Cristian Alberto	799	43	Ferro
+Fumagalli, Ricardo	701	63	Ferro
+Bentancor, Javier	697	51	Ferro
+Lopez Venturino, Ignacio	666	39	Ferro
+Bentancor, Omar	651	48	Ferro
+Valverde, Javier	632	55	Ferro
+Carnerero, Gustavo Javier	605	33	Ferro
+Violante, Franco	552	14	Ferro
+Dominguez, Rodrigo	542	50	Ferro
+Kim, Nicolás	500	24	Ferro
+Cóceres, Iván Sebastián	497	15	Ferro
+Bentancor, Matias	454	9	Ferro
+Marini, Eduardo	424	51	Ferro
+Russo, Gonzalo	267	23	Ferro
+Pombo, Fernando Pablo	263	65	Ferro
+Bau, Franco Nahuel	231	14	Ferro
+Mariluan, Daniel	200	41	Ferro
+Cufré, Lautaro	199	10	Ferro
+Goldin, Tobías	76	15	Ferro
+Chen, Steffanie	50	15	Ferro
+Soleiman, Yamil	50	13	Ferro
+Fernandez, Maria Del Carmen	50	48	Ferro
+Olmos, Agustin	1360	21	Ateneo Popular de Versailles
+Romero, Santiago	1303	21	Ateneo Popular de Versailles
+Pierini, Ariel	1205	17	Ateneo Popular de Versailles
+Rodriguez Schoeller, Santiago	1198	16	Ateneo Popular de Versailles
+Felscher, Jonathan	1089	31	Ateneo Popular de Versailles
+Palazzo, Didier Mateo	1008	21	Ateneo Popular de Versailles
+Ghini, Bruno Andres	1002	34	Ateneo Popular de Versailles
+Olmos, Alan	968	25	Ateneo Popular de Versailles
+Bernardou, Tomas	934	16	Ateneo Popular de Versailles
+Carattoli, Lucas Joaquín	923	15	Ateneo Popular de Versailles
+Szeinfain, Thomas	895	19	Ateneo Popular de Versailles
+Szuldman, Gerardo	766	56	Ateneo Popular de Versailles
+De Iuliis La Torre, Claudio	669	61	Ateneo Popular de Versailles
+Pregliasco, Brian	661	20	Ateneo Popular de Versailles
+Ghersi, Agustín	638	20	Ateneo Popular de Versailles
+Ruiz, Mateo Jose	620	20	Ateneo Popular de Versailles
+Carattoli, Matías Julián	617	13	Ateneo Popular de Versailles
+Kalomiris, Pablo	603	29	Ateneo Popular de Versailles
+Pierini, Diego	542	53	Ateneo Popular de Versailles
+Ramos, Sebastian	529	16	Ateneo Popular de Versailles
+Constenla, Juan	525	38	Ateneo Popular de Versailles
+Aldao, Adrian	502	56	Ateneo Popular de Versailles
+Doti Texeira, Francisco	461	26	Ateneo Popular de Versailles
+Fantini, Carlos Norberto	440	52	Ateneo Popular de Versailles
+Paladino, Martin	429	42	Ateneo Popular de Versailles
+Ramos, Nicolás Javier	423	23	Ateneo Popular de Versailles
+Lavieri Daireaux, Lorenzo Olivier	409	15	Ateneo Popular de Versailles
+Vega, Nicolas	401	20	Ateneo Popular de Versailles
+Castro, Hernan Martin	400	42	Ateneo Popular de Versailles
+Bron Ranieri, Maximiliano	380	44	Ateneo Popular de Versailles
+Gomez, Maximiliano	377	43	Ateneo Popular de Versailles
+Vargas, Cristian Mario	364	20	Ateneo Popular de Versailles
+Belter, Jose	352	56	Ateneo Popular de Versailles
+Alessandro, Fabio	345	39	Ateneo Popular de Versailles
+Waserman, Sergio	339	57	Ateneo Popular de Versailles
+Bernardou, Sergio	330	46	Ateneo Popular de Versailles
+Castellan, Gaston	326	41	Ateneo Popular de Versailles
+Silva, Jorge Eduardo	318	50	Ateneo Popular de Versailles
+Seoane, Juan Carlos	296	51	Ateneo Popular de Versailles
+Strione, Juan Manuel	269	11	Ateneo Popular de Versailles
+Tokmak, Igor	263	45	Ateneo Popular de Versailles
+Flores Mallqui, Leonel Valentin Francisco	251	12	Ateneo Popular de Versailles
+Fantini, Nicolas Matias	248	15	Ateneo Popular de Versailles
+Telao Guerreros, Lucas	242	26	Ateneo Popular de Versailles
+Zelazny, Federico	241	13	Ateneo Popular de Versailles
+Comerci, Lucas Emiliano	221	14	Ateneo Popular de Versailles
+Fernicola Castiñeira, Juan Manuel	204	17	Ateneo Popular de Versailles
+Trefiletti, Ignacio	183	14	Ateneo Popular de Versailles
+Kabakian, Emanuel	178	29	Ateneo Popular de Versailles
+Banegaz, Thiago Uriel	174	17	Ateneo Popular de Versailles
+Frites, Franco	161	20	Ateneo Popular de Versailles
+Mentasti, Bruno	150	32	Ateneo Popular de Versailles
+Sancha, Alejandro	142	37	Ateneo Popular de Versailles
+Benavides, Fernando	138	39	Ateneo Popular de Versailles
+Alvarez, Matias	103	13	Ateneo Popular de Versailles
+Grech, Jonathan	82	25	Ateneo Popular de Versailles
+Pérez Altera, Ignacio	1386	28	Peretz de Lanús
+Casal, Octavio	1335	42	Peretz de Lanús
+Duran, Ian	1254	18	Peretz de Lanús
+Pérez, Hernán	1224	43	Peretz de Lanús
+Pérez, Candela	1187	21	Peretz de Lanús
+Schneider, Miguel Angel	1114	67	Peretz de Lanús
+Okuyama, Abril	851	15	Peretz de Lanús
+Barral, Walter Ernesto	842	51	Peretz de Lanús
+Munno, Álvaro	799	19	Peretz de Lanús
+Matsumoto, Karen	798	20	Peretz de Lanús
+Ramos Olié, Milco	756	23	Peretz de Lanús
+Espinoza, Jonathan	704	19	Peretz de Lanús
+Rossi, Sebastián	703	38	Peretz de Lanús
+Vera, Gabriel	701	48	Peretz de Lanús
+La Boccetta, Ignacio	682	14	Peretz de Lanús
+Sacarias, Matias	672	20	Peretz de Lanús
+Presas, Alfredo Pedro	615	54	Peretz de Lanús
+Higa, Facundo Ezequiel	602	13	Peretz de Lanús
+Valdivia, Carlos	592	57	Peretz de Lanús
+Ramos Olié, Marcos	540	16	Peretz de Lanús
+Guillet, Agustin	529	22	Peretz de Lanús
+Garcia, Salvador	492	16	Peretz de Lanús
+Acosta, Gaston	483	39	Peretz de Lanús
+Korzin, Gerardo	461	40	Peretz de Lanús
+Matsumoto, Emiliano	437	60	Peretz de Lanús
+Puk Vidal, Santiago	411	12	Peretz de Lanús
+Puk Vidal, Sebastián	409	14	Peretz de Lanús
+Inga, Eduardo	380	50	Peretz de Lanús
+Vespoli, Guillermo	349	43	Peretz de Lanús
+Okuyama, Matias	336	15	Peretz de Lanús
+Maekanehisa, Senri	331	23	Peretz de Lanús
+Abatangelo, Nicolás	303	28	Peretz de Lanús
+López, Lautaro	293	16	Peretz de Lanús
+Mancini, Javier Hernán	263	33	Peretz de Lanús
+Rossi Vera, Santino	244	9	Peretz de Lanús
+Ferrari, Alberto Francisco	234	70	Peretz de Lanús
+Salaberry, Javier Sebastián	227	33	Peretz de Lanús
+Maeto, Shinei	207	55	Peretz de Lanús
+Arakaki, Joaquin	200	8	Peretz de Lanús
+Higa, Santiago Lionel	198	10	Peretz de Lanús
+Morikone, Cecilia	189	50	Peretz de Lanús
+Cabrera, Juan Carlos	167	27	Peretz de Lanús
+Jabalera, Leonardo	128	46	Peretz de Lanús
+Molero, Román	101	16	Peretz de Lanús
+Suyama, Emma	83	10	Peretz de Lanús
+Salaberry, Ariel Agustin	82	31	Peretz de Lanús
+Carpio, Federico	1311	20	TMR
+Piras, Roberto	1241	54	TMR
+Parra, Nicolas	1111	19	TMR
+Céspedes, Osvaldo	1101	24	TMR
+Tengan, Javier	1033	23	TMR
+Carpio, Francisco	997	15	TMR
+Chapuis, Kevin	955	17	TMR
+Ortiz, Cristian	839	25	TMR
+Quiroga, Walter Daniel	788	53	TMR
+Salvatierra, Marcelo	787	25	TMR
+Cimino, Lucas Javier	708	44	TMR
+Parra, Gonzalo	703	24	TMR
+Albis, Daniela	649	24	TMR
+Rueda, Anibal	646	50	TMR
+Marcial, Alma Guadalupe	630	13	TMR
+Cabrera, Marcos Enrique	629	53	TMR
+Robledo, Alberto Mauricio	618	34	TMR
+Hernandez, Diego	603	35	TMR
+Coronil, Jorge Gustavo	581	49	TMR
+Bobek, Carlos Mariano	539	59	TMR
+Pacini, Leonel	525	29	TMR
+Benitez, Walter	481	-	TMR
+Shinzato, Juan Carlos	474	67	TMR
+Velazquez, Cristian Ruben D.	469	40	TMR
+Rodriguez, Jorge Ricardo	441	54	TMR
+Chapuis, Jaqueline	440	24	TMR
+Rosiak, Fabian	395	24	TMR
+Parodi, Gustavo Valentin	385	43	TMR
+Arroyo, Agustina	379	18	TMR
+Gomez, Nestor Gerardo	378	57	TMR
+Gómez Kiss, Román	375	19	TMR
+Palhinha, Fernando , Manuel	322	23	TMR
+Frol, Esteban	322	15	TMR
+Mieli, Julian	307	23	TMR
+Zapata, Alejandro	305	59	TMR
+Anrriquez, David	269	28	TMR
+Silvina, Palhinha	229	26	TMR
+Loiseau, Marcelo	190	54	TMR
+Montiel, Tomás	179	21	TMR
+Enriquez, Neyen	108	23	TMR
+Marcial, Luca Valentino	58	6	TMR
