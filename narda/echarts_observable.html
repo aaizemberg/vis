@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Scatterplot desde ObservableHQ</title>
+</head>
+<body>
+
+<div id="chart"></div>
+
+<br>
+
+<a href="https://observablehq.com/@aaizemberg/hello-echarts">Scatterplot at ObservableHQ</a>
+
+<script type="module">
+  import {Runtime, Inspector, Library} from "https://unpkg.com/@observablehq/notebook-runtime?module";
+  import notebook from "https://api.observablehq.com/@aaizemberg/hello-echarts.js";
+  
+  const viz = document.querySelector("div#chart");
+  
+  const stdlib = new Library;
+  
+  const library = Object.assign({}, stdlib, {width});
+  
+  function width() {
+    return stdlib.Generators.observe(notify => {
+      let width = notify(test.clientWidth);
+      
+      function resized() {
+        let width1 = test.clientWidth;
+        if (width1 !== width) notify(width = width1);
+      }
+      
+      window.addEventListener("resize", resized);
+      return () => window.removeEventListener("resize", resized);
+    });
+  }
+  
+  Runtime.load(notebook, library, cell => {
+    if (cell.name === "chart") {
+      return new Inspector( viz );
+    }
+  });
+</script>  
+  
+</body>
+</html>
