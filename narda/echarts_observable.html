@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,43 +6,12 @@
   <title>Scatterplot desde ObservableHQ</title>
 </head>
 <body>
-
-<div id="chart"></div>
-
-<br>
-
-<a href="https://observablehq.com/@aaizemberg/hello-echarts">Scatterplot at ObservableHQ</a>
-
+  <div id="scatterplot"></div>
 <script type="module">
-  import {Runtime, Inspector, Library} from "https://unpkg.com/@observablehq/notebook-runtime?module";
-  import notebook from "https://api.observablehq.com/@aaizemberg/hello-echarts.js";
-  
-  const test = document.querySelector("div#chart");
-  
-  const stdlib = new Library;
-  
-  const library = Object.assign({}, stdlib, {width});
-  
-  function width() {
-    return stdlib.Generators.observe(notify => {
-      let width = notify(test.clientWidth);
-      
-      function resized() {
-        let width1 = test.clientWidth;
-        if (width1 !== width) notify(width = width1);
-      }
-      
-      window.addEventListener("resize", resized);
-      return () => window.removeEventListener("resize", resized);
-    });
-  }
-  
-  Runtime.load(notebook, library, cell => {
-    if (cell.name === "chart") {
-      return new Inspector( test );
-    }
-  });
+  import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+  import define from "https://api.observablehq.com/@aaizemberg/hello-echarts.js?v=3";
+  const inspect = Inspector.into("#scatterplot");
+  (new Runtime).module(define, name => name === "chart" ? inspect() : undefined);
 </script>  
-  
 </body>
 </html>
