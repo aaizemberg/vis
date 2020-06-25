@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -17,7 +18,7 @@
   import {Runtime, Inspector, Library} from "https://unpkg.com/@observablehq/notebook-runtime?module";
   import notebook from "https://api.observablehq.com/@aaizemberg/hello-echarts.js";
   
-  const viz = document.querySelector("div#chart");
+  const test = document.querySelector("div#chart");
   
   const stdlib = new Library;
   
@@ -39,7 +40,7 @@
   
   Runtime.load(notebook, library, cell => {
     if (cell.name === "chart") {
-      return new Inspector( viz );
+      return new Inspector( test );
     }
   });
 </script>  
