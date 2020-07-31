@@ -1,5 +1,7 @@
 # [DATACAMP > Introduction to SQL](https://learn.datacamp.com/courses/introduction-to-sql)
 
+Dataset: [IMDb film data](https://assets.datacamp.com/production/repositories/641/datasets/d39d51ab6615b8a7f36681ee88490978fb095193/films.sql)
+
 * Selecting columns
 * Filtering rows
 * Aggregate Functions
