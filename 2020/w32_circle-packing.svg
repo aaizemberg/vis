@@ -1,1 +1,234 @@
-<svg width="650" height="650" xmlns="http://www.w3.org/2000/svg"><g transform="translate(10,10)"><g><circle class="node node--root" transform="translate(315,315)" r="315" style="fill-opacity: 0; stroke: rgb(221, 221, 221); stroke-opacity: 1;"></circle><circle class="node node--leaf" transform="translate(227.64120694623966,292.803535466222)" r="142.19473572549865" style="fill: rgb(219, 219, 219); fill-opacity: 1; stroke: rgb(221, 221, 221); stroke-opacity: 0;"></circle><circle class="node node--leaf" transform="translate(499.00206143928074,292.803535466222)" r="128.1726026898341" style="fill: rgb(219, 219, 219); fill-opacity: 1; stroke: rgb(221, 221, 221); stroke-opacity: 0;"></circle><circle class="node node--leaf" transform="translate(376.31067330272754,504.12598236884514)" r="115.19090136444864" style="fill: rgb(219, 219, 219); fill-opacity: 1; stroke: rgb(221, 221, 221); stroke-opacity: 0;"></circle><circle class="node node--leaf" transform="translate(374.6663308180432,120.43234989091047)" r="83.3690536763508" style="fill: rgb(219, 219, 219); fill-opacity: 1; stroke: rgb(221, 221, 221); stroke-opacity: 0;"></circle><circle class="node node--leaf" transform="translate(228.4872370965614,83.11149245511376)" r="66.50549791096005" style="fill: rgb(219, 219, 219); fill-opacity: 1; stroke: rgb(221, 221, 221); stroke-opacity: 0;"></circle><circle class="node node--leaf" transform="translate(502.56662589505555,120.13613807705016)" r="43.538068329671695" style="fill: rgb(219, 219, 219); fill-opacity: 1; stroke: rgb(221, 221, 221); stroke-opacity: 0;"></circle></g><g><text text-anchor="middle" transform="translate(315,315)" style="font-size: 11px; font-family: Arial, Helvetica;"></text><text text-anchor="middle" transform="translate(227.64120694623966,292.803535466222)" style="font-size: 11px; font-family: Arial, Helvetica;">Ability to have a flexible schedule</text><text text-anchor="middle" transform="translate(499.00206143928074,292.803535466222)" style="font-size: 11px; font-family: Arial, Helvetica;">Flexibility to work from any location</text><text text-anchor="middle" transform="translate(376.31067330272754,504.12598236884514)" style="font-size: 11px; font-family: Arial, Helvetica;">Not having to commute</text><text text-anchor="middle" transform="translate(374.6663308180432,120.43234989091047)" style="font-size: 11px; font-family: Arial, Helvetica;">Ability to spend time with family</text><text text-anchor="middle" transform="translate(228.4872370965614,83.11149245511376)" style="font-size: 11px; font-family: Arial, Helvetica;">Ability to work from home</text><text text-anchor="middle" transform="translate(502.56662589505555,120.13613807705016)" style="font-size: 11px; font-family: Arial, Helvetica;">Other</text></g></g></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="circles.svg"
+   id="svg90"
+   version="1.1"
+   height="700"
+   width="700">
+  <metadata
+     id="metadata96">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs94" />
+  <sodipodi:namedview
+     inkscape:current-layer="g88"
+     inkscape:window-maximized="1"
+     inkscape:window-y="-11"
+     inkscape:window-x="-11"
+     inkscape:cy="346.18"
+     inkscape:cx="571.3337"
+     inkscape:zoom="1.1628571"
+     showgrid="false"
+     id="namedview92"
+     inkscape:window-height="1046"
+     inkscape:window-width="1920"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <g
+     id="g88"
+     transform="translate(10,10)">
+    <g
+       id="g68">
+      <circle
+         id="circle54"
+         style="fill-opacity: 0; stroke: rgb(221, 221, 221); stroke-opacity: 1;"
+         r="340"
+         transform="translate(340,340)"
+         class="node node--root" />
+      <circle
+         id="circle56"
+         style="fill: rgb(205, 205, 205); fill-opacity: 1; stroke: rgb(221, 221, 221); stroke-opacity: 0;"
+         r="149.9329369919896"
+         transform="translate(245.29496393664408,317.7610012626728)"
+         class="node node--leaf" />
+      <circle
+         id="circle58"
+         style="fill: rgb(205, 205, 205); fill-opacity: 1; stroke: rgb(221, 221, 221); stroke-opacity: 0;"
+         r="135.1477230513825"
+         transform="translate(535.2283980292867,317.7610012626728)"
+         class="node node--leaf" />
+      <circle
+         id="circle60"
+         style="fill: rgb(205, 205, 205); fill-opacity: 1; stroke: rgb(221, 221, 221); stroke-opacity: 0;"
+         r="121.45956084947605"
+         transform="translate(403.9718768484094,543.8872658821963)"
+         class="node node--leaf" />
+      <circle
+         id="circle62"
+         style="fill: rgb(205, 205, 205); fill-opacity: 1; stroke: rgb(221, 221, 221); stroke-opacity: 0;"
+         r="87.90597632298017"
+         transform="translate(402.2608050389403,132.66378398820694)"
+         class="node node--leaf" />
+      <circle
+         id="circle64"
+         style="fill: rgb(205, 205, 205); fill-opacity: 1; stroke: rgb(221, 221, 221); stroke-opacity: 0;"
+         r="70.12471015209873"
+         transform="translate(244.31746189037148,92.85270428116155)"
+         class="node node--leaf" />
+      <circle
+         id="circle66"
+         style="fill: rgb(205, 205, 205); fill-opacity: 1; stroke: rgb(221, 221, 221); stroke-opacity: 0;"
+         r="45.90739890840438"
+         transform="translate(540.9250674863996,131.94040564525773)"
+         class="node node--leaf" />
+    </g>
+    <g
+       id="g86">
+      <text
+         id="text70"
+         style="font-size: 11px; font-family: Arial, Helvetica;"
+         transform="translate(340,340)"
+         text-anchor="middle" />
+      <text
+         y="284.45593"
+         x="247.48018"
+         id="text72"
+         style="font-size:33.9404px;font-family:Arial, Helvetica;stroke-width:1.697"
+         transform="scale(0.98803393,1.012111)"
+         text-anchor="middle"><tspan
+           style="stroke-width:1.697"
+           y="284.45593"
+           x="247.48018"
+           id="tspan102"
+           sodipodi:role="line">Ability to have</tspan><tspan
+           style="stroke-width:1.697"
+           id="tspan126"
+           y="326.88144"
+           x="247.48018"
+           sodipodi:role="line">a flexible schedule</tspan><tspan
+           style="stroke-width:1.697"
+           y="369.30695"
+           x="247.48018"
+           id="tspan104"
+           sodipodi:role="line">32%</tspan></text>
+      <text
+         y="363.88382"
+         x="255.46683"
+         id="text74"
+         style="font-size:49.1896px;font-family:Arial, Helvetica;stroke-width:4.47178"
+         text-anchor="middle" />
+      <text
+         y="299.48093"
+         x="538.54675"
+         id="text76"
+         style="font-size:31.3717px;font-family:Arial, Helvetica;stroke-width:2.85196"
+         text-anchor="middle"><tspan
+           style="stroke-width:2.85196"
+           y="299.48093"
+           x="538.54675"
+           id="tspan98"
+           sodipodi:role="line">Flexibility to work</tspan><tspan
+           id="tspan122"
+           style="stroke-width:2.85196"
+           y="338.69559"
+           x="538.54675"
+           sodipodi:role="line">from any location</tspan><tspan
+           style="stroke-width:2.85196"
+           y="377.91028"
+           x="538.54675"
+           id="tspan100"
+           sodipodi:role="line">26%</tspan></text>
+      <text
+         y="509.00183"
+         x="404.51465"
+         id="text78"
+         style="font-size:39.0701px;font-family:Arial, Helvetica;stroke-width:3.55184"
+         text-anchor="middle"><tspan
+           style="stroke-width:3.55184"
+           y="509.00183"
+           x="404.51465"
+           id="tspan106"
+           sodipodi:role="line">Not having</tspan><tspan
+           id="tspan124"
+           style="stroke-width:3.55184"
+           y="557.83948"
+           x="404.51465"
+           sodipodi:role="line">to commute</tspan><tspan
+           style="stroke-width:3.55184"
+           y="606.67706"
+           x="404.51465"
+           id="tspan108"
+           sodipodi:role="line">21%</tspan></text>
+      <text
+         y="116.94331"
+         x="401.94382"
+         id="text80"
+         style="font-size:17.1026px;font-family:Arial, Helvetica;stroke-width:1.55479"
+         text-anchor="middle"><tspan
+           style="stroke-width:1.55479"
+           y="116.94331"
+           x="401.94382"
+           id="tspan110"
+           sodipodi:role="line">Ability to spend time</tspan><tspan
+           id="tspan130"
+           style="stroke-width:1.55479"
+           y="138.32155"
+           x="401.94382"
+           sodipodi:role="line">with family</tspan><tspan
+           style="stroke-width:1.55479"
+           y="159.69981"
+           x="401.94382"
+           id="tspan112"
+           sodipodi:role="line">11%</tspan></text>
+      <text
+         y="79.718063"
+         x="246.50928"
+         id="text82"
+         style="font-size:18.9166px;font-family:Arial, Helvetica;stroke-width:1.71969"
+         text-anchor="middle"><tspan
+           style="stroke-width:1.71969"
+           y="79.718063"
+           x="246.50928"
+           id="tspan114"
+           sodipodi:role="line">Ability to work</tspan><tspan
+           id="tspan128"
+           style="stroke-width:1.71969"
+           y="103.36382"
+           x="246.50928"
+           sodipodi:role="line">from home</tspan><tspan
+           style="stroke-width:1.71969"
+           y="127.00956"
+           x="246.50928"
+           id="tspan116"
+           sodipodi:role="line">7%</tspan></text>
+      <text
+         y="129.38509"
+         x="542.02625"
+         id="text84"
+         style="font-size:19.583px;font-family:Arial, Helvetica;stroke-width:1.78027"
+         text-anchor="middle"><tspan
+           style="stroke-width:1.78027"
+           y="129.38509"
+           x="542.02625"
+           id="tspan118"
+           sodipodi:role="line">Other</tspan><tspan
+           style="stroke-width:1.78027"
+           y="153.86386"
+           x="542.02625"
+           id="tspan120"
+           sodipodi:role="line">3%</tspan></text>
+    </g>
+  </g>
+</svg>
