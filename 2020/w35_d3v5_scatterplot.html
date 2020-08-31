@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<!-- Inspirado en este ejemplo de Mike Bostock
+  https://bl.ocks.org/mbostock/3887118 -->
+
+<style>
+
+body {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.dot {
+  stroke: #fff;
+  fill: steelblue;
+}
+
+.dot:hover { 
+ fill: #f00;
+}  
+
+.label {
+  fill: #000;
+}  
+  
+</style>
+<body>
+<script src="//d3js.org/d3.v5.min.js"></script>
+<script>
+var margin = {top: 20, right: 20, bottom: 30, left: 40},
+    width = 400 - margin.left - margin.right,
+    height = 400 - margin.top - margin.bottom;
+
+var x = d3.scaleLinear().range([0, width]); 
+var y = d3.scaleLinear().range([height, 0]);
+
+var svg = d3.select("body").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+var xAxis = d3.axisBottom(x);
+var yAxis = d3.axisLeft(y);
+
+d3.csv("https://raw.githubusercontent.com/aaizemberg/vis/gh-pages/2020/w35.csv").then(function(data) {
+
+  data.forEach(function(d) {
+    d.average = +d.average;
+    d.dismissals = +d.dismissals;
+  });
+
+  x.domain(d3.extent(data, function(d) { return d.dismissals; })).nice();
+  y.domain(d3.extent(data, function(d) { return d.average; })).nice();
+  
+    svg.append("g")
+      .attr("class", "x axis")
+      .attr("transform", "translate(0," + height + ")")
+      .call(xAxis)
+    .append("text")
+      .attr("class", "label")
+      .attr("x", width)
+      .attr("y", -6)
+      .style("text-anchor", "end")
+      .text("dismissals");
+
+
+  svg.append("g")
+      .attr("class", "y axis")
+      .call(yAxis)
+    .append("text")
+      .attr("class", "label")
+      .attr("transform", "rotate(-90)")
+      .attr("y", 6)
+      .attr("dy", ".71em")
+      .style("text-anchor", "end")
+      .text("average")
+
+  svg.selectAll(".dot")
+      .data(data)
+    .enter().append("circle")
+      .attr("class", "dot")
+      .attr("r", 5)
+      .attr("cx", function(d) { return x(d.dismissals); })
+      .attr("cy", function(d) { return y(d.average); })
+        .append("title")
+        .text(function(d) {return d.batsman; })
+
+  var legend = svg.selectAll(".legend")
+      .data(color.domain())
+    .enter().append("g")
+      .attr("class", "legend")
+      .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
+
+  legend.append("rect")
+      .attr("x", width - 18)
+      .attr("width", 18)
+      .attr("height", 18)
+      .style("fill", color);
+
+  legend.append("text")
+      .attr("x", width - 24)
+      .attr("y", 9)
+      .attr("dy", ".35em")
+      .style("text-anchor", "end")
+      .text(function(d) { return d; });
+
+});
+</script>
