@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>El tiempo en Villa Urquiza</title>
+</head>
+<body>
+  
+  <div id="observablehq-20d133a1"></div>
+<script type="module">
+import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+import define from "https://api.observablehq.com/d/eece7404b761e766.js?v=3";
+const inspect = Inspector.into("#observablehq-20d133a1");
+(new Runtime).module(define, name => name === "viewof temp" ? inspect() : undefined);
+</script>
+
+</body>
+</html>
