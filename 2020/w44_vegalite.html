@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MOM, W44</title>
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
+  </head>
+  <body>
+    <div id="vis"></div>
+
+<script>
+      
+      var spec = {
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "description": "mom w44",
+  "data": {"url": "https://download.data.world/s/squwwxr2osh7uwepxk7v245egnvegj", "format" : {"type" : "csv"}},
+  "mark": "circle",
+  "encoding": {
+    "x": {"field": "gap_internet", "type": "quantitative"},
+    "y": {"field": "gap_mobile", "type": "quantitative"}
+  }
+};
+
+vegaEmbed('#vis', spec);
+</script>
+
+</body>
+</html>
