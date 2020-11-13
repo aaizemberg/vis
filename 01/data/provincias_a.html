@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>d3.js</title>
+  <script src="https://d3js.org/d3.v6.min.js"></script>
+</head>
+<body>
+  
+  <div id="cabeza">ENCABEZADO</div>
+  <div id="vis"></div>
+  <div id="pie">PIE DE PAGINA</div>
+
+<script>
+var url = 'https://raw.githubusercontent.com/aaizemberg/vis/gh-pages/01/data/poblacion.tsv';
+
+d3.tsv( url, d3.autoType ).then(function(data) {
+  draw(data)
+});
+
+function draw(datos) {
+  d3.select("#vis").selectAll("a") 
+    .data(datos).enter().append("a")
+  //  .text( function(d,i) { return d;} );
+      .text( d => d.provincia )
+      .attr("href", d => "https://www.google.com/search?q="+d.provincia)
+        .append('br');  
+}
+  
+</script>  
+  
+</body>
+</html>
