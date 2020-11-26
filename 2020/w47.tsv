@@ -3,19 +3,19 @@ index	Quarter	Gross Domestic Product ($mil)	Total Public Debt ($mil)	Party	Presi
 1	1966-04-01	804.981	316097	Demócrata	Lyndon B. Johnson
 2	1966-07-01	819.638	324748	Demócrata	Lyndon B. Johnson
 3	1966-10-01	833.302	329319	Demócrata	Lyndon B. Johnson
-4	1967-01-01	844.17	330947	Demócrata	Lyndon B. Johnson
+4	1967-01-01	844.170	330947	Demócrata	Lyndon B. Johnson
 5	1967-04-01	848.983	322893	Demócrata	Lyndon B. Johnson
 6	1967-07-01	865.233	335896	Demócrata	Lyndon B. Johnson
 7	1967-10-01	881.439	344663	Demócrata	Lyndon B. Johnson
 8	1968-01-01	909.387	349473	Demócrata	Lyndon B. Johnson
 9	1968-04-01	934.344	345369	Demócrata	Lyndon B. Johnson
 10	1968-07-01	950.825	354743	Demócrata	Lyndon B. Johnson
-11	1968-10-01	968.03	358029	Demócrata	Lyndon B. Johnson
+11	1968-10-01	968.030	358029	Demócrata	Lyndon B. Johnson
 12	1969-01-01	993.337	359546	Demócrata	Lyndon B. Johnson
-13	1969-04-01	1009.02	352895	Republicano	Richard Nixon
+13	1969-04-01	1009.020	352895	Republicano	Richard Nixon
 14	1969-07-01	1029.956	360685	Republicano	Richard Nixon
 15	1969-10-01	1038.147	368226	Republicano	Richard Nixon
-16	1970-01-01	1051.2	372007	Republicano	Richard Nixon
+16	1970-01-01	1051.200	372007	Republicano	Richard Nixon
 17	1970-04-01	1067.375	370094	Republicano	Richard Nixon
 18	1970-07-01	1086.059	378678	Republicano	Richard Nixon
 19	1970-10-01	1088.608	389158	Republicano	Richard Nixon
@@ -27,7 +27,7 @@ index	Quarter	Gross Domestic Product ($mil)	Total Public Debt ($mil)	Party	Presi
 25	1972-04-01	1266.369	426435	Republicano	Richard Nixon
 26	1972-07-01	1290.566	433946	Republicano	Richard Nixon
 27	1972-10-01	1328.904	448473	Republicano	Richard Nixon
-28	1973-01-01	1377.49	458606	Republicano	Richard Nixon
+28	1973-01-01	1377.490	458606	Republicano	Richard Nixon
 29	1973-04-01	1413.887	457317	Republicano	Richard Nixon
 30	1973-07-01	1433.838	460614	Republicano	Richard Nixon
 31	1973-10-01	1476.289	469073	Republicano	Richard Nixon
@@ -37,7 +37,7 @@ index	Quarter	Gross Domestic Product ($mil)	Total Public Debt ($mil)	Party	Presi
 35	1974-10-01	1599.679	492664	Republicano	Gerald Ford
 36	1975-01-01	1616.116	509659	Republicano	Gerald Ford
 37	1975-04-01	1651.853	533188	Republicano	Gerald Ford
-38	1975-07-01	1709.82	553647	Republicano	Gerald Ford
+38	1975-07-01	1709.820	553647	Republicano	Gerald Ford
 39	1975-10-01	1761.831	576649	Republicano	Gerald Ford
 40	1976-01-01	1820.487	600490	Republicano	Gerald Ford
 41	1976-04-01	1852.332	620432	Republicano	Gerald Ford
@@ -46,12 +46,12 @@ index	Quarter	Gross Domestic Product ($mil)	Total Public Debt ($mil)	Party	Presi
 44	1977-01-01	1988.648	669207	Republicano	Gerald Ford
 45	1977-04-01	2055.909	674425	Demócrata	Jimmy Carter
 46	1977-07-01	2118.473	698840	Demócrata	Jimmy Carter
-47	1977-10-01	2164.27	718943	Demócrata	Jimmy Carter
-48	1978-01-01	2202.76	737951	Demócrata	Jimmy Carter
+47	1977-10-01	2164.270	718943	Demócrata	Jimmy Carter
+48	1978-01-01	2202.760	737951	Demócrata	Jimmy Carter
 49	1978-04-01	2331.633	749024	Demócrata	Jimmy Carter
 50	1978-07-01	2395.053	771544	Demócrata	Jimmy Carter
 51	1978-10-01	2476.949	789207	Demócrata	Jimmy Carter
-52	1979-01-01	2526.61	796792	Demócrata	Jimmy Carter
+52	1979-01-01	2526.610	796792	Demócrata	Jimmy Carter
 53	1979-04-01	2591.247	804913	Demócrata	Jimmy Carter
 54	1979-07-01	2667.565	826519	Demócrata	Jimmy Carter
 55	1979-10-01	2723.883	845116	Demócrata	Jimmy Carter
@@ -73,18 +73,18 @@ index	Quarter	Gross Domestic Product ($mil)	Total Public Debt ($mil)	Party	Presi
 71	1983-10-01	3794.706	1410702	Republicano	Ronald Reagan
 72	1984-01-01	3908.054	1463741	Republicano	Ronald Reagan
 73	1984-04-01	4009.601	1512697	Republicano	Ronald Reagan
-74	1984-07-01	4084.25	1572267	Republicano	Ronald Reagan
+74	1984-07-01	4084.250	1572267	Republicano	Ronald Reagan
 75	1984-10-01	4148.551	1662966	Republicano	Ronald Reagan
 76	1985-01-01	4230.168	1710731	Republicano	Ronald Reagan
 77	1985-04-01	4294.887	1774640	Republicano	Ronald Reagan
 78	1985-07-01	4386.773	1823103	Republicano	Ronald Reagan
 79	1985-10-01	4444.094	1945942	Republicano	Ronald Reagan
 80	1986-01-01	4507.894	1986816	Republicano	Ronald Reagan
-81	1986-04-01	4545.34	2059349	Republicano	Ronald Reagan
+81	1986-04-01	4545.340	2059349	Republicano	Ronald Reagan
 82	1986-07-01	4607.669	2125304	Republicano	Ronald Reagan
 83	1986-10-01	4657.627	2214835	Republicano	Ronald Reagan
 84	1987-01-01	4722.156	2246724	Republicano	Ronald Reagan
-85	1987-04-01	4806.16	2309296	Republicano	Ronald Reagan
+85	1987-04-01	4806.160	2309296	Republicano	Ronald Reagan
 86	1987-07-01	4884.555	2350277	Republicano	Ronald Reagan
 87	1987-10-01	5007.994	2431715	Republicano	Ronald Reagan
 88	1988-01-01	5073.372	2487551	Republicano	Ronald Reagan
@@ -102,7 +102,7 @@ index	Quarter	Gross Domestic Product ($mil)	Total Public Debt ($mil)	Party	Presi
 100	1991-01-01	6035.178	3465189	Republicano	George H. W. Bush
 101	1991-04-01	6126.862	3537988	Republicano	George H. W. Bush
 102	1991-07-01	6205.937	3665303	Republicano	George H. W. Bush
-103	1991-10-01	6264.54	3801698	Republicano	George H. W. Bush
+103	1991-10-01	6264.540	3801698	Republicano	George H. W. Bush
 104	1992-01-01	6363.102	3881288	Republicano	George H. W. Bush
 105	1992-04-01	6470.763	3984656	Republicano	George H. W. Bush
 106	1992-07-01	6566.641	4064621	Republicano	George H. W. Bush
@@ -120,14 +120,14 @@ index	Quarter	Gross Domestic Product ($mil)	Total Public Debt ($mil)	Party	Presi
 118	1995-07-01	7683.125	4973983	Demócrata	Bill Clinton
 119	1995-10-01	7772.586	4988665	Demócrata	Bill Clinton
 120	1996-01-01	7868.468	5117786	Demócrata	Bill Clinton
-121	1996-04-01	8032.84	5161076	Demócrata	Bill Clinton
+121	1996-04-01	8032.840	5161076	Demócrata	Bill Clinton
 122	1996-07-01	8131.408	5224811	Demócrata	Bill Clinton
 123	1996-10-01	8259.771	5323172	Demócrata	Bill Clinton
 124	1997-01-01	8362.655	5380890	Demócrata	Bill Clinton
 125	1997-04-01	8518.825	5376151	Demócrata	Bill Clinton
 126	1997-07-01	8662.823	5413146	Demócrata	Bill Clinton
 127	1997-10-01	8765.907	5502388	Demócrata	Bill Clinton
-128	1998-01-01	8866.48	5542426	Demócrata	Bill Clinton
+128	1998-01-01	8866.480	5542426	Demócrata	Bill Clinton
 129	1998-04-01	8969.699	5547935	Demócrata	Bill Clinton
 130	1998-07-01	9121.097	5526193	Demócrata	Bill Clinton
 131	1998-10-01	9293.991	5614217	Demócrata	Bill Clinton
@@ -153,7 +153,7 @@ index	Quarter	Gross Domestic Product ($mil)	Total Public Debt ($mil)	Party	Presi
 151	2003-10-01	11769.275	6997964	Republicano	George W. Bush
 152	2004-01-01	11920.169	7131068	Republicano	George W. Bush
 153	2004-04-01	12108.987	7274335	Republicano	George W. Bush
-154	2004-07-01	12303.34	7379053	Republicano	George W. Bush
+154	2004-07-01	12303.340	7379053	Republicano	George W. Bush
 155	2004-10-01	12522.425	7596143	Republicano	George W. Bush
 156	2005-01-01	12761.337	7776939	Republicano	George W. Bush
 157	2005-04-01	12910.022	7836496	Republicano	George W. Bush
@@ -172,17 +172,17 @@ index	Quarter	Gross Domestic Product ($mil)	Total Public Debt ($mil)	Party	Presi
 170	2008-07-01	14835.187	10024725	Republicano	George W. Bush
 171	2008-10-01	14559.543	10699805	Republicano	George W. Bush
 172	2009-01-01	14394.547	11126941	Republicano	George W. Bush
-173	2009-04-01	14352.85	11545275	Demócrata	Barack Obama
+173	2009-04-01	14352.850	11545275	Demócrata	Barack Obama
 174	2009-07-01	14420.312	11909828	Demócrata	Barack Obama
 175	2009-10-01	14628.021	12311349	Demócrata	Barack Obama
-176	2010-01-01	14721.35	12773123	Demócrata	Barack Obama
+176	2010-01-01	14721.350	12773123	Demócrata	Barack Obama
 177	2010-04-01	14926.098	13201792	Demócrata	Barack Obama
 178	2010-07-01	15079.917	13561622	Demócrata	Barack Obama
 179	2010-10-01	15240.843	14025215	Demócrata	Barack Obama
 180	2011-01-01	15285.828	14270114	Demócrata	Barack Obama
 181	2011-04-01	15496.189	14343087	Demócrata	Barack Obama
-182	2011-07-01	15591.85	14790340	Demócrata	Barack Obama
-183	2011-10-01	15796.46	15222940	Demócrata	Barack Obama
+182	2011-07-01	15591.850	14790340	Demócrata	Barack Obama
+183	2011-10-01	15796.460	15222940	Demócrata	Barack Obama
 184	2012-01-01	16019.758	15606518	Demócrata	Barack Obama
 185	2012-04-01	16152.257	15855037	Demócrata	Barack Obama
 186	2012-07-01	16257.151	16066240	Demócrata	Barack Obama
@@ -202,7 +202,7 @@ index	Quarter	Gross Domestic Product ($mil)	Total Public Debt ($mil)	Party	Presi
 200	2016-01-01	18470.156	19264939	Demócrata	Barack Obama
 201	2016-04-01	18656.207	19381591	Demócrata	Barack Obama
 202	2016-07-01	18821.359	19573445	Demócrata	Barack Obama
-203	2016-10-01	19032.58	19976827	Demócrata	Barack Obama
+203	2016-10-01	19032.580	19976827	Demócrata	Barack Obama
 204	2017-01-01	19237.435	19846420	Demócrata	Barack Obama
 205	2017-04-01	19379.232	19844554	Republicano	Donald Trump
 206	2017-07-01	19617.288	20244900	Republicano	Donald Trump
