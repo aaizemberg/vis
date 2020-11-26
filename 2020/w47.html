@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>mom w47</title>
+  <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@4"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+  
+<h1>U.S. Public Debt vs GDP</h1>
+<h2>Connected Scatterplot</h2>
+<h3>#makeovermonday 2020 w47</h3>
+
+  <div id="vl-vis"></div>
+  
+<script>  
+var vlSpec = {
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/aaizemberg/vis/gh-pages/2020/w47.tsv"
+  },
+  "width": 400,
+  "height": 400,
+  "layer": [
+    {
+      "mark": {"type": "line", "stroke": "lightgrey"},
+      "encoding": {
+        "x": {"field": "Gross Domestic Product ($mil)", "type": "quantitative"},
+        "y": {"field": "Total Public Debt ($mil)", "type": "quantitative"},
+        "order": {"field": "Quarter", "type": "temporal"}
+      }
+    },
+    {
+      "mark": {"type": "circle", "tooltip": {"content": "data"}},
+      "encoding": {
+        "x": {"field": "Gross Domestic Product ($mil)", "type": "quantitative"},
+        "y": {"field": "Total Public Debt ($mil)", "type": "quantitative"},
+        "color": {
+          "field": "Party",
+          "type": "nominal",
+          "scale": {
+            "domain": ["Demócrata", "Republicano"],
+            "range": ["#569DD5", "#E03D46"]
+          }
+        }
+      }
+    }
+  ],
+  "config": {}
+};
+
+vegaEmbed('div#vl-vis', vlSpec);
+
+</script>  
+  
+</body>
+</html>
