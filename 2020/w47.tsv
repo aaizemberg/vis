@@ -1,0 +1,219 @@
+index	Quarter	Gross Domestic Product ($mil)	Total Public Debt ($mil)	Party	President
+0	1966-01-01	795.734	320999	Demócrata	Lyndon B. Johnson
+1	1966-04-01	804.981	316097	Demócrata	Lyndon B. Johnson
+2	1966-07-01	819.638	324748	Demócrata	Lyndon B. Johnson
+3	1966-10-01	833.302	329319	Demócrata	Lyndon B. Johnson
+4	1967-01-01	844.17	330947	Demócrata	Lyndon B. Johnson
+5	1967-04-01	848.983	322893	Demócrata	Lyndon B. Johnson
+6	1967-07-01	865.233	335896	Demócrata	Lyndon B. Johnson
+7	1967-10-01	881.439	344663	Demócrata	Lyndon B. Johnson
+8	1968-01-01	909.387	349473	Demócrata	Lyndon B. Johnson
+9	1968-04-01	934.344	345369	Demócrata	Lyndon B. Johnson
+10	1968-07-01	950.825	354743	Demócrata	Lyndon B. Johnson
+11	1968-10-01	968.03	358029	Demócrata	Lyndon B. Johnson
+12	1969-01-01	993.337	359546	Demócrata	Lyndon B. Johnson
+13	1969-04-01	1009.02	352895	Republicano	Richard Nixon
+14	1969-07-01	1029.956	360685	Republicano	Richard Nixon
+15	1969-10-01	1038.147	368226	Republicano	Richard Nixon
+16	1970-01-01	1051.2	372007	Republicano	Richard Nixon
+17	1970-04-01	1067.375	370094	Republicano	Richard Nixon
+18	1970-07-01	1086.059	378678	Republicano	Richard Nixon
+19	1970-10-01	1088.608	389158	Republicano	Richard Nixon
+20	1971-01-01	1135.156	391668	Republicano	Richard Nixon
+21	1971-04-01	1156.271	397305	Republicano	Richard Nixon
+22	1971-07-01	1177.675	412268	Republicano	Richard Nixon
+23	1971-10-01	1190.297	424131	Republicano	Richard Nixon
+24	1972-01-01	1230.609	427344	Republicano	Richard Nixon
+25	1972-04-01	1266.369	426435	Republicano	Richard Nixon
+26	1972-07-01	1290.566	433946	Republicano	Richard Nixon
+27	1972-10-01	1328.904	448473	Republicano	Richard Nixon
+28	1973-01-01	1377.49	458606	Republicano	Richard Nixon
+29	1973-04-01	1413.887	457317	Republicano	Richard Nixon
+30	1973-07-01	1433.838	460614	Republicano	Richard Nixon
+31	1973-10-01	1476.289	469073	Republicano	Richard Nixon
+32	1974-01-01	1491.209	473675	Republicano	Richard Nixon
+33	1974-04-01	1530.056	474235	Republicano	Richard Nixon
+34	1974-07-01	1560.026	481466	Republicano	Richard Nixon
+35	1974-10-01	1599.679	492664	Republicano	Gerald Ford
+36	1975-01-01	1616.116	509659	Republicano	Gerald Ford
+37	1975-04-01	1651.853	533188	Republicano	Gerald Ford
+38	1975-07-01	1709.82	553647	Republicano	Gerald Ford
+39	1975-10-01	1761.831	576649	Republicano	Gerald Ford
+40	1976-01-01	1820.487	600490	Republicano	Gerald Ford
+41	1976-04-01	1852.332	620432	Republicano	Gerald Ford
+42	1976-07-01	1886.558	634701	Republicano	Gerald Ford
+43	1976-10-01	1934.273	653543	Republicano	Gerald Ford
+44	1977-01-01	1988.648	669207	Republicano	Gerald Ford
+45	1977-04-01	2055.909	674425	Demócrata	Jimmy Carter
+46	1977-07-01	2118.473	698840	Demócrata	Jimmy Carter
+47	1977-10-01	2164.27	718943	Demócrata	Jimmy Carter
+48	1978-01-01	2202.76	737951	Demócrata	Jimmy Carter
+49	1978-04-01	2331.633	749024	Demócrata	Jimmy Carter
+50	1978-07-01	2395.053	771544	Demócrata	Jimmy Carter
+51	1978-10-01	2476.949	789207	Demócrata	Jimmy Carter
+52	1979-01-01	2526.61	796792	Demócrata	Jimmy Carter
+53	1979-04-01	2591.247	804913	Demócrata	Jimmy Carter
+54	1979-07-01	2667.565	826519	Demócrata	Jimmy Carter
+55	1979-10-01	2723.883	845116	Demócrata	Jimmy Carter
+56	1980-01-01	2789.842	863451	Demócrata	Jimmy Carter
+57	1980-04-01	2797.352	877614	Demócrata	Jimmy Carter
+58	1980-07-01	2856.483	907701	Demócrata	Jimmy Carter
+59	1980-10-01	2985.557	930210	Demócrata	Jimmy Carter
+60	1981-01-01	3124.206	964531	Demócrata	Jimmy Carter
+61	1981-04-01	3162.532	971174	Republicano	Ronald Reagan
+62	1981-07-01	3260.609	997855	Republicano	Ronald Reagan
+63	1981-10-01	3280.818	1028729	Republicano	Ronald Reagan
+64	1982-01-01	3274.302	1061299	Republicano	Ronald Reagan
+65	1982-04-01	3331.972	1079630	Republicano	Ronald Reagan
+66	1982-07-01	3366.322	1142035	Republicano	Ronald Reagan
+67	1982-10-01	3402.561	1197074	Republicano	Ronald Reagan
+68	1983-01-01	3473.413	1244493	Republicano	Ronald Reagan
+69	1983-04-01	3578.848	1319581	Republicano	Ronald Reagan
+70	1983-07-01	3689.179	1377211	Republicano	Ronald Reagan
+71	1983-10-01	3794.706	1410702	Republicano	Ronald Reagan
+72	1984-01-01	3908.054	1463741	Republicano	Ronald Reagan
+73	1984-04-01	4009.601	1512697	Republicano	Ronald Reagan
+74	1984-07-01	4084.25	1572267	Republicano	Ronald Reagan
+75	1984-10-01	4148.551	1662966	Republicano	Ronald Reagan
+76	1985-01-01	4230.168	1710731	Republicano	Ronald Reagan
+77	1985-04-01	4294.887	1774640	Republicano	Ronald Reagan
+78	1985-07-01	4386.773	1823103	Republicano	Ronald Reagan
+79	1985-10-01	4444.094	1945942	Republicano	Ronald Reagan
+80	1986-01-01	4507.894	1986816	Republicano	Ronald Reagan
+81	1986-04-01	4545.34	2059349	Republicano	Ronald Reagan
+82	1986-07-01	4607.669	2125304	Republicano	Ronald Reagan
+83	1986-10-01	4657.627	2214835	Republicano	Ronald Reagan
+84	1987-01-01	4722.156	2246724	Republicano	Ronald Reagan
+85	1987-04-01	4806.16	2309296	Republicano	Ronald Reagan
+86	1987-07-01	4884.555	2350277	Republicano	Ronald Reagan
+87	1987-10-01	5007.994	2431715	Republicano	Ronald Reagan
+88	1988-01-01	5073.372	2487551	Republicano	Ronald Reagan
+89	1988-04-01	5190.036	2547656	Republicano	Ronald Reagan
+90	1988-07-01	5282.835	2602183	Republicano	Ronald Reagan
+91	1988-10-01	5399.509	2684392	Republicano	Ronald Reagan
+92	1989-01-01	5511.253	2740898	Republicano	Ronald Reagan
+93	1989-04-01	5612.463	2799923	Republicano	George H. W. Bush
+94	1989-07-01	5695.365	2857431	Republicano	George H. W. Bush
+95	1989-10-01	5747.237	2952994	Republicano	George H. W. Bush
+96	1990-01-01	5872.701	3051958	Republicano	George H. W. Bush
+97	1990-04-01	5960.028	3143754	Republicano	George H. W. Bush
+98	1990-07-01	6015.116	3233313	Republicano	George H. W. Bush
+99	1990-10-01	6004.733	3364820	Republicano	George H. W. Bush
+100	1991-01-01	6035.178	3465189	Republicano	George H. W. Bush
+101	1991-04-01	6126.862	3537988	Republicano	George H. W. Bush
+102	1991-07-01	6205.937	3665303	Republicano	George H. W. Bush
+103	1991-10-01	6264.54	3801698	Republicano	George H. W. Bush
+104	1992-01-01	6363.102	3881288	Republicano	George H. W. Bush
+105	1992-04-01	6470.763	3984656	Republicano	George H. W. Bush
+106	1992-07-01	6566.641	4064621	Republicano	George H. W. Bush
+107	1992-10-01	6680.803	4177009	Republicano	George H. W. Bush
+108	1993-01-01	6729.459	4230580	Republicano	George H. W. Bush
+109	1993-04-01	6808.939	4351950	Demócrata	Bill Clinton
+110	1993-07-01	6882.098	4411489	Demócrata	Bill Clinton
+111	1993-10-01	7013.738	4535687	Demócrata	Bill Clinton
+112	1994-01-01	7115.652	4575869	Demócrata	Bill Clinton
+113	1994-04-01	7246.931	4645802	Demócrata	Bill Clinton
+114	1994-07-01	7331.075	4692750	Demócrata	Bill Clinton
+115	1994-10-01	7455.288	4800150	Demócrata	Bill Clinton
+116	1995-01-01	7522.289	4864116	Demócrata	Bill Clinton
+117	1995-04-01	7580.997	4951372	Demócrata	Bill Clinton
+118	1995-07-01	7683.125	4973983	Demócrata	Bill Clinton
+119	1995-10-01	7772.586	4988665	Demócrata	Bill Clinton
+120	1996-01-01	7868.468	5117786	Demócrata	Bill Clinton
+121	1996-04-01	8032.84	5161076	Demócrata	Bill Clinton
+122	1996-07-01	8131.408	5224811	Demócrata	Bill Clinton
+123	1996-10-01	8259.771	5323172	Demócrata	Bill Clinton
+124	1997-01-01	8362.655	5380890	Demócrata	Bill Clinton
+125	1997-04-01	8518.825	5376151	Demócrata	Bill Clinton
+126	1997-07-01	8662.823	5413146	Demócrata	Bill Clinton
+127	1997-10-01	8765.907	5502388	Demócrata	Bill Clinton
+128	1998-01-01	8866.48	5542426	Demócrata	Bill Clinton
+129	1998-04-01	8969.699	5547935	Demócrata	Bill Clinton
+130	1998-07-01	9121.097	5526193	Demócrata	Bill Clinton
+131	1998-10-01	9293.991	5614217	Demócrata	Bill Clinton
+132	1999-01-01	9417.264	5651615	Demócrata	Bill Clinton
+133	1999-04-01	9524.152	5638780	Demócrata	Bill Clinton
+134	1999-07-01	9681.856	5656271	Demócrata	Bill Clinton
+135	1999-10-01	9899.378	5776091	Demócrata	Bill Clinton
+136	2000-01-01	10002.857	5773392	Demócrata	Bill Clinton
+137	2000-04-01	10247.679	5685938	Demócrata	Bill Clinton
+138	2000-07-01	10319.825	5674179	Demócrata	Bill Clinton
+139	2000-10-01	10439.025	5662216	Demócrata	Bill Clinton
+140	2001-01-01	10472.879	5773740	Demócrata	Bill Clinton
+141	2001-04-01	10597.822	5726815	Republicano	George W. Bush
+142	2001-07-01	10596.294	5807464	Republicano	George W. Bush
+143	2001-10-01	10660.294	5943439	Republicano	George W. Bush
+144	2002-01-01	10788.952	6006032	Republicano	George W. Bush
+145	2002-04-01	10893.207	6126469	Republicano	George W. Bush
+146	2002-07-01	10992.051	6228236	Republicano	George W. Bush
+147	2002-10-01	11071.463	6405707	Republicano	George W. Bush
+148	2003-01-01	11183.507	6460776	Republicano	George W. Bush
+149	2003-04-01	11312.875	6670121	Republicano	George W. Bush
+150	2003-07-01	11567.326	6783320	Republicano	George W. Bush
+151	2003-10-01	11769.275	6997964	Republicano	George W. Bush
+152	2004-01-01	11920.169	7131068	Republicano	George W. Bush
+153	2004-04-01	12108.987	7274335	Republicano	George W. Bush
+154	2004-07-01	12303.34	7379053	Republicano	George W. Bush
+155	2004-10-01	12522.425	7596143	Republicano	George W. Bush
+156	2005-01-01	12761.337	7776939	Republicano	George W. Bush
+157	2005-04-01	12910.022	7836496	Republicano	George W. Bush
+158	2005-07-01	13142.873	7932710	Republicano	George W. Bush
+159	2005-10-01	13332.316	8170413	Republicano	George W. Bush
+160	2006-01-01	13603.933	8371156	Republicano	George W. Bush
+161	2006-04-01	13749.806	8420042	Republicano	George W. Bush
+162	2006-07-01	13867.469	8506974	Republicano	George W. Bush
+163	2006-10-01	14037.228	8680224	Republicano	George W. Bush
+164	2007-01-01	14208.569	8849665	Republicano	George W. Bush
+165	2007-04-01	14382.363	8867677	Republicano	George W. Bush
+166	2007-07-01	14535.003	9007653	Republicano	George W. Bush
+167	2007-10-01	14681.501	9229172	Republicano	George W. Bush
+168	2008-01-01	14651.039	9437594	Republicano	George W. Bush
+169	2008-04-01	14805.611	9492006	Republicano	George W. Bush
+170	2008-07-01	14835.187	10024725	Republicano	George W. Bush
+171	2008-10-01	14559.543	10699805	Republicano	George W. Bush
+172	2009-01-01	14394.547	11126941	Republicano	George W. Bush
+173	2009-04-01	14352.85	11545275	Demócrata	Barack Obama
+174	2009-07-01	14420.312	11909828	Demócrata	Barack Obama
+175	2009-10-01	14628.021	12311349	Demócrata	Barack Obama
+176	2010-01-01	14721.35	12773123	Demócrata	Barack Obama
+177	2010-04-01	14926.098	13201792	Demócrata	Barack Obama
+178	2010-07-01	15079.917	13561622	Demócrata	Barack Obama
+179	2010-10-01	15240.843	14025215	Demócrata	Barack Obama
+180	2011-01-01	15285.828	14270114	Demócrata	Barack Obama
+181	2011-04-01	15496.189	14343087	Demócrata	Barack Obama
+182	2011-07-01	15591.85	14790340	Demócrata	Barack Obama
+183	2011-10-01	15796.46	15222940	Demócrata	Barack Obama
+184	2012-01-01	16019.758	15606518	Demócrata	Barack Obama
+185	2012-04-01	16152.257	15855037	Demócrata	Barack Obama
+186	2012-07-01	16257.151	16066240	Demócrata	Barack Obama
+187	2012-10-01	16358.863	16432730	Demócrata	Barack Obama
+188	2013-01-01	16569.591	16771381	Demócrata	Barack Obama
+189	2013-04-01	16637.926	16738320	Demócrata	Barack Obama
+190	2013-07-01	16848.748	16738180	Demócrata	Barack Obama
+191	2013-10-01	17083.137	17156119	Demócrata	Barack Obama
+192	2014-01-01	17104.555	17601227	Demócrata	Barack Obama
+193	2014-04-01	17432.909	17632606	Demócrata	Barack Obama
+194	2014-07-01	17721.657	17824071	Demócrata	Barack Obama
+195	2014-10-01	17849.912	18141444	Demócrata	Barack Obama
+196	2015-01-01	18003.399	18152056	Demócrata	Barack Obama
+197	2015-04-01	18223.577	18151998	Demócrata	Barack Obama
+198	2015-07-01	18347.425	18150618	Demócrata	Barack Obama
+199	2015-10-01	18378.803	18922179	Demócrata	Barack Obama
+200	2016-01-01	18470.156	19264939	Demócrata	Barack Obama
+201	2016-04-01	18656.207	19381591	Demócrata	Barack Obama
+202	2016-07-01	18821.359	19573445	Demócrata	Barack Obama
+203	2016-10-01	19032.58	19976827	Demócrata	Barack Obama
+204	2017-01-01	19237.435	19846420	Demócrata	Barack Obama
+205	2017-04-01	19379.232	19844554	Republicano	Donald Trump
+206	2017-07-01	19617.288	20244900	Republicano	Donald Trump
+207	2017-10-01	19937.963	20492747	Republicano	Donald Trump
+208	2018-01-01	20242.215	21089643	Republicano	Donald Trump
+209	2018-04-01	20552.653	21195070	Republicano	Donald Trump
+210	2018-07-01	20742.723	21516058	Republicano	Donald Trump
+211	2018-10-01	20909.853	21974096	Republicano	Donald Trump
+212	2019-01-01	21115.309	22027880	Republicano	Donald Trump
+213	2019-04-01	21329.877	22023283	Republicano	Donald Trump
+214	2019-07-01	21540.325	22719402	Republicano	Donald Trump
+215	2019-10-01	21747.394	23201380	Republicano	Donald Trump
+216	2020-01-01	21561.139	23223813	Republicano	Donald Trump
+217	2020-04-01	19520.114	26477241	Republicano	Donald Trump
