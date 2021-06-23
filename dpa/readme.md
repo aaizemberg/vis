@@ -89,3 +89,16 @@ data (csv)
 * [Accident data](https://assets.datacamp.com/production/course_5977/datasets/accident_data.csv)
 * [HR data (2)](https://assets.datacamp.com/production/course_5977/datasets/hr_data_2.csv)
 * [Survey data (2)](https://assets.datacamp.com/production/course_5977/datasets/survey_data_2.csv)
+
+## Human Resources Analytics: Predicting Employee Churn in R
+
+keywords: \#datacamp \#course \#R
+
+[course]()
+
+pre-requisitos
+
+data (zip)
+* [employee_data.zip](https://assets.datacamp.com/production/repositories/1746/datasets/ed764d8978ecdf6d91d2d3f0b5f1efcffe5cb7ec/employee_data.zip)
+
+unzip employee_data.zip --> org.csv, org_final.csv, rating.csv, survey.csv
