@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/vega@4.2.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@3.0.0-rc3"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@3.18.2"></script>
+</head>
+<body>
+
+  <div id="vis"></div>
+
+  <script>
+    var vlspec = {
+  "$schema": "https://vega.github.io/schema/vega-lite/v2.json",
+  "title": "Entry-level ...",
+  "width": 700,
+  "height": 400,
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  },
+  "mark": {
+    "type": "bar"
+  },
+  "encoding": {
+    "y": {
+      "field": "job",
+      "type": "nominal",
+      "sort": {
+        "field": "entry_level_jobs_on_linkedin_require_3_years_of_experience",
+        "order": "descending"
+      }
+    },
+    "x": {
+      "field": "entry_level_jobs_on_linkedin_require_3_years_of_experience",
+      "type": "quantitative"
+    }
+  },
+  "data": { url : "https://raw.githubusercontent.com/aaizemberg/vis/gh-pages/2021/2021w34.csv"
+  },
+  "config": {
+    "background": "#ffffff",
+    "padding": 20
+  }
+};
+      
+    vegaEmbed("div#vis", vlspec);
+  </script>
+</body>
+</html>
