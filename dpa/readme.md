@@ -4,8 +4,7 @@
 
 \#kaggle \#competencia \#dataset \#IBM
 
-dataset (csv)
-1, [WA_Fn-UseC_-HR-Employee-Attrition.csv](WA_Fn-UseC_-HR-Employee-Attrition.csv)
+dataset (csv), [WA_Fn-UseC_-HR-Employee-Attrition.csv](WA_Fn-UseC_-HR-Employee-Attrition.csv)
 
 El archivo lo tome de una competencia de kaggle -->  https://www.kaggle.com/pavansubhasht/ibm-hr-analytics-attrition-dataset
 
@@ -104,6 +103,8 @@ data (zip)
 unzip employee_data.zip --> org.csv, org_final.csv, rating.csv, survey.csv
 
 ## Employee Data.csv
+
+[employee_data_100x8.csv](employee_data_100x8.csv)
 
 source: https://www.kaggle.com/code/nuruldewi/data-employee-attrition-predicting-employee-turno/data
 
