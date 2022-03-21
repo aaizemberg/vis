@@ -107,7 +107,7 @@ unzip employee_data.zip --> org.csv, org_final.csv, rating.csv, survey.csv
 
 source: https://www.kaggle.com/code/nuruldewi/data-employee-attrition-predicting-employee-turno/data
 
-100 empleados con 8 variables
+Data of 100 employees with 8 attributes
 
 1. **Gender**: Gender of Employee
 2. **Satisfaction**: Satisfaction Level of Employee with Work Environment and Company
