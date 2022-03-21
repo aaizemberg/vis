@@ -102,3 +102,18 @@ data (zip)
 * [employee_data.zip](https://assets.datacamp.com/production/repositories/1746/datasets/ed764d8978ecdf6d91d2d3f0b5f1efcffe5cb7ec/employee_data.zip)
 
 unzip employee_data.zip --> org.csv, org_final.csv, rating.csv, survey.csv
+
+## Employee Data.csv
+
+source: https://www.kaggle.com/code/nuruldewi/data-employee-attrition-predicting-employee-turno/data
+
+100 empleados con 8 variables
+
+1. **Gender**: Gender of Employee
+2. **Satisfaction**: Satisfaction Level of Employee with Work Environment and Company
+3. **Business Travel**: Frequency of Business Travel
+4. **Department**: Department of Employee
+5. **EducationField**: Field of Educational Qualification
+6. **Salary**: Salary bracket of employee
+7. **Home-Office**: Distance from home to office
+8. **Attrition**: Did the employee leave the company?
