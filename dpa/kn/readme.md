@@ -61,3 +61,5 @@ Los datasets del segundo libro
 |wikivote                          |Wikipedia administrator voting network|
 |workfrance_edgelist               |Workplace network edgelist|
 |workfrance_vertices               |Workplace network vertices|
+
+[Visualizando los datos de estos 2 libros](https://observablehq.com/@aaizemberg/datasets-people-analytics)
