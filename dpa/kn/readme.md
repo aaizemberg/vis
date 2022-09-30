@@ -1,22 +1,25 @@
-Los datasets de Keith McNulty`( https://peopleanalytics-regression-book.org/ )
+Los datasets de Keith McNulty
+
+
+https://peopleanalytics-regression-book.org/
 
 Data sets in package ‘peopleanalyticsdata’:
 
-```
- charity_donation         Charity donation data
- employee_performance     Employee performance data
- employee_survey          Employee survey data
- graduates                Graduate salary data
- health_insurance         Health insurance data
- job_retention            Job retention data
- learning                 Learning program feedback data
- managers                 Manager performance data
- politics_survey          Politics survey data
- promotion                Promotion data
- recruiting               Recruiting data
- salespeople              Salespeople promotion data
- soccer                   Soccer discipline data
- sociological_data        Sociological survey data
- speed_dating             Speed dating data
- ugtests                  Undergraduate examination data
-```
+| name                     | description |
+| ------------------------ | ----------- |
+| charity_donation         | Charity donation |
+| employee_performance     | Employee performance |
+| employee_survey          | Employee survey |
+| graduates                | Graduate salary |
+| health_insurance         | Health insurance |
+| [job_retention](http://peopleanalytics-regression-book.org/data/job_retention.csv)            | Job retention | 
+| learning                 | Learning program feedback |
+| managers                 | Manager performance |
+| politics_survey          | Politics survey |
+| promotion                | Promotion |
+| recruiting               | Recruiting |
+| salespeople              | Salespeople promotion |
+| soccer                   | Soccer discipline |
+| sociological_data        | Sociological survey |
+| speed_dating             | Speed dating |
+| ugtests                  | Undergraduate examination |
