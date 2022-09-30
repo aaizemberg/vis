@@ -1,6 +1,5 @@
 Los datasets de Keith McNulty
 
-
 https://peopleanalytics-regression-book.org/
 
 Data sets in package ‘peopleanalyticsdata’:
@@ -12,7 +11,7 @@ Data sets in package ‘peopleanalyticsdata’:
 | employee_survey          | Employee survey |
 | graduates                | Graduate salary |
 | health_insurance         | Health insurance |
-| [job_retention](http://peopleanalytics-regression-book.org/data/job_retention.csv)            | Job retention | 
+| job_retention            | Job retention | 
 | learning                 | Learning program feedback |
 | managers                 | Manager performance |
 | politics_survey          | Politics survey |
@@ -23,3 +22,5 @@ Data sets in package ‘peopleanalyticsdata’:
 | sociological_data        | Sociological survey |
 | speed_dating             | Speed dating |
 | ugtests                  | Undergraduate examination |
+
+* https://observablehq.com/@aaizemberg/datasets-people-analytics
