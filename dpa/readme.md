@@ -118,3 +118,9 @@ Data of 100 employees with 8 attributes
 6. **Salary**: Salary bracket of employee
 7. **Home-Office**: Distance from home to office
 8. **Attrition**: Did the employee leave the company?
+
+## employee_churn_data.csv
+
+[employee_churn_data.csv](employee_churn_data.csv)
+
+source: https://app.datacamp.com/learn/competitions/reducing-employee-turnover
