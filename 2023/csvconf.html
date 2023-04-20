@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Embedding Vega-Lite</title>
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.22.1"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.7.1"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.21.3"></script>
+  </head>
+  <body>
+    <div id="vis"></div>
+    <script>
+      var vl = {
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Plot showing a 30 day rolling average with raw values in the background.",
+  "width": 400,
+  "height": 300,
+  "data": {"url": "https://vega.github.io/vega-lite/examples/data/seattle-weather.csv"},
+  "transform": [{
+    "window": [
+      {
+        "field": "temp_max",
+        "op": "mean",
+        "as": "rolling_mean"
+      }
+    ],
+    "frame": [-15, 15]
+  }],
+  "encoding": {
+    "x": {"field": "date", "type": "temporal", "title": "Date"},
+    "y": {"type": "quantitative", "axis": {"title": "Max Temperature and Rolling Mean"}}
+  },
+  "layer": [
+    {
+      "mark": {"type": "point", "opacity": 0.3},
+      "encoding": {
+        "y": {"field": "temp_max", "title": "Max Temperature"}
+      }
+    },
+    {
+      "mark": {"type": "line", "color": "red", "size": 3},
+      "encoding": {
+        "y": {"field": "rolling_mean", "title": "Rolling Mean of Max Temperature"}
+      }
+    }
+  ]
+};
+
+vegaEmbed('#vis', vl);
+    </script>  
+     </body>
+</html>
