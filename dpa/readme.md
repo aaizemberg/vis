@@ -124,3 +124,11 @@ Data of 100 employees with 8 attributes
 [employee_churn_data.csv](employee_churn_data.csv)
 
 source: https://app.datacamp.com/learn/competitions/reducing-employee-turnover
+
+## Funcionarios CABA
+
+Archivo separado por tabs, para ver la paridad de funcionarios por genero, se le agrego una columna.
+
+[funcionarios_caba.tsv](funcionarios_caba.tsv)
+
+source: https://buenosaires.gob.ar/organigrama/funcionarios/listado.php
