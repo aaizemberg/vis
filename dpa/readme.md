@@ -125,6 +125,18 @@ Data of 100 employees with 8 attributes
 
 source: https://app.datacamp.com/learn/competitions/reducing-employee-turnover
 
+## employee-dataset de Kaggle
+
+registros: 4.653
+
+atributos: 9
+
+target: LeaveOrNot
+
+[Employee.csv](https://github.com/aaizemberg/vis/blob/gh-pages/dpa/Employee.csv)
+
+source: https://www.kaggle.com/datasets/tawfikelmetwally/employee-dataset/
+
 ## Funcionarios CABA
 
 Archivo separado por tabs, para ver la paridad de funcionarios por genero, se le agrego una columna.
