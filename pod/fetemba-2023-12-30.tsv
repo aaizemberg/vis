@@ -1,413 +1,413 @@
 pos	nombre	categoria	club	puntos	variacion	n_categoria
-1	2	Gilabert, Rodrigo	River Plate	3096	0	0
-2	1403	Mendez, Mariano	UCA Marash Argentina	2794	9	0
-3	2408	Weiss, Alan	La Legión TDM	2793	-35	0
-4	737	Yamamoto, Leandro	Alvear Club	2700	5	0
-5	2282	Jaimovich, Ignacio	Macabi	2677	-16	0
-6	1746	Marini, Joaquín	Ferrocarril Oeste	2653	15	0
-7	1476	Spinelli, Franco	Ferrocarril Oeste	2594	-17	0
-8	1477	Marini, Santiago	Ferrocarril Oeste	2575	-33	0
-9	2377	Blasco, Lisandro	Fenix	2554	19	0
-10	790	Waldszan, Matías	Macabi	2459	0	0
-11	2422	Romero, Santiago	Ateneo de Versailles	2447	-22	0
-12	2148	Hurevich, Tobias	Macabi	2445	7	0
-13	625	Delgadillo, Rodrigo	San Lorenzo	2404	-22	0
-14	2557	Basso, Valentin	Gimnasty	2402	-35	0
-15	32	Casal, Octavio	Estacion Ping Pong	2397	-21	0
-16	1114	Heis, Nicolás	River Plate	2392	45	0
-17	2391	Rodriguez Schoeller, Santiago	Ateneo de Versailles	2366	-5	0
-18	2657	Riera Castillo, Simon A.	CEDIMA	2319	151	0
-19	3375	Sanchez, Ariel H.	Estacion Ping Pong	2312	34	0
-20	949	Ramos, Mauro	Fenix	2285	24	0
-21	2778	Carattoli, Lucas J.	Ateneo de Versailles	2238	27	0
-22	936	Lopez Marquez, Ezequiel	Fenix	2225	0	0
-23	1516	Marsaglia, Matías	Tigre TDM	2212	6	0
-24	893	Neira, Darío	Spin TDM	2176	-51	0
-25	4463	Burdin, Dimitri	Ferrocarril Oeste	2108	0	1
-26	129	Perez Altera, Ignacio	Peretz	2095	0	1
-27	1282	Menghi, Manuel	Gimnasty	2062	-37	1
-28	21	Bronstein, Leandro	River Plate	2048	0	1
-29	2772	Bernardou, Tomas	Ateneo de Versailles	2032	86	1
-30	17	Wainsztok, Darío	Instituto Cia. Maria	2032	3	1
-31	694	Bentancourt, Luciano	GTM	2027	-17	1
-32	1656	Peña, Franco	Fulgor Villa Crespo	2018	-19	1
-33	3029	Zaffaroni Velazquez, Luca N.	Fenix	2010	7	1
-34	1488	Carpio, Francisco	AsociacionYabrudense	1999	18	1
-35	1437	Buzzi, Maximiliano	Estacion Ping Pong	1995	7	1
-36	1252	Cisilin, Estanislao	Instituto Cia. Maria	1970	-12	1
-37	3042	Bronstein, Facundo	River Plate	1968	-14	1
-38	13	Tchintchinian, Mariano	UCA Marash Argentina	1956	0	1
-39	2005	Candela, Juan	Fenix	1954	0	1
-40	3394	Carranza, Mateo	GTM	1936	23	1
-41	1751	Jang, Agustín	Ferrocarril Oeste	1931	0	1
-42	2633	Schvartz, Ivan	Macabi	1922	-24	1
-43	889	Krowicki, Nahuel	Intendente Agüero	1918	68	1
-44	2737	Smodlaka, Guido I.	Alvear Club	1918	-7	1
-45	3749	Mosteirin Clemente, Camilo	TMR	1896	50	1
-46	1895	Samaja, Facundo	River Plate	1864	0	1
-47	1340	Huici, Julián	U.V.V.A.	1861	15	1
-48	2779	Carattoli, Matias J.	Ateneo de Versailles	1855	-20	1
-49	857	Kamimura, Emilio	CAVA	1854	1	1
-50	2692	Albanese, Juan Manuel	River Plate	1851	0	1
-51	1204	Marchese, Ignacio	Zenit	1826	4	1
-52	3230	Sassone, Marco	Alvear Club	1813	-17	1
-53	1738	Darcyl, Leonardo	Padilla	1797	28	1
-54	1237	Sarso, Luciano	CAVA	1794	8	1
-55	4001	Kosmata, Phil	River Plate	1789	0	1
-56	782	Marginet Campos, Alejandro	GTM	1783	-5	1
-57	1507	Hurtado, Franco	San Lorenzo	1776	-13	1
-58	944	Kenji Kamida, Diego	Alvear Club	1767	-36	1
-59	2410	Munno, Alvaro	Rioja	1751	-1	1
-60	3345	Sanchez, Martin C.	Ateneo de Versailles	1734	0	1
-61	3357	Rossi Vera, Santino	Peretz	1701	27	2
-62	2982	Parinelli, David	Boca Juniors	1698	59	2
-63	1757	Okuyama, Abril	Peretz	1693	11	2
-64	4368	Nikitin, Evgeny	Fulgor Villa Crespo	1669	6	2
-65	1151	Rizzo, Juan	San Lorenzo	1669	-33	2
-66	2718	Dorigoni, Enzo	Libertad	1663	-31	2
-67	519	San Millan, Federico	Macabi	1655	0	2
-68	3084	Azzurro, Ignacio	Gimnasty	1652	-6	2
-69	2437	Lescano, Ramiro	Boca Juniors	1649	-24	2
-70	3717	Fernandez Arevalo, Mariano	Nikkei TDM	1642	-1	2
-71	3712	Sclar, Matias	Alvear Club	1641	45	2
-72	104	Correas Espeche, Ezequiel	El Galpong	1638	0	2
-73	515	Tiercin, Gonzalo	Atlanta	1617	0	2
-74	77	Aguirre, Sebastián	Instituto Cia. Maria	1611	0	2
-75	1229	Kaniuka, Aleksy	CEDIMA	1604	0	2
-76	2015	Lori, Hikaru	GTM	1601	8	2
-77	2503	Rosen, Franco	La Legión TDM	1601	-24	2
-78	963	Perez, Alejandro	CEDIMA	1599	0	2
-79	2215	Pokorny, Solange	Nichia Gakuin	1587	27	2
-80	2950	Monteforte, Pablo A.	Lourdes	1578	15	2
-81	2938	Nakagama, Alan Jun	Fenix	1567	-6	2
-82	1276	Lemos, Ulises	Fenix	1561	5	2
-83	4567	Ulloa, Exequiel L.	Estacion Ping Pong	1553	0	2
-84	1952	Camagna, Diego Andrés	Fenix	1525	-13	2
-85	50	Rodriguez, Diego	El Galpong	1521	0	2
-86	2486	Ortiz, Carlos N.	Libertad	1520	-36	2
-87	663	Bertran, Ezequiel	GTM	1513	-38	2
-88	1305	Salvatierra, Marcelo	TMR	1505	-11	2
-89	2675	Buquete, Luis Mariano	El Galpong	1501	0	2
-90	1852	Kravetz, Daniel	Estacion Ping Pong	1501	0	2
-91	2940	Arnaudo, Facundo E.	Ferrocarril Oeste	1498	0	2
-92	1921	Palazzo, Didier	Ateneo de Versailles	1498	0	2
-93	1925	Carreira, Lautaro	Libertad	1496	40	2
-94	1637	D' Ignazi, Luciano	Zenit	1490	-37	2
-95	795	Deym, Federico	Libre	1488	0	2
-96	570	Josid, Alex	Macabi	1486	0	2
-97	1517	Orobio, Manuel	Tigre TDM	1474	36	2
-98	3358	La Boccetta, Ignacio	Peretz	1471	21	2
-99	3952	Florindo Molina, Claudio	Spin TDM	1466	98	2
-100	651	Caram, Alejo	Fulgor Villa Crespo	1462	0	2
-101	595	Garcia, Román	Gimnasty	1459	0	2
-102	2247	Tomasello, Lucio	Ferrocarril Oeste	1455	0	2
-103	2034	Ghini, Bruno	Ateneo de Versailles	1445	0	2
-104	3462	Cornejo, Franco	GTM	1443	20	2
-105	1775	Waitzel, Ariel	Instituto Cia. Maria	1425	0	2
-106	3524	Molina, Juan Martin	Fenix	1419	85	2
-107	2922	Mamone, Matias	Alvear Club	1417	-10	2
-108	2049	Bisforo, Lucas	Padilla	1416	12	2
-109	3360	Puk Vidal, Sebastian	Peretz	1404	62	2
-110	3778	Dias, Juan Cruz	Alvear Club	1404	-39	2
-111	3750	Notturno, Nicolas	TMR	1401	41	3
-112	1701	Docampo, Alejandro	Lourdes	1396	0	3
-113	1395	Maza, Diego Hernán	River Plate	1393	45	3
-114	1166	Venancio, Emiliano	GTM	1386	-4	3
-115	3374	Marcial, Luca Valentino	AsociacionYabrudense	1383	87	3
-116	2507	Lagrotteria, Lucio	Instituto Cia. Maria	1382	17	3
-117	3435	Ramos, Sebastian	Ateneo de Versailles	1368	0	3
-118	3664	Ali, Ahmed	TMR	1361	42	3
-119	1623	Skliarsky, Eithan	Spin TDM	1348	17	3
-120	1006	Rodriguez, Aurelio	Instituto Cia. Maria	1347	0	3
-121	1893	Mariño, Naomí	CEDIMA	1345	-101	3
-122	3640	Sosa, Emiliano	River Plate	1342	44	3
-123	2828	Nizetich Tripodi, Lautaro	CTDM Nizetich	1341	-12	3
-124	2678	Gomez, Tomas	Tigre TDM	1335	48	3
-125	2785	Erlich, Damian Ariel	Top Minc	1319	55	3
-126	3057	Soldi, Juan Andres	Gimnasty	1296	0	3
-127	3641	Lucia, Nicolas	Estacion Ping Pong	1293	0	3
-128	2656	Fernandez Pizzella, Valentin	Ferrocarril Oeste	1288	0	3
-129	2859	Alvarez, Felipe	Boca Juniors	1284	39	3
-130	1202	De Bonis, Ignacio	U.V.V.A.	1279	-9	3
-131	93	Jaimovich, David	Fenix	1277	14	3
-132	3792	Maldonado, Agustin	GTM	1275	32	3
-133	1344	D' Amato, Pablo	U.V.V.A.	1274	-3	3
-134	1483	Fiasche, Francisco	Banco Nacion	1270	-7	3
-135	1992	Baltaian, Leandro Alfredo	River Plate	1270	-16	3
-136	449	Trigo, Fernando	AsociacionYabrudense	1247	-7	3
-137	955	Garcia, Lucas	Alvear Club	1245	26	3
-138	1389	Cohen, Claudio	Alvear Club	1240	-3	3
-139	138	Amendola, Julio	CAVA	1239	0	3
-140	1755	Iwasa, Abril	Ferrocarril Oeste	1227	0	3
-141	1676	Laiño, Alejandro Daniel	CAVA	1226	3	3
-142	3786	Pagano, Francisco	Alvear Club	1225	16	3
-143	3471	Flores Canto, Erik	San Lorenzo	1211	45	3
-144	2801	Martinez Alcalde, Emanuel	CEDIMA	1206	0	3
-145	120	Slinin, Julio	UCA Marash Argentina	1183	0	3
-146	1771	Huarte, Thomas	La Legión TDM	1183	-3	3
-147	3669	Rolon, Fernando	Asoc. Jap. Burzaco	1181	0	3
-148	1731	Viñas, Nicolás	Atlanta	1178	0	3
-149	2860	Aguilar Ikeda, Justina Mayumi	River Plate	1177	38	3
-150	1747	Saul, Felipe	Alvear Club	1175	9	3
-151	2535	Duek, Joaquin	Macabi	1172	0	3
-152	898	Benitez, Pablo	Alvear Club	1172	-8	3
-153	1130	Tula, Fabio	Fenix	1171	-4	3
-154	4065	Müller, Malik	Club La Quinta	1167	0	3
-155	3950	Castañeda Jr., Hugo	CEDIMA	1161	-13	3
-156	3644	Perez, Martin	Alvear Club	1156	4	3
-157	3133	Bellomi, Joaquin	CEDIMA	1153	-5	3
-158	3347	Perlov, Lucas	Fenix	1145	0	3
-159	200	Atamian, Martín	Inst.Atlet. Cultural	1139	0	3
-160	2588	Herrera, Juan Ignacio	TMR	1137	8	3
-161	2631	Takahashi, Brisa C.	Gimnasty	1132	3	4
-162	1987	Yamaguchi, Luis Alberto	Peñarol	1129	-5	4
-163	3673	Fernicola Castiñeira, Juan M.	Ateneo de Versailles	1127	23	4
-164	838	Kozachuk, Damián	Boca Juniors	1119	0	4
-165	2736	Parodi, Oscar	Alvear Club	1118	21	4
-166	3870	Rack, Vicentino	Ferrocarril Oeste	1116	0	4
-167	2682	Dappiano, Martin	Fenix	1111	-4	4
-168	3565	Di Girolamo, Bruno	Fenix	1109	38	4
-169	997	Quinteros, Catriel	Fulgor Villa Crespo	1080	0	4
-170	1255	Opazo, David	Padilla	1078	0	4
-171	1568	Morinigo, Matías	Asoc. Jap. Burzaco	1076	0	4
-172	1348	Lori, David	GTM	1073	0	4
-173	1470	Dorrego, Javier	Estacion Ping Pong	1070	0	4
-174	1662	Guglielmone, Gustavo	Fenix	1056	-4	4
-175	3396	Malenchini, Jorge Daniel	Padilla	1054	0	4
-176	4257	Castro, Nicolas	TMR	1042	-29	4
-177	3585	Ferreyra, Dante V.	GTM	1040	0	4
-178	1168	Gonzalez, Lucas Horacio	Top Minc	1040	0	4
-179	3592	Ramos, Nicolas J.	Ateneo de Versailles	1038	66	4
-180	3562	Villegas Castiñeiras, Maximo	La Legión TDM	1038	15	4
-181	3544	Devesa, Gabriel F.	Alvear Club	1029	-15	4
-182	3851	Molteno, Juan Andres	Top Minc	1026	18	4
-183	4295	Barrientos, Fausto	CEDIMA	1025	0	4
-184	2011	Beirich, Enzo Gabriel	CAVA	1021	6	4
-185	67	Battaglini, Alejandro	Alvear Club	1020	-6	4
-186	3155	Barraza, Geronimo	GTM	1019	0	4
-187	4554	Kostenko, Anatolii	Nikkei TDM	1014	0	4
-188	3773	Valdez, Juan Ignacio	Lourdes	1010	12	4
-189	1979	Collante, Axel	Fenix	1010	9	4
-190	1519	Geronimo, Ismael Alejandro	Top Minc	1006	4	4
-191	3175	Lira, Reinaldo	Ferrocarril Oeste	1003	0	4
-192	3103	Vega, Nicolás	Alvear Club	990	-10	4
-193	3919	Murakoshi, Nahuel	Asoc. Jap. Burzaco	982	0	4
-194	1502	Lacoa, Marcos	Instituto Cia. Maria	971	0	4
-195	2896	Paz, Facundo J.	Alvear Club	967	21	4
-196	983	Bentancourt, Rubén	GTM	967	0	4
-197	3350	Gitelman, Lorena	Sociedad Hebraica	967	-11	4
-198	3510	Villarruel, Ary Javier	Spin TDM	962	-1	4
-199	2767	Ruiz, Mateo Jose	Ateneo de Versailles	960	70	4
-200	4418	Suyama, Walter C.	Asoc. Jap. Burzaco	956	0	4
-201	2647	Milgram, Roni	Macabi	944	0	4
-202	3195	Ruiz Travi, Joaquin	AsociacionYabrudense	940	12	4
-203	702	Aquino, Manuel	GTM	939	0	4
-204	3356	Chen, Timothy	Alvear Club	936	0	4
-205	2636	Gulloni, Fernando	Inst.Atlet. Cultural	936	0	4
-206	3719	Gonzalez, Alan J.	GTM	931	51	4
-207	3790	Lapalma, Dylan	GTM	929	55	4
-208	3800	Bustos, Ivan E.	Ateneo de Versailles	928	4	4
-209	1535	Risso Casal, Bruno	Spin TDM	928	-27	4
-210	3359	Puk Vidal, Santiago	Peretz	925	0	4
-211	3366	Sosa, Ignacio J.	Tigre TDM	922	0	5
-212	2683	Munafó, Pablo	Fulgor Villa Crespo	922	0	5
-213	445	Perez, Emiliano	Instituto Cia. Maria	922	0	5
-214	3322	Garayoa, Santiago	River Plate	918	5	5
-215	3146	Dunayevich, Santiago	Fenix	917	0	5
-216	1083	Molina, Lucas E.	Asoc. Jap. Burzaco	916	0	5
-217	3896	Maldonado, Romeo	Alvear Club	909	31	5
-218	68	Vazquez, Alejandro	River Plate	905	0	5
-219	2869	Aguilar Solis, Francisco	River Plate	900	11	5
-220	3816	Crovara, Alberto	Top Minc	896	3	5
-221	4072	Ojeda, Jano	Peretz	893	0	5
-222	4293	Ortiz, Santiago	Fenix	890	-28	5
-223	3284	Banegas, Francisco	Ferrocarril Oeste	886	0	5
-224	3659	Puig, Pedro	Spin TDM	881	57	5
-225	2152	Aguiar, Gonzalo	Tigre TDM	881	0	5
-226	3463	Borgstrand, Ivo	La Legión TDM	879	0	5
-227	2135	Von Eckstein, Juan Jose	GTM	878	0	5
-228	1259	Kalbermatter, Roberto	GTM	865	0	5
-229	3753	Rebelles, Gabriel	Fenix	863	12	5
-230	1583	Gonzalez, Juan Manuel	Lourdes	862	6	5
-231	4160	Colmenarez, Audio	Top Minc	859	10	5
-232	2719	Perez, Mauro	Libertad	859	2	5
-233	1427	Maza, Juan Carlos	GTM	847	0	5
-234	3123	Arias, Joaquin	Alvear Club	845	-9	5
-235	2643	Penalva, Santiago	San Lorenzo	844	0	5
-236	3903	Rosental, Pablo Damian	GTM	844	-17	5
-237	1372	Cerraburu, Tomás	La Legión TDM	843	-9	5
-238	1603	Nupieri, Sofía	River Plate	842	-11	5
-239	3440	Simon Hurtado, Diego C.	Alvear Club	837	12	5
-240	3989	Izquierdo, Guillermo	Macabi	837	0	5
-241	3925	Moreale Ernst, Martin	Ateneo de Versailles	831	104	5
-242	3174	Giannone, Hernan	Boca Juniors	831	11	5
-243	3906	Sarzynkski, Cristian	GTM	831	0	5
-244	3650	Ballico, Jesus E.	Club Italiano JCPaz	827	0	5
-245	3593	Conci, Rodolfo H	Instituto Cia. Maria	825	0	5
-246	2951	Monteforte, Nicolas A.	Lourdes	823	-14	5
-247	3920	Salaberry, Ariel A.	Asoc. Jap. Burzaco	821	0	5
-248	3341	Banegas, Ivan	Alvear Club	820	6	5
-249	3649	Lacuadra, Mathias	Club Italiano JCPaz	820	0	5
-250	4263	Zylberglait, Brian	Atlanta	815	-18	5
-251	4102	Pamparas, Tiziano	Alvear Club	814	7	5
-252	3865	Rodriguez, Benjamin	Gimnasty	814	0	5
-253	3862	Miño, Alan J.	Jorge Newbery TDM	811	26	5
-254	766	Hurevich, Javier	Spin TDM	811	0	5
-255	3050	Maldonado, Martin	La Legión TDM	809	46	5
-256	4232	Tula Perez, Julian	Fulgor Villa Crespo	809	-12	5
-257	3626	Vespoli, Guillermo	El Galpong	808	0	5
-258	3846	Barreiro, Bernardo T.	U.V.V.A.	804	18	5
-259	4367	Tsarev, Maxim	Fulgor Villa Crespo	804	0	5
-260	2195	Cesaretti, Daniel	Instituto Cia. Maria	804	0	5
-261	2702	Morales Centurion, Ma. Ayelen River Plate	803	-8		6
-262	4097	Contreras Rocca, Lautaro Club Italiano JCPaz	800	0		6
-263	3318	Aguirre, Julio Ricardo GTM	800	0		6
-264	3972	Folino, Sergio Asoc. Jap. Burzaco	790	0		6
-265	4459	Vaisman Tello, Otto A. GTM	789	0		6
-266	3695	Trillini, Juan Atlanta	782	0		6
-267	3470	Lopez, Rodrigo Inst.Atlet. Cultural	778	0		6
-268	1309	Ramos, Gustavo Alvear Club	776	-16		6
-269	1633	Blasco, Claudio La Legión TDM	771	38		6
-270	3738	Quiroga, Edgardo Roberto CASA de Padua	769	-16		6
-271	4060	Aguirre, Joaquin Bar Ping Pong NTE	766	65		6
-272	4308	Rodriguez, Santiago Gimnasty	766	0		6
-273	3907	Boada, Luis GTM	764	0		6
-274	3652	Exposito, Damian A Club Italiano JCPaz	762	0		6
-275	2870	Limonta Martinez, Jesus S. River Plate	761	0		6
-276	1792	Toledo, Javier Spin TDM	761	0		6
-277	1374	Vera, Gabriel Peretz	760	0		6
-278	4092	Salusso, Alexia TMR	757	19		6
-279	3597	Soria, Alejandro Asoc. Jap. Burzaco	756	0		6
-280	2211	Martinez, Abril Ateneo de Versailles	756	-12		6
-281	3760	Romero, Thiago M. CEDIMA	754	16		6
-282	1977	Espinosa, Juan Ignacio La Legión TDM	754	0		6
-283	3785	Zain, Gonzalo Ferrocarril Oeste	753	0		6
-284	2146	Rodriguez, Martin A Club Italiano JCPaz	752	0		6
-285	1242	Lassaque, Andrés CAVA	745	0		6
-286	3013	Peñate, Tomas N. Tigre TDM	744	0		6
-287	4081	Arbuco, Camilo San Lorenzo	742	0		6
-288	4018	Jamilis, Eliel Dan Sociedad Hebraica	739	16		6
-289	1607	Peral, Leandro Top Minc	739	0		6
-290	3001	Coronel Lancellotti, Santiago Boca Juniors	736	-14		6
-291	3929	Flores Varela, Juan Manuel Asoc. Jap. Burzaco	735	47		6
-292	3701	Vallejos, Javier Nikkei TDM	731	0		6
-293	3599	Miño, Angel Tigre TDM	729	0		6
-294	3144	Blejman, Mariano Fenix	729	0		6
-295	3436	Grispo, Andres Torre Tanque TDM	726	14		6
-296	4130	Rosental Manteola, Milo GTM	725	6		6
-297	3815	Salvador, Cristian Spin TDM	723	0		6
-298	2537	Piuma, Vanesa C. Nichia Gakuin	712	0		6
-299	4095	Coloso, Ciro Rioja	712	-7		6
-300	3469	Soto, Gerardo Macabi	711	-12		6
-301	4409	Rosciano, Raul Peretz	704	0		6
-302	2068	Rojas, Mauricio Banco Nacion	702	54		6
-303	4129	Sarzynksi, Enzo GTM	701	6		6
-304	3704	Condori, Lucas Ivan Nichia Gakuin	701	0		6
-305	4180	Selva, Tomas Estacion Ping Pong	697	21		6
-306	4448	Uslenghi, Santiago River Plate	696	-8		6
-307	3692	Soto, Aldo H. Gimnasty	692	0		6
-308	3015	Kaladjian, Leonardo Alvear Club	689	0		6
-309	3724	Burstein, Tomas Macabi	684	20		6
-310	2155	Pais, Gonzalo Tigre TDM	683	0		6
-311	2910	Polo, Agustin Fulgor Villa Crespo	681	-7		7
-312	4027	Mendoza, Rodrigo Alvear Club	680	-12		7
-313	3539	Gonzalez, Gustavo Martin San Lorenzo	677	0		7
-314	3909	Monti, Federico Tigre TDM	675	0		7
-315	3860	Mera, Augusto Fenix	671	-6		7
-316	3553	Szwarc Winnik, Ezequiel Atlanta	668	0		7
-317	3900	Palermo, Nicolas Instituto Cia. Maria	667	0		7
-318	3555	Albus, Francisco Macabi	667	-11		7
-319	2660	Czaban, Basilio Zenit	666	0		7
-320	2267	Garrido, Ernesto Alvear Club	664	-16		7
-321	4331	Di Cocco, Dario Peretz	663	0		7
-322	3139	Marcovich, Andrés Fenix	663	0		7
-323	2642	Grunwaldt, Pablo San Lorenzo	663	0		7
-324	4321	Zualet, Jorge A. Boca Juniors	662	0		7
-325	3995	Burroni, Federico Boca Juniors	659	-18		7
-326	2635	Andrade, Facundo Alvear Club	658	-22		7
-327	2918	Bagnato, Alejandro Fenix	655	0		7
-328	2993	Quiceno, Guillermo AsociacionYabrudense	652	0		7
-329	364	Hurevich, Mariano River Plate	650	0		7
-330	2760	Rodriguez Palencia, Carlos M. Estacion Ping Pong	646	0		7
-331	4094	Dyjament, Tadeo Macabi	643	-23		7
-332	4328	Lemes Berardi, Lucas Ateneo de Versailles	641	0		7
-333	3570	Villegas, Carlos Jorge Newbery TDM	640	13		7
-334	2150	Lucci, Pablo G. CAVA	638	-18		7
-335	3136	Luna, Leonardo CEDIMA	637	30		7
-336	3828	Ramirez, Lucas N. Torre Tanque TDM	636	-12		7
-337	3894	Rodriguez Montanari, Lucas Fenix	633	0		7
-338	3691	Soto, Martina Gimnasty	633	0		7
-339	4408	Torres, Lautaro Peretz	631	0		7
-340	4387	Kubrak, Cristian Def. Santos Lugares	631	0		7
-341	3955	Vazon, Nahuel River Plate	630	-10		7
-342	3729	Borrell, Joaquin CASA de Padua	629	13		7
-343	3959	Camaño, Tomas G. Torre Tanque TDM	628	7		7
-344	1768	De la Mota, Leandro Spin TDM	626	0		7
-345	4310	Di Cocco, Guido Peretz	625	0		7
-346	3515	Falcon, Francisco Club Italiano JCPaz	625	0		7
-347	2798	Dominguez, Luis A. La Mesita	625	0		7
-348	4443	Fondevila Revelli, Antonio La Legión TDM	624	21		7
-349	3589	Nemeth, Jozsef CTDM Nizetich	624	0		7
-350	2536	Arakaki, Ezequiel Asoc. Jap. Burzaco	622	42		7
-351	1900	Hernandez, Carlos Alfredo La Legión TDM	621	8		7
-352	4405	Zaina, Alejandro Asoc. Jap. Burzaco	621	-12		7
-353	4138	Gomez, Tomas J. CAVA	617	-10		7
-354	3932	Salaberry, Javier S. Peretz	615	0		7
-355	3648	Lacuadra, Sebastian H. Club Italiano JCPaz	615	0		7
-356	4376	Rosciano, Mario D. Boca Juniors	613	-11		7
-357	4151	Olivieri, Felipe Club La Quinta	612	0		7
-358	3702	Santucho, Alexis Def. Santos Lugares	607	0		7
-359	4022	Massare, Bruno Fenix	605	0		7
-360	2136	Onofri, Gustavo A CAVA	605	0		7
-361	3072	Fernandez, Daniel E. San Lorenzo	602	0		7
-362	1970	Posniak, Darío Hernán Alvear Club	598	-12		7
-363	4265	Potenza, Nahuel Alvear Club	596	-8		7
-364	3364	Sosa, Ivan Marcelo Tigre TDM	593	0		7
-365	3595	Carrillo, Hernan H. Adrogue Sith Spin	583	0		7
-366	3687	Guadano, Alejandro	Peñarol	582	0	7
-367	3743	Sosa, Federico	La Legión TDM	578	-10	7
-368	4453	Kozicki, Theo	River Plate	576	5	7
-369	4325	Coloso, Horacio	Rioja	576	0	7
-370	3922	Zaniratto, Javier D.	Asoc. Jap. Burzaco	575	27	7
-371	4146	Urfeig, Francisco	Atlanta	575	-18	7
-372	4105	Marenzi, Diego	CASA de Padua	570	0	7
-373	3048	Garcia Agüero, Rodrigo	Instituto Cia. Maria	569	0	7
-374	4161	Larez, Edinson	Top Minc	568	0	7
-375	3901	Cardoso, Jose	Ferrocarril Oeste	567	0	7
-376	4400	Gonzalez, Tomas F.	Asoc. Jap. Burzaco	567	-8	7
-377	3969	Morikone, Cecilia	TMR	566	0	7
-378	4529	Ernst, Erik	Spin TDM	566	-18	7
-379	4544	Alcocer, Juan	Atlanta	560	-8	7
-380	4413	Miguel Tosar, Alvaro	Ateneo de Versailles	560	-12	7
-381	4267	Dias, Mauricio	Alvear Club	558	0	7
-382	3805	Perez Villalba, Benjamin	La Legión TDM	553	0	7
-383	3540	Huertas Bustos, Lucia	AsociacionYabrudense	551	-6	7
-384	4306	Sato, Leonardo E.	Gimnasty	541	0	7
-385	4215	Casco, Gaston	TMR	539	0	7
-386	4373	Diaz Da Costa, Milton	Banco Nacion	535	-9	7
-387	1702	Larraura, Facundo	San Lorenzo	534	0	7
-388	2192	Avila, Maria Luz	Zenit	521	0	7
-389	4288	Guia Monzon, Ixchel	Libre	520	0	7
-390	2946	Umana, Federico	Nichia Gakuin	517	0	7
-391	643	Kamarauskas, Rodolfo	CAVA	512	0	7
-392	4233	Lamas, Mariano D.	San Lorenzo	502	0	7
-393	4216	Medve, Fabrizio	TMR	498	0	7
-394	3432	Cuenca, Roy	Instituto Cia. Maria	498	0	7
-395	3054	Belsito, Martin	CASA de Padua	498	0	7
-396	4173	Reiners, Joaquin	Boca Juniors	497	0	7
-397	4017	Baranchuk, Martin	Sociedad Hebraica	497	-18	7
-398	3897	Zolkwer, Luca	Atlanta	495	33	7
-399	2664	Lacoa, Esteban	Zenit	495	0	7
-400	4164	Boada Sosa, Marco A.	GTM	490	-7	7
-401	4540	Suzuki Son, Hernan	Atlanta	486	0	7
-402	3653	Suarez, Franco E.	Club Italiano JCPaz	486	0	7
-403	3574	Teves, Cristian	Jorge Newbery TDM	479	0	7
-404	3546	Vinueza Lozada, Juan Jose	Atlanta	474	0	7
-405	366	Ortega, Ignacio Luis	River Plate	456	0	7
-406	4455	Picchiarini, Guilermo J.	River Plate	437	33	7
-407	2826	Mandel, Mario	Top Minc	436	0	7
-408	4560	Luzzi, Lautaro	TMR	429	0	7
-409	2835	Robinsohn, Hilario	Instituto Cia. Maria	428	0	7
-410	4509	Trost, Brian	Bar Ping Pong NTE	417	0	7
-411	4445	Lori, Hanae	GTM	391	-6	7
-412	4235	Guia, Walter	San Lorenzo	380	0	7
+1	Gilabert, Rodrigo	División de Honor	River Plate	3096	0	0
+2	Mendez, Mariano	División de Honor	UCA Marash Argentina	2794	9	0
+3	Weiss, Alan	División de Honor	La Legión TDM	2793	-35	0
+4	Yamamoto, Leandro	División de Honor	Alvear Club	2700	5	0
+5	Jaimovich, Ignacio	División de Honor	Macabi	2677	-16	0
+6	Marini, Joaquín	División de Honor	Ferrocarril Oeste	2653	15	0
+7	Spinelli, Franco	División de Honor	Ferrocarril Oeste	2594	-17	0
+8	Marini, Santiago	División de Honor	Ferrocarril Oeste	2575	-33	0
+9	Blasco, Lisandro	División de Honor	Fenix	2554	19	0
+10	Waldszan, Matías	División de Honor	Macabi	2459	0	0
+11	Romero, Santiago	División de Honor	Ateneo de Versailles	2447	-22	0
+12	Hurevich, Tobias	División de Honor	Macabi	2445	7	0
+13	Delgadillo, Rodrigo	División de Honor	San Lorenzo	2404	-22	0
+14	Basso, Valentin	División de Honor	Gimnasty	2402	-35	0
+15	Casal, Octavio	División de Honor	Estacion Ping Pong	2397	-21	0
+16	Heis, Nicolás	División de Honor	River Plate	2392	45	0
+17	Rodriguez Schoeller, Santiago	División de Honor	Ateneo de Versailles	2366	-5	0
+18	Riera Castillo, Simon A.	División de Honor	CEDIMA	2319	151	0
+19	Sanchez, Ariel H.	División de Honor	Estacion Ping Pong	2312	34	0
+20	Ramos, Mauro	División de Honor	Fenix	2285	24	0
+21	Carattoli, Lucas J.	División de Honor	Ateneo de Versailles	2238	27	0
+22	Lopez Marquez, Ezequiel	División de Honor	Fenix	2225	0	0
+23	Marsaglia, Matías	División de Honor	Tigre TDM	2212	6	0
+24	Neira, Darío	División de Honor	Spin TDM	2176	-51	0
+25	Burdin, Dimitri	Primera	Ferrocarril Oeste	2108	0	1
+26	Perez Altera, Ignacio	Primera	Peretz	2095	0	1
+27	Menghi, Manuel	Primera	Gimnasty	2062	-37	1
+28	Bronstein, Leandro	Primera	River Plate	2048	0	1
+29	Bernardou, Tomas	Primera	Ateneo de Versailles	2032	86	1
+30	Wainsztok, Darío	Primera	Instituto Cia. Maria	2032	3	1
+31	Bentancourt, Luciano	Primera	GTM	2027	-17	1
+32	Peña, Franco	Primera	Fulgor Villa Crespo	2018	-19	1
+33	Zaffaroni Velazquez, Luca N.	Primera	Fenix	2010	7	1
+34	Carpio, Francisco	Primera	AsociacionYabrudense	1999	18	1
+35	Buzzi, Maximiliano	Primera	Estacion Ping Pong	1995	7	1
+36	Cisilin, Estanislao	Primera	Instituto Cia. Maria	1970	-12	1
+37	Bronstein, Facundo	Primera	River Plate	1968	-14	1
+38	Tchintchinian, Mariano	Primera	UCA Marash Argentina	1956	0	1
+39	Candela, Juan	Primera	Fenix	1954	0	1
+40	Carranza, Mateo	Primera	GTM	1936	23	1
+41	Jang, Agustín	Primera	Ferrocarril Oeste	1931	0	1
+42	Schvartz, Ivan	Primera	Macabi	1922	-24	1
+43	Krowicki, Nahuel	Primera	Intendente Agüero	1918	68	1
+44	Smodlaka, Guido I.	Primera	Alvear Club	1918	-7	1
+45	Mosteirin Clemente, Camilo	Primera	TMR	1896	50	1
+46	Samaja, Facundo	Primera	River Plate	1864	0	1
+47	Huici, Julián	Primera	U.V.V.A.	1861	15	1
+48	Carattoli, Matias J.	Primera	Ateneo de Versailles	1855	-20	1
+49	Kamimura, Emilio	Primera	CAVA	1854	1	1
+50	Albanese, Juan Manuel	Primera	River Plate	1851	0	1
+51	Marchese, Ignacio	Primera	Zenit	1826	4	1
+52	Sassone, Marco	Primera	Alvear Club	1813	-17	1
+53	Darcyl, Leonardo	Primera	Padilla	1797	28	1
+54	Sarso, Luciano	Primera	CAVA	1794	8	1
+55	Kosmata, Phil	Primera	River Plate	1789	0	1
+56	Marginet Campos, Alejandro	Primera	GTM	1783	-5	1
+57	Hurtado, Franco	Primera	San Lorenzo	1776	-13	1
+58	Kenji Kamida, Diego	Primera	Alvear Club	1767	-36	1
+59	Munno, Alvaro	Primera	Rioja	1751	-1	1
+60	Sanchez, Martin C.	Primera	Ateneo de Versailles	1734	0	1
+61	Rossi Vera, Santino	Segunda	Peretz	1701	27	2
+62	Parinelli, David	Segunda	Boca Juniors	1698	59	2
+63	Okuyama, Abril	Segunda	Peretz	1693	11	2
+64	Nikitin, Evgeny	Segunda	Fulgor Villa Crespo	1669	6	2
+65	Rizzo, Juan	Segunda	San Lorenzo	1669	-33	2
+66	Dorigoni, Enzo	Segunda	Libertad	1663	-31	2
+67	San Millan, Federico	Segunda	Macabi	1655	0	2
+68	Azzurro, Ignacio	Segunda	Gimnasty	1652	-6	2
+69	Lescano, Ramiro	Segunda	Boca Juniors	1649	-24	2
+70	Fernandez Arevalo, Mariano	Segunda	Nikkei TDM	1642	-1	2
+71	Sclar, Matias	Segunda	Alvear Club	1641	45	2
+72	Correas Espeche, Ezequiel	Segunda	El Galpong	1638	0	2
+73	Tiercin, Gonzalo	Segunda	Atlanta	1617	0	2
+74	Aguirre, Sebastián	Segunda	Instituto Cia. Maria	1611	0	2
+75	Kaniuka, Aleksy	Segunda	CEDIMA	1604	0	2
+76	Lori, Hikaru	Segunda	GTM	1601	8	2
+77	Rosen, Franco	Segunda	La Legión TDM	1601	-24	2
+78	Perez, Alejandro	Segunda	CEDIMA	1599	0	2
+79	Pokorny, Solange	Segunda	Nichia Gakuin	1587	27	2
+80	Monteforte, Pablo A.	Segunda	Lourdes	1578	15	2
+81	Nakagama, Alan Jun	Segunda	Fenix	1567	-6	2
+82	Lemos, Ulises	Segunda	Fenix	1561	5	2
+83	Ulloa, Exequiel L.	Segunda	Estacion Ping Pong	1553	0	2
+84	Camagna, Diego Andrés	Segunda	Fenix	1525	-13	2
+85	Rodriguez, Diego	Segunda	El Galpong	1521	0	2
+86	Ortiz, Carlos N.	Segunda	Libertad	1520	-36	2
+87	Bertran, Ezequiel	Segunda	GTM	1513	-38	2
+88	Salvatierra, Marcelo	Segunda	TMR	1505	-11	2
+89	Buquete, Luis Mariano	Segunda	El Galpong	1501	0	2
+90	Kravetz, Daniel	Segunda	Estacion Ping Pong	1501	0	2
+91	Arnaudo, Facundo E.	Segunda	Ferrocarril Oeste	1498	0	2
+92	Palazzo, Didier	Segunda	Ateneo de Versailles	1498	0	2
+93	Carreira, Lautaro	Segunda	Libertad	1496	40	2
+94	D' Ignazi, Luciano	Segunda	Zenit	1490	-37	2
+95	Deym, Federico	Segunda	Libre	1488	0	2
+96	Josid, Alex	Segunda	Macabi	1486	0	2
+97	Orobio, Manuel	Segunda	Tigre TDM	1474	36	2
+98	La Boccetta, Ignacio	Segunda	Peretz	1471	21	2
+99	Florindo Molina, Claudio	Segunda	Spin TDM	1466	98	2
+100	Caram, Alejo	Segunda	Fulgor Villa Crespo	1462	0	2
+101	Garcia, Román	Segunda	Gimnasty	1459	0	2
+102	Tomasello, Lucio	Segunda	Ferrocarril Oeste	1455	0	2
+103	Ghini, Bruno	Segunda	Ateneo de Versailles	1445	0	2
+104	Cornejo, Franco	Segunda	GTM	1443	20	2
+105	Waitzel, Ariel	Segunda	Instituto Cia. Maria	1425	0	2
+106	Molina, Juan Martin	Segunda	Fenix	1419	85	2
+107	Mamone, Matias	Segunda	Alvear Club	1417	-10	2
+108	Bisforo, Lucas	Segunda	Padilla	1416	12	2
+109	Puk Vidal, Sebastian	Segunda	Peretz	1404	62	2
+110	Dias, Juan Cruz	Segunda	Alvear Club	1404	-39	2
+111	Notturno, Nicolas	Tercera	TMR	1401	41	3
+112	Docampo, Alejandro	Tercera	Lourdes	1396	0	3
+113	Maza, Diego Hernán	Tercera	River Plate	1393	45	3
+114	Venancio, Emiliano	Tercera	GTM	1386	-4	3
+115	Marcial, Luca Valentino	Tercera	AsociacionYabrudense	1383	87	3
+116	Lagrotteria, Lucio	Tercera	Instituto Cia. Maria	1382	17	3
+117	Ramos, Sebastian	Tercera	Ateneo de Versailles	1368	0	3
+118	Ali, Ahmed	Tercera	TMR	1361	42	3
+119	Skliarsky, Eithan	Tercera	Spin TDM	1348	17	3
+120	Rodriguez, Aurelio	Tercera	Instituto Cia. Maria	1347	0	3
+121	Mariño, Naomí	Tercera	CEDIMA	1345	-101	3
+122	Sosa, Emiliano	Tercera	River Plate	1342	44	3
+123	Nizetich Tripodi, Lautaro	Tercera	CTDM Nizetich	1341	-12	3
+124	Gomez, Tomas	Tercera	Tigre TDM	1335	48	3
+125	Erlich, Damian Ariel	Tercera	Top Minc	1319	55	3
+126	Soldi, Juan Andres	Tercera	Gimnasty	1296	0	3
+127	Lucia, Nicolas	Tercera	Estacion Ping Pong	1293	0	3
+128	Fernandez Pizzella, Valentin	Tercera	Ferrocarril Oeste	1288	0	3
+129	Alvarez, Felipe	Tercera	Boca Juniors	1284	39	3
+130	De Bonis, Ignacio	Tercera	U.V.V.A.	1279	-9	3
+131	Jaimovich, David	Tercera	Fenix	1277	14	3
+132	Maldonado, Agustin	Tercera	GTM	1275	32	3
+133	D' Amato, Pablo	Tercera	U.V.V.A.	1274	-3	3
+134	Fiasche, Francisco	Tercera	Banco Nacion	1270	-7	3
+135	Baltaian, Leandro Alfredo	Tercera	River Plate	1270	-16	3
+136	Trigo, Fernando	Tercera	AsociacionYabrudense	1247	-7	3
+137	Garcia, Lucas	Tercera	Alvear Club	1245	26	3
+138	Cohen, Claudio	Tercera	Alvear Club	1240	-3	3
+139	Amendola, Julio	Tercera	CAVA	1239	0	3
+140	Iwasa, Abril	Tercera	Ferrocarril Oeste	1227	0	3
+141	Laiño, Alejandro Daniel	Tercera	CAVA	1226	3	3
+142	Pagano, Francisco	Tercera	Alvear Club	1225	16	3
+143	Flores Canto, Erik	Tercera	San Lorenzo	1211	45	3
+144	Martinez Alcalde, Emanuel	Tercera	CEDIMA	1206	0	3
+145	Slinin, Julio	Tercera	UCA Marash Argentina	1183	0	3
+146	Huarte, Thomas	Tercera	La Legión TDM	1183	-3	3
+147	Rolon, Fernando	Tercera	Asoc. Jap. Burzaco	1181	0	3
+148	Viñas, Nicolás	Tercera	Atlanta	1178	0	3
+149	Aguilar Ikeda, Justina Mayumi	Tercera	River Plate	1177	38	3
+150	Saul, Felipe	Tercera	Alvear Club	1175	9	3
+151	Duek, Joaquin	Tercera	Macabi	1172	0	3
+152	Benitez, Pablo	Tercera	Alvear Club	1172	-8	3
+153	Tula, Fabio	Tercera	Fenix	1171	-4	3
+154	Müller, Malik	Tercera	Club La Quinta	1167	0	3
+155	Castañeda Jr., Hugo	Tercera	CEDIMA	1161	-13	3
+156	Perez, Martin	Tercera	Alvear Club	1156	4	3
+157	Bellomi, Joaquin	Tercera	CEDIMA	1153	-5	3
+158	Perlov, Lucas	Tercera	Fenix	1145	0	3
+159	Atamian, Martín	Tercera	Inst.Atlet. Cultural	1139	0	3
+160	Herrera, Juan Ignacio	Tercera	TMR	1137	8	3
+161	Takahashi, Brisa C.	Cuarta	Gimnasty	1132	3	4
+162	Yamaguchi, Luis Alberto	Cuarta	Peñarol	1129	-5	4
+163	Fernicola Castiñeira, Juan M.	Cuarta	Ateneo de Versailles	1127	23	4
+164	Kozachuk, Damián	Cuarta	Boca Juniors	1119	0	4
+165	Parodi, Oscar	Cuarta	Alvear Club	1118	21	4
+166	Rack, Vicentino	Cuarta	Ferrocarril Oeste	1116	0	4
+167	Dappiano, Martin	Cuarta	Fenix	1111	-4	4
+168	Di Girolamo, Bruno	Cuarta	Fenix	1109	38	4
+169	Quinteros, Catriel	Cuarta	Fulgor Villa Crespo	1080	0	4
+170	Opazo, David	Cuarta	Padilla	1078	0	4
+171	Morinigo, Matías	Cuarta	Asoc. Jap. Burzaco	1076	0	4
+172	Lori, David	Cuarta	GTM	1073	0	4
+173	Dorrego, Javier	Cuarta	Estacion Ping Pong	1070	0	4
+174	Guglielmone, Gustavo	Cuarta	Fenix	1056	-4	4
+175	Malenchini, Jorge Daniel	Cuarta	Padilla	1054	0	4
+176	Castro, Nicolas	Cuarta	TMR	1042	-29	4
+177	Ferreyra, Dante V.	Cuarta	GTM	1040	0	4
+178	Gonzalez, Lucas Horacio	Cuarta	Top Minc	1040	0	4
+179	Ramos, Nicolas J.	Cuarta	Ateneo de Versailles	1038	66	4
+180	Villegas Castiñeiras, Maximo	Cuarta	La Legión TDM	1038	15	4
+181	Devesa, Gabriel F.	Cuarta	Alvear Club	1029	-15	4
+182	Molteno, Juan Andres	Cuarta	Top Minc	1026	18	4
+183	Barrientos, Fausto	Cuarta	CEDIMA	1025	0	4
+184	Beirich, Enzo Gabriel	Cuarta	CAVA	1021	6	4
+185	Battaglini, Alejandro	Cuarta	Alvear Club	1020	-6	4
+186	Barraza, Geronimo	Cuarta	GTM	1019	0	4
+187	Kostenko, Anatolii	Cuarta	Nikkei TDM	1014	0	4
+188	Valdez, Juan Ignacio	Cuarta	Lourdes	1010	12	4
+189	Collante, Axel	Cuarta	Fenix	1010	9	4
+190	Geronimo, Ismael Alejandro	Cuarta	Top Minc	1006	4	4
+191	Lira, Reinaldo	Cuarta	Ferrocarril Oeste	1003	0	4
+192	Vega, Nicolás	Cuarta	Alvear Club	990	-10	4
+193	Murakoshi, Nahuel	Cuarta	Asoc. Jap. Burzaco	982	0	4
+194	Lacoa, Marcos	Cuarta	Instituto Cia. Maria	971	0	4
+195	Paz, Facundo J.	Cuarta	Alvear Club	967	21	4
+196	Bentancourt, Rubén	Cuarta	GTM	967	0	4
+197	Gitelman, Lorena	Cuarta	Sociedad Hebraica	967	-11	4
+198	Villarruel, Ary Javier	Cuarta	Spin TDM	962	-1	4
+199	Ruiz, Mateo Jose	Cuarta	Ateneo de Versailles	960	70	4
+200	Suyama, Walter C.	Cuarta	Asoc. Jap. Burzaco	956	0	4
+201	Milgram, Roni	Cuarta	Macabi	944	0	4
+202	Ruiz Travi, Joaquin	Cuarta	AsociacionYabrudense	940	12	4
+203	Aquino, Manuel	Cuarta	GTM	939	0	4
+204	Chen, Timothy	Cuarta	Alvear Club	936	0	4
+205	Gulloni, Fernando	Cuarta	Inst.Atlet. Cultural	936	0	4
+206	Gonzalez, Alan J.	Cuarta	GTM	931	51	4
+207	Lapalma, Dylan	Cuarta	GTM	929	55	4
+208	Bustos, Ivan E.	Cuarta	Ateneo de Versailles	928	4	4
+209	Risso Casal, Bruno	Cuarta	Spin TDM	928	-27	4
+210	Puk Vidal, Santiago	Cuarta	Peretz	925	0	4
+211	Sosa, Ignacio J.	Quinta	Tigre TDM	922	0	5
+212	Munafó, Pablo	Quinta	Fulgor Villa Crespo	922	0	5
+213	Perez, Emiliano	Quinta	Instituto Cia. Maria	922	0	5
+214	Garayoa, Santiago	Quinta	River Plate	918	5	5
+215	Dunayevich, Santiago	Quinta	Fenix	917	0	5
+216	Molina, Lucas E.	Quinta	Asoc. Jap. Burzaco	916	0	5
+217	Maldonado, Romeo	Quinta	Alvear Club	909	31	5
+218	Vazquez, Alejandro	Quinta	River Plate	905	0	5
+219	Aguilar Solis, Francisco	Quinta	River Plate	900	11	5
+220	Crovara, Alberto	Quinta	Top Minc	896	3	5
+221	Ojeda, Jano	Quinta	Peretz	893	0	5
+222	Ortiz, Santiago	Quinta	Fenix	890	-28	5
+223	Banegas, Francisco	Quinta	Ferrocarril Oeste	886	0	5
+224	Puig, Pedro	Quinta	Spin TDM	881	57	5
+225	Aguiar, Gonzalo	Quinta	Tigre TDM	881	0	5
+226	Borgstrand, Ivo	Quinta	La Legión TDM	879	0	5
+227	Von Eckstein, Juan Jose	Quinta	GTM	878	0	5
+228	Kalbermatter, Roberto	Quinta	GTM	865	0	5
+229	Rebelles, Gabriel	Quinta	Fenix	863	12	5
+230	Gonzalez, Juan Manuel	Quinta	Lourdes	862	6	5
+231	Colmenarez, Audio	Quinta	Top Minc	859	10	5
+232	Perez, Mauro	Quinta	Libertad	859	2	5
+233	Maza, Juan Carlos	Quinta	GTM	847	0	5
+234	Arias, Joaquin	Quinta	Alvear Club	845	-9	5
+235	Penalva, Santiago	Quinta	San Lorenzo	844	0	5
+236	Rosental, Pablo Damian	Quinta	GTM	844	-17	5
+237	Cerraburu, Tomás	Quinta	La Legión TDM	843	-9	5
+238	Nupieri, Sofía	Quinta	River Plate	842	-11	5
+239	Simon Hurtado, Diego C.	Quinta	Alvear Club	837	12	5
+240	Izquierdo, Guillermo	Quinta	Macabi	837	0	5
+241	Moreale Ernst, Martin	Quinta	Ateneo de Versailles	831	104	5
+242	Giannone, Hernan	Quinta	Boca Juniors	831	11	5
+243	Sarzynkski, Cristian	Quinta	GTM	831	0	5
+244	Ballico, Jesus E.	Quinta	Club Italiano JCPaz	827	0	5
+245	Conci, Rodolfo H	Quinta	Instituto Cia. Maria	825	0	5
+246	Monteforte, Nicolas A.	Quinta	Lourdes	823	-14	5
+247	Salaberry, Ariel A.	Quinta	Asoc. Jap. Burzaco	821	0	5
+248	Banegas, Ivan	Quinta	Alvear Club	820	6	5
+249	Lacuadra, Mathias	Quinta	Club Italiano JCPaz	820	0	5
+250	Zylberglait, Brian	Quinta	Atlanta	815	-18	5
+251	Pamparas, Tiziano	Quinta	Alvear Club	814	7	5
+252	Rodriguez, Benjamin	Quinta	Gimnasty	814	0	5
+253	Miño, Alan J.	Quinta	Jorge Newbery TDM	811	26	5
+254	Hurevich, Javier	Quinta	Spin TDM	811	0	5
+255	Maldonado, Martin	Quinta	La Legión TDM	809	46	5
+256	Tula Perez, Julian	Quinta	Fulgor Villa Crespo	809	-12	5
+257	Vespoli, Guillermo	Quinta	El Galpong	808	0	5
+258	Barreiro, Bernardo T.	Quinta	U.V.V.A.	804	18	5
+259	Tsarev, Maxim	Quinta	Fulgor Villa Crespo	804	0	5
+260	Cesaretti, Daniel	Quinta	Instituto Cia. Maria	804	0	5
+261	Morales Centurion, Ma. Ayelen	Sexta	River Plate	803	-8	6
+262	Contreras Rocca, Lautaro	Sexta	Club Italiano JCPaz	800	0	6
+263	Aguirre, Julio Ricardo	Sexta	GTM	800	0	6
+264	Folino, Sergio	Sexta	Asoc. Jap. Burzaco	790	0	6
+265	Vaisman Tello, Otto A.	Sexta	GTM	789	0	6
+266	Trillini, Juan	Sexta	Atlanta	782	0	6
+267	Lopez, Rodrigo	Sexta	Inst.Atlet. Cultural	778	0	6
+268	Ramos, Gustavo	Sexta	Alvear Club	776	-16	6
+269	Blasco, Claudio	Sexta	La Legión TDM	771	38	6
+270	Quiroga, Edgardo Roberto	Sexta	CASA de Padua	769	-16	6
+271	Aguirre, Joaquin	Sexta	Bar Ping Pong NTE	766	65	6
+272	Rodriguez, Santiago	Sexta	Gimnasty	766	0	6
+273	Boada, Luis	Sexta	GTM	764	0	6
+274	Exposito, Damian A	Sexta	Club Italiano JCPaz	762	0	6
+275	Limonta Martinez, Jesus S.	Sexta	River Plate	761	0	6
+276	Toledo, Javier	Sexta	Spin TDM	761	0	6
+277	Vera, Gabriel	Sexta	Peretz	760	0	6
+278	Salusso, Alexia	Sexta	TMR	757	19	6
+279	Soria, Alejandro	Sexta	Asoc. Jap. Burzaco	756	0	6
+280	Martinez, Abril	Sexta	Ateneo de Versailles	756	-12	6
+281	Romero, Thiago M.	Sexta	CEDIMA	754	16	6
+282	Espinosa, Juan Ignacio	Sexta	La Legión TDM	754	0	6
+283	Zain, Gonzalo	Sexta	Ferrocarril Oeste	753	0	6
+284	Rodriguez, Martin A	Sexta	Club Italiano JCPaz	752	0	6
+285	Lassaque, Andrés	Sexta	CAVA	745	0	6
+286	Peñate, Tomas N.	Sexta	Tigre TDM	744	0	6
+287	Arbuco, Camilo	Sexta	San Lorenzo	742	0	6
+288	Jamilis, Eliel Dan	Sexta	Sociedad Hebraica	739	16	6
+289	Peral, Leandro	Sexta	Top Minc	739	0	6
+290	Coronel Lancellotti, Santiago	Sexta	Boca Juniors	736	-14	6
+291	Flores Varela, Juan Manuel	Sexta	Asoc. Jap. Burzaco	735	47	6
+292	Vallejos, Javier	Sexta	Nikkei TDM	731	0	6
+293	Miño, Angel	Sexta	Tigre TDM	729	0	6
+294	Blejman, Mariano	Sexta	Fenix	729	0	6
+295	Grispo, Andres	Sexta	Torre Tanque TDM	726	14	6
+296	Rosental Manteola, Milo	Sexta	GTM	725	6	6
+297	Salvador, Cristian	Sexta	Spin TDM	723	0	6
+298	Piuma, Vanesa C.	Sexta	Nichia Gakuin	712	0	6
+299	Coloso, Ciro	Sexta	Rioja	712	-7	6
+300	Soto, Gerardo	Sexta	Macabi	711	-12	6
+301	Rosciano, Raul	Sexta	Peretz	704	0	6
+302	Rojas, Mauricio	Sexta	Banco Nacion	702	54	6
+303	Sarzynksi, Enzo	Sexta	GTM	701	6	6
+304	Condori, Lucas Ivan	Sexta	Nichia Gakuin	701	0	6
+305	Selva, Tomas	Sexta	Estacion Ping Pong	697	21	6
+306	Uslenghi, Santiago	Sexta	River Plate	696	-8	6
+307	Soto, Aldo H.	Sexta	Gimnasty	692	0	6
+308	Kaladjian, Leonardo	Sexta	Alvear Club	689	0	6
+309	Burstein, Tomas	Sexta	Macabi	684	20	6
+310	Pais, Gonzalo	Sexta	Tigre TDM	683	0	6
+311	Polo, Agustin	Septima	Fulgor Villa Crespo	681	-7	7
+312	Mendoza, Rodrigo	Septima	Alvear Club	680	-12	7
+313	Gonzalez, Gustavo Martin	Septima	San Lorenzo	677	0	7
+314	Monti, Federico	Septima	Tigre TDM	675	0	7
+315	Mera, Augusto	Septima	Fenix	671	-6	7
+316	Szwarc Winnik, Ezequiel	Septima	Atlanta	668	0	7
+317	Palermo, Nicolas	Septima	Instituto Cia. Maria	667	0	7
+318	Albus, Francisco	Septima	Macabi	667	-11	7
+319	Czaban, Basilio	Septima	Zenit	666	0	7
+320	Garrido, Ernesto	Septima	Alvear Club	664	-16	7
+321	Di Cocco, Dario	Septima	Peretz	663	0	7
+322	Marcovich, Andrés	Septima	Fenix	663	0	7
+323	Grunwaldt, Pablo	Septima	San Lorenzo	663	0	7
+324	Zualet, Jorge A.	Septima	Boca Juniors	662	0	7
+325	Burroni, Federico	Septima	Boca Juniors	659	-18	7
+326	Andrade, Facundo	Septima	Alvear Club	658	-22	7
+327	Bagnato, Alejandro	Septima	Fenix	655	0	7
+328	Quiceno, Guillermo	Septima	AsociacionYabrudense	652	0	7
+329	Hurevich, Mariano	Septima	River Plate	650	0	7
+330	Rodriguez Palencia, Carlos M.	Septima	Estacion Ping Pong	646	0	7
+331	Dyjament, Tadeo	Septima	Macabi	643	-23	7
+332	Lemes Berardi, Lucas	Septima	Ateneo de Versailles	641	0	7
+333	Villegas, Carlos	Septima	Jorge Newbery TDM	640	13	7
+334	Lucci, Pablo G.	Septima	CAVA	638	-18	7
+335	Luna, Leonardo	Septima	CEDIMA	637	30	7
+336	Ramirez, Lucas N.	Septima	Torre Tanque TDM	636	-12	7
+337	Rodriguez Montanari, Lucas	Septima	Fenix	633	0	7
+338	Soto, Martina	Septima	Gimnasty	633	0	7
+339	Torres, Lautaro	Septima	Peretz	631	0	7
+340	Kubrak, Cristian	Septima	Def. Santos Lugares	631	0	7
+341	Vazon, Nahuel	Septima	River Plate	630	-10	7
+342	Borrell, Joaquin	Septima	CASA de Padua	629	13	7
+343	Camaño, Tomas G.	Septima	Torre Tanque TDM	628	7	7
+344	De la Mota, Leandro	Septima	Spin TDM	626	0	7
+345	Di Cocco, Guido	Septima	Peretz	625	0	7
+346	Falcon, Francisco	Septima	Club Italiano JCPaz	625	0	7
+347	Dominguez, Luis A.	Septima	La Mesita	625	0	7
+348	Fondevila Revelli, Antonio	Septima	La Legión TDM	624	21	7
+349	Nemeth, Jozsef	Septima	CTDM Nizetich	624	0	7
+350	Arakaki, Ezequiel	Septima	Asoc. Jap. Burzaco	622	42	7
+351	Hernandez, Carlos Alfredo	Septima	La Legión TDM	621	8	7
+352	Zaina, Alejandro	Septima	Asoc. Jap. Burzaco	621	-12	7
+353	Gomez, Tomas J.	Septima	CAVA	617	-10	7
+354	Salaberry, Javier S.	Septima	Peretz	615	0	7
+355	Lacuadra, Sebastian H.	Septima	Club Italiano JCPaz	615	0	7
+356	Rosciano, Mario D.	Septima	Boca Juniors	613	-11	7
+357	Olivieri, Felipe	Septima	Club La Quinta	612	0	7
+358	Santucho, Alexis	Septima	Def. Santos Lugares	607	0	7
+359	Massare, Bruno	Septima	Fenix	605	0	7
+360	Onofri, Gustavo A	Septima	CAVA	605	0	7
+361	Fernandez, Daniel E.	Septima	San Lorenzo	602	0	7
+362	Posniak, Darío Hernán	Septima	Alvear Club	598	-12	7
+363	Potenza, Nahuel	Septima	Alvear Club	596	-8	7
+364	Sosa, Ivan Marcelo	Septima	Tigre TDM	593	0	7
+365	Carrillo, Hernan H.	Septima	Adrogue Sith Spin	583	0	7
+366	Guadano, Alejandro	Septima	Peñarol	582	0	7
+367	Sosa, Federico	Septima	La Legión TDM	578	-10	7
+368	Kozicki, Theo	Septima	River Plate	576	5	7
+369	Coloso, Horacio	Septima	Rioja	576	0	7
+370	Zaniratto, Javier D.	Septima	Asoc. Jap. Burzaco	575	27	7
+371	Urfeig, Francisco	Septima	Atlanta	575	-18	7
+372	Marenzi, Diego	Septima	CASA de Padua	570	0	7
+373	Garcia Agüero, Rodrigo	Septima	Instituto Cia. Maria	569	0	7
+374	Larez, Edinson	Septima	Top Minc	568	0	7
+375	Cardoso, Jose	Septima	Ferrocarril Oeste	567	0	7
+376	Gonzalez, Tomas F.	Septima	Asoc. Jap. Burzaco	567	-8	7
+377	Morikone, Cecilia	Septima	TMR	566	0	7
+378	Ernst, Erik	Septima	Spin TDM	566	-18	7
+379	Alcocer, Juan	Septima	Atlanta	560	-8	7
+380	Miguel Tosar, Alvaro	Septima	Ateneo de Versailles	560	-12	7
+381	Dias, Mauricio	Septima	Alvear Club	558	0	7
+382	Perez Villalba, Benjamin	Septima	La Legión TDM	553	0	7
+383	Huertas Bustos, Lucia	Septima	AsociacionYabrudense	551	-6	7
+384	Sato, Leonardo E.	Septima	Gimnasty	541	0	7
+385	Casco, Gaston	Septima	TMR	539	0	7
+386	Diaz Da Costa, Milton	Septima	Banco Nacion	535	-9	7
+387	Larraura, Facundo	Septima	San Lorenzo	534	0	7
+388	Avila, Maria Luz	Septima	Zenit	521	0	7
+389	Guia Monzon, Ixchel	Septima	Libre	520	0	7
+390	Umana, Federico	Septima	Nichia Gakuin	517	0	7
+391	Kamarauskas, Rodolfo	Septima	CAVA	512	0	7
+392	Lamas, Mariano D.	Septima	San Lorenzo	502	0	7
+393	Medve, Fabrizio	Septima	TMR	498	0	7
+394	Cuenca, Roy	Septima	Instituto Cia. Maria	498	0	7
+395	Belsito, Martin	Septima	CASA de Padua	498	0	7
+396	Reiners, Joaquin	Septima	Boca Juniors	497	0	7
+397	Baranchuk, Martin	Septima	Sociedad Hebraica	497	-18	7
+398	Zolkwer, Luca	Septima	Atlanta	495	33	7
+399	Lacoa, Esteban	Septima	Zenit	495	0	7
+400	Boada Sosa, Marco A.	Septima	GTM	490	-7	7
+401	Suzuki Son, Hernan	Septima	Atlanta	486	0	7
+402	Suarez, Franco E.	Septima	Club Italiano JCPaz	486	0	7
+403	Teves, Cristian	Septima	Jorge Newbery TDM	479	0	7
+404	Vinueza Lozada, Juan Jose	Septima	Atlanta	474	0	7
+405	Ortega, Ignacio Luis	Septima	River Plate	456	0	7
+406	Picchiarini, Guilermo J.	Septima	River Plate	437	33	7
+407	Mandel, Mario	Septima	Top Minc	436	0	7
+408	Luzzi, Lautaro	Septima	TMR	429	0	7
+409	Robinsohn, Hilario	Septima	Instituto Cia. Maria	428	0	7
+410	Trost, Brian	Septima	Bar Ping Pong NTE	417	0	7
+411	Lori, Hanae	Septima	GTM	391	-6	7
+412	Guia, Walter	Septima	San Lorenzo	380	0	7
