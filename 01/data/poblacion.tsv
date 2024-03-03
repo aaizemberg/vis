@@ -1,25 +1,25 @@
-provincia	poblacion
-Buenos Aires	15625084
-Córdoba	3308876
-Santa Fe	3194537
-Ciudad Autónoma de Buenos Aires	2890151
-Mendoza	1738929
-Tucumán	1448188
-Entre Ríos	1235994
-Salta	1214441
-Misiones	1101593
-Chaco	1055259
-Corrientes	992595
-Santiago del Estero	874006
-San Juan	681055
-Jujuy	673307
-Río Negro	638645
-Neuquén	551266
-Formosa	530162
-Chubut	509108
-San Luis	432310
-Catamarca	367828
-La Rioja	333642
-La Pampa	318951
-Santa Cruz	273964
-Tierra del Fuego, Antártida e Islas del Atlántico Sur	127205
+Provincia	Poblacion_2010	Poblacion_2022
+Buenos Aires	15625084	17523996
+Catamarca	367828	429562
+Chaco	1055259	1129606
+Chubut	509108	592621
+Ciudad Autónoma de Buenos Aires	2890151	3121707
+Córdoba	3308876	3840905
+Corrientes	992595	1212696
+Entre Ríos	1235994	1425578
+Formosa	530162	607419
+Jujuy	673307	811611
+La Pampa	318951	361859
+La Rioja	333642	383865
+Mendoza	1738929	2043540
+Misiones	1101593	1278873
+Neuquén	551266	710814
+Río Negro	638645	750768
+Salta	1214441	1441351
+San Juan	681055	822853
+San Luis	432310	542069
+Santa Cruz	273964	337226
+Santa Fe	3194537	3544908
+Santiago del Estero	874006	1060906
+Tierra del Fuego, Antártida e Islas del Atlántico Sur	127205	185732
+Tucumán	1448188	1731820
