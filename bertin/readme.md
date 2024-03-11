@@ -1,3 +1,6 @@
+1. protovis -> http://mbostock.github.io/protovis/ex/hotel.html 
+2. lyra --> http://idl.cs.washington.edu/projects/lyra/app/#?example=bertin
+3. R
 ```R
 install.packages("bertin", repos="http://R-Forge.R-project.org")
 
