@@ -144,3 +144,11 @@ Archivo separado por tabs, para ver la paridad de funcionarios por genero, se le
 [funcionarios_caba.tsv](funcionarios_caba.tsv)
 
 source: https://buenosaires.gob.ar/organigrama/funcionarios/listado.php
+
+## Absenteeism at work
+
+The database was created with records of absenteeism at work from July 2007 to July 2010 at a courier company in Brazil.
+
+https://archive.ics.uci.edu/dataset/445/absenteeism+at+work
+
+[absenteeism+at+work.zip](https://archive.ics.uci.edu/static/public/445/absenteeism+at+work.zip)
