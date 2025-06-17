@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alumnos de la CAPA ITBA</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background: #f0f0f0;
+    }
+
+    .slider {
+      position: relative;
+      width: 942px;
+      height: 578px;
+      overflow: hidden;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+
+    .slides {
+      display: flex;
+      transition: transform 0.5s ease-in-out;
+      width: calc(942px * 3); /* 3 imágenes */
+    }
+
+    .slides img {
+      width: 942px;
+      height: 578px;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="slider">
+    <div class="slides" id="slides">
+      <img src="./Alumnxs_CAPA_2023-1 Global.png" alt="Imagen 1">
+      <img src="./Alumnxs_CAPA_2023-1 Argentina.png" alt="Imagen 2">
+      <img src="./Alumnxs_CAPA_2023-1_AMBA.png" alt="Imagen 3">
+    </div>
+  </div>
+
+  <script>
+    let currentIndex = 0;
+    const slides = document.getElementById('slides');
+
+    function showSlide(index) {
+      currentIndex = index;
+      slides.style.transform = `translateX(-${currentIndex * 942}px)`;
+    }
+
+    function nextSlide() {
+      if (currentIndex < 2) { // No avanzar si ya es la última
+        showSlide(currentIndex + 1);
+      }
+    }
+
+    function prevSlide() {
+      if (currentIndex > 0) { // No retroceder si ya es la primera
+        showSlide(currentIndex - 1);
+      }
+    }
+
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'ArrowRight') {
+        nextSlide();
+      } else if (event.key === 'ArrowLeft') {
+        prevSlide();
+      }
+    });
+  </script>
+
+</body>
+</html>
+
+
