@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alumnos de la CAPA 2025 - ITBA</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background: #f0f0f0;
+    }
+
+    .slider {
+      position: relative;
+      width: 1127px;
+      height: 578px;
+      overflow: hidden;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+
+    .slides {
+      display: flex;
+      transition: transform 0.5s ease-in-out;
+      width: calc(1127px * 4); /* 4 imgs */
+    }
+
+    .slides img {
+      width: 1127px;
+      height: 578px;
+      object-fit: cover;
+    }
+
+    .btn {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: rgba(0,0,0,0.5);
+      border: none;
+      color: white;
+      font-size: 2rem;
+      padding: 0.5rem 1rem;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    .btn:disabled {
+      opacity: 0.3;
+      cursor: default;
+    }
+
+    #prevBtn {
+      left: 10px;
+    }
+
+    #nextBtn {
+      right: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="slider">
+    <div class="slides" id="slides">
+      <img src="./todos.png" alt="todos">
+      <img src="./argentina.png" alt="Argentina">
+      <img src="./amba.png" alt="AMBA">
+      <img src="./caba.png" alt="CABA">
+    </div>
+    <button id="prevBtn" class="btn">&larr;</button>
+    <button id="nextBtn" class="btn">&rarr;</button>
+  </div>
+
+  <script>
+    let currentIndex = 0;
+    const slides = document.getElementById('slides');
+    const prevBtn = document.getElementById('prevBtn');
+    const nextBtn = document.getElementById('nextBtn');
+
+    function showSlide(index) {
+      currentIndex = index;
+      slides.style.transform = `translateX(-${currentIndex * 1127}px)`;
+      updateButtons();
+    }
+
+    function nextSlide() {
+      if (currentIndex < 3) {
+        showSlide(currentIndex + 1);
+      }
+    }
+
+    function prevSlide() {
+      if (currentIndex > 0) {
+        showSlide(currentIndex - 1);
+      }
+    }
+
+    function updateButtons() {
+      prevBtn.disabled = currentIndex === 0;
+      nextBtn.disabled = currentIndex === 3;
+    }
+
+    prevBtn.addEventListener('click', prevSlide);
+    nextBtn.addEventListener('click', nextSlide);
+
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'ArrowRight') {
+        nextSlide();
+      } else if (event.key === 'ArrowLeft') {
+        prevSlide();
+      }
+    });
+
+    // Inicializar estado de los botones
+    updateButtons();
+  </script>
+
+</body>
+</html>
