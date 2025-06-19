@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Alumnos de la CAPA 2025 - ITBA</title>
+  <title>Alumnos de la CAPA 2025 - ITBA (Versión Optimizada)</title>
   <style>
     body {
       margin: 0;
@@ -13,29 +13,34 @@
       align-items: center;
       min-height: 100vh;
       background: #f0f0f0;
+      padding: 20px;
+      box-sizing: border-box;
     }
-
     .slider {
       position: relative;
-      width: 1130px;
-      height: 580px;
+      width: 90%;
+      max-width: 1130px;
+      aspect-ratio: 1130 / 580;
       overflow: hidden;
       border-radius: 10px;
       box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      /* Añadimos "touch-action" para un mejor control del swipe en algunos navegadores */
+      touch-action: pan-y;
     }
-
     .slides {
       display: flex;
       transition: transform 0.5s ease-in-out;
-      width: calc(1130px * 4); /* 4 imgs */
+      height: 100%;
+      /* El ancho ya no se define aquí, se basa en el contenido flexible */
     }
-
     .slides img {
-      width: 1130px;
-      height: 580px;
+      /* Cada imagen ocupa el 100% del ancho del slider */
+      width: 100%;
+      height: 100%;
+      /* flex-shrink: 0 es VITAL. Evita que las imágenes se encojan para caber todas a la vez */
+      flex-shrink: 0;
       object-fit: cover;
     }
-
     .btn {
       position: absolute;
       top: 50%;
@@ -43,82 +48,173 @@
       background: rgba(0,0,0,0.5);
       border: none;
       color: white;
-      font-size: 2rem;
-      padding: 0.5rem 1rem;
+      font-size: 1.5rem;
+      padding: 0.5rem 0.8rem;
       cursor: pointer;
       border-radius: 5px;
+      z-index: 10;
+      /* Pequeño detalle de UX: evita seleccionar el texto de la flecha */
+      user-select: none;
     }
-
+    .btn:hover {
+      background: rgba(0,0,0,0.7);
+    }
     .btn:disabled {
       opacity: 0.3;
       cursor: default;
+      background: rgba(0,0,0,0.5);
     }
-
     #prevBtn {
       left: 10px;
     }
-
     #nextBtn {
       right: 10px;
+    }
+
+    /* Media Queries para ajustes específicos en pantallas más pequeñas */
+    @media (max-width: 768px) {
+      .slider {
+        width: 95%;
+      }
+      .btn {
+        font-size: 1.2rem;
+        padding: 0.4rem 0.6rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .slider {
+        border-radius: 5px;
+      }
+      .btn {
+        font-size: 1rem;
+        padding: 0.3rem 0.5rem;
+      }
+      #prevBtn {
+        left: 5px;
+      }
+      #nextBtn {
+        right: 5px;
+      }
     }
   </style>
 </head>
 <body>
-
-  <div class="slider">
+  <div class="slider" id="slider">
     <div class="slides" id="slides">
-      <img src="./todos.png" alt="todos">
-      <img src="./argentina.png" alt="Argentina">
-      <img src="./amba.png" alt="AMBA">
-      <img src="./caba.png" alt="CABA">
+      <img src="./todos.png?text=todos" alt="Gráfico de todos los alumnos">
+      <img src="./argentina.png?text=Argentina" alt="Gráfico de alumnos de Argentina">
+      <img src="./amba.png?text=AMBA" alt="Gráfico de alumnos del AMBA">
+      <img src="./caba.png?text=CABA" alt="Gráfico de alumnos de CABA">
     </div>
     <button id="prevBtn" class="btn">&larr;</button>
     <button id="nextBtn" class="btn">&rarr;</button>
   </div>
 
-  <script>
-    let currentIndex = 0;
-    const slides = document.getElementById('slides');
-    const prevBtn = document.getElementById('prevBtn');
-    const nextBtn = document.getElementById('nextBtn');
+<script>
+  // --- VARIABLES Y CONSTANTES ---
+  let currentIndex = 0;
+  const slider = document.getElementById('slider');
+  const slides = document.getElementById('slides');
+  const images = slides.querySelectorAll('img'); // Contamos las imágenes dinámicamente
+  const totalSlides = images.length; // El número total de slides
+  const prevBtn = document.getElementById('prevBtn');
+  const nextBtn = document.getElementById('nextBtn');
 
-    function showSlide(index) {
+  // Variables para la funcionalidad de swipe
+  let touchStartX = 0;
+  let touchEndX = 0;
+
+  // --- FUNCIONES ---
+
+  // Función para obtener el ancho del slider (es dinámico y cambia con el tamaño de la ventana)
+  function getSlideWidth() {
+    return slider.clientWidth;
+  }
+
+  // Mueve el carrusel a la diapositiva indicada por 'index'
+  function showSlide(index) {
+    // Validamos que el index esté dentro de los límites
+    if (index >= totalSlides) {
+      currentIndex = totalSlides - 1;
+    } else if (index < 0) {
+      currentIndex = 0;
+    } else {
       currentIndex = index;
-      slides.style.transform = `translateX(-${currentIndex * 1130}px)`;
-      updateButtons();
     }
 
-    function nextSlide() {
-      if (currentIndex < 3) {
-        showSlide(currentIndex + 1);
-      }
-    }
-
-    function prevSlide() {
-      if (currentIndex > 0) {
-        showSlide(currentIndex - 1);
-      }
-    }
-
-    function updateButtons() {
-      prevBtn.disabled = currentIndex === 0;
-      nextBtn.disabled = currentIndex === 3;
-    }
-
-    prevBtn.addEventListener('click', prevSlide);
-    nextBtn.addEventListener('click', nextSlide);
-
-    document.addEventListener('keydown', (event) => {
-      if (event.key === 'ArrowRight') {
-        nextSlide();
-      } else if (event.key === 'ArrowLeft') {
-        prevSlide();
-      }
-    });
-
-    // Inicializar estado de los botones
+    const offset = -currentIndex * getSlideWidth();
+    slides.style.transform = `translateX(${offset}px)`;
     updateButtons();
-  </script>
+  }
 
+  // Funciones para ir al slide siguiente o anterior
+  function nextSlide() {
+    if (currentIndex < totalSlides - 1) { // Usamos la variable dinámica
+      showSlide(currentIndex + 1);
+    }
+  }
+
+  function prevSlide() {
+    if (currentIndex > 0) {
+      showSlide(currentIndex - 1);
+    }
+  }
+
+  // Actualiza el estado (activado/desactivado) de los botones
+  function updateButtons() {
+    prevBtn.disabled = currentIndex === 0;
+    nextBtn.disabled = currentIndex === totalSlides - 1; // Usamos la variable dinámica
+  }
+
+  // --- EVENT LISTENERS ---
+
+  // Clics en los botones
+  prevBtn.addEventListener('click', prevSlide);
+  nextBtn.addEventListener('click', nextSlide);
+
+  // Teclas de flecha del teclado
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'ArrowRight') nextSlide();
+    if (event.key === 'ArrowLeft') prevSlide();
+  });
+
+  // Reajuste del slider cuando cambia el tamaño de la ventana (ej. rotación del móvil)
+  window.addEventListener('resize', () => {
+    // Forzamos una transición nula para que el reajuste sea instantáneo
+    slides.style.transition = 'none';
+    showSlide(currentIndex);
+    // Y la volvemos a activar después de un instante
+    setTimeout(() => {
+      slides.style.transition = 'transform 0.5s ease-in-out';
+    }, 10);
+  });
+
+  // --- LÓGICA DE SWIPE (TÁCTIL) ---
+  slider.addEventListener('touchstart', e => {
+    touchStartX = e.touches[0].clientX;
+  });
+
+  slider.addEventListener('touchend', e => {
+    touchEndX = e.changedTouches[0].clientX;
+    handleSwipe();
+  });
+
+  function handleSwipe() {
+    const swipeThreshold = 50; // Mínimo de píxeles para considerar un swipe
+    if (touchStartX - touchEndX > swipeThreshold) {
+      // Swipe hacia la izquierda (pasar a la siguiente)
+      nextSlide();
+    } else if (touchEndX - touchStartX > swipeThreshold) {
+      // Swipe hacia la derecha (pasar a la anterior)
+      prevSlide();
+    }
+  }
+
+  // --- INICIALIZACIÓN ---
+  // Al cargar la página, aseguramos que todo esté en su sitio.
+  showSlide(currentIndex);
+
+</script>
 </body>
 </html>
