@@ -17,8 +17,8 @@
 
     .slider {
       position: relative;
-      width: 1127px;
-      height: 578px;
+      width: 1130px;
+      height: 580px;
       overflow: hidden;
       border-radius: 10px;
       box-shadow: 0 4px 10px rgba(0,0,0,0.3);
@@ -27,12 +27,12 @@
     .slides {
       display: flex;
       transition: transform 0.5s ease-in-out;
-      width: calc(1127px * 4); /* 4 imgs */
+      width: calc(1130px * 4); /* 4 imgs */
     }
 
     .slides img {
-      width: 1127px;
-      height: 578px;
+      width: 1130px;
+      height: 580px;
       object-fit: cover;
     }
 
@@ -84,7 +84,7 @@
 
     function showSlide(index) {
       currentIndex = index;
-      slides.style.transform = `translateX(-${currentIndex * 1127}px)`;
+      slides.style.transform = `translateX(-${currentIndex * 1130}px)`;
       updateButtons();
     }
 
