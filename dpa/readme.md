@@ -31,7 +31,7 @@ metadata
 
 **WorkLifeBalance** 1 'Bad' 2 'Good' 3 'Better' 4 'Best'
 
-articulos que se han escrito con este dataset:
+artículos que se han escrito con este dataset:
 ```
  Natasha Sharma May 18, 2018
  People Analytics with Attrition Predictions
@@ -137,6 +137,21 @@ target: LeaveOrNot
 
 source: https://www.kaggle.com/datasets/tawfikelmetwally/employee-dataset/
 
+## Absenteeism at work
+
+The database was created with records of absenteeism at work from July 2007 to July 2010 at a courier company in Brazil. 
+
+https://archive.ics.uci.edu/dataset/445/absenteeism+at+work
+
+[absenteeism+at+work.zip](https://archive.ics.uci.edu/static/public/445/absenteeism+at+work.zip)
+
+artículos que se han escrito con este dataset:
+```
+Application of a neuro fuzzy network in prediction of absenteeism at work
+By Andréa Martiniano, R. P. Ferreira, R. Sassi, C. Affonso. 2012
+Published in Iberian Conference on Information Systems and Technologies
+```
+
 ## Funcionarios CABA
 
 Archivo separado por tabs, para ver la paridad de funcionarios por genero, se le agrego una columna.
@@ -144,11 +159,3 @@ Archivo separado por tabs, para ver la paridad de funcionarios por genero, se le
 [funcionarios_caba.tsv](funcionarios_caba.tsv)
 
 source: https://buenosaires.gob.ar/organigrama/funcionarios/listado.php
-
-## Absenteeism at work
-
-The database was created with records of absenteeism at work from July 2007 to July 2010 at a courier company in Brazil.
-
-https://archive.ics.uci.edu/dataset/445/absenteeism+at+work
-
-[absenteeism+at+work.zip](https://archive.ics.uci.edu/static/public/445/absenteeism+at+work.zip)
